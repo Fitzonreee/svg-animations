@@ -1,0 +1,111 @@
+@keyframes fade {
+  0% {stroke-opacity: 0}
+  100% {stroke-opacity: 100}
+}
+
+@keyframes offset-fade {
+  0% {
+    stroke-opacity: 0;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    stroke-opacity: 100%;
+  }
+}
+
+@keyframes flowerRise1 {
+  0% {transform: translate(-20px, 100px) rotate(0deg)}
+  100% {transform: translate(0px,0px) rotate(135deg)}
+}
+
+@keyframes flowerRise2 {
+  0% {transform: translate(60px, 100px) rotate(0deg)}
+  100% {transform: translate(0px,0px) rotate(135deg)}
+}
+
+@keyframes flowerRise3 {
+  0% {transform: translate(-80px, -80px) rotate(0deg)}
+  100% {transform: translate(0px,0px) rotate(135deg)}
+}
+
+
+#purex-crystals-fresh-spring-waters {
+  path,
+  circle,
+  ellipse,
+  line {
+    @include default(#FFF, 4)
+  }
+
+  .flower-1,
+  .flower-2,
+  .flower-3 {
+    opacity: 0;
+  }
+
+  &:hover {
+
+    .wave {
+      stroke: $blue;
+      animation-name: offset-fade;
+      animation-duration: 1000ms;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+    }
+
+    .wave-long {
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      animation-delay: 0ms;
+    }
+
+    .wave-short {
+      stroke-dasharray: 67;
+      stroke-dashoffset: 67;
+    }
+
+    .flower {
+      path, ellipse {
+        stroke: $orange;
+        fill: $backgroundColor;
+        transition: stroke 600ms;
+      }
+    }
+
+    @for $i from 5 through 8 {
+      .flower-#{$i} {
+        path, ellipse {
+          transition-delay: ($i * 100) + ms
+        }
+      }
+    }
+
+    .flower-1,
+    .flower-2,
+    .flower-3 {
+      opacity: 1;
+      transition: opacity 800ms;
+      animation-fill-mode: forwards;
+      animation-timing-function: ease-in-out;
+      transform: rotate(135deg);
+    }
+
+    .flower-1 {
+      animation: flowerRise1 800ms;
+      animation-delay: 800ms;
+      transition-delay: 800ms;
+    }
+    .flower-2 {
+      animation: flowerRise2 800ms;
+      animation-delay: 600ms;
+      transition-delay: 600ms;
+    }
+    .flower-3 {
+      animation: flowerRise3 800ms;
+      animation-delay: 200ms;
+      transition-delay: 200ms;
+    }
+
+  } // end hover
+} // end

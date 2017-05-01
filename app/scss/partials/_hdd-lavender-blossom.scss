@@ -1,0 +1,195 @@
+
+@mixin show($color, $keyframes, $duration, $timing, $delay, $count) {
+  stroke: $color;
+  animation: $keyframes $duration $timing $delay $count;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade {
+  0% {stroke-opacity: 0}
+  100% {stroke-opacity: 100}
+}
+
+@keyframes offset {
+  100% {stroke-dashoffset: 0}
+}
+
+@keyframes spin {
+  0% {transform: rotate(0deg)}
+  100% {transform: rotate(360deg)}
+}
+
+@keyframes fade-offset {
+  0% {stroke-opacity: 0}
+  100% {
+    stroke-dashoffset: 0;
+    stroke-opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0% {stroke-opacity: 0}
+  50% {stroke-opacity: 1}
+  100% {
+    stroke-dashoffset: 0;
+    stroke-opacity: 0;
+  }
+}
+
+@keyframes bee-one--straight-flight {
+  0% {transform: translate(0,0)}
+  100% {transform: translate(195px, -145px)}
+}
+
+@keyframes bee-one--flutter-front {
+  0% { transform: translate(8px, -2px) rotate(35deg)}
+  100% { transform: translate(8px, -2px) rotate(-35deg)}
+}
+
+@keyframes bee-one--flutter-back {
+  0% { transform: translate(10px,-2px) rotate(-35deg)}
+  100% { transform: translate(10px,-2px) rotate(35deg)}
+}
+
+@keyframes bee-two--straight-flight {
+  0% {transform: translate(0,0) rotate(0)}
+  100% {transform: translate(-50px, -120px) rotate(-15deg)}
+}
+
+
+@keyframes bee-two--flutter-front {
+  0% { transform: translate(-2px, 20px) rotate(-60deg)}
+  100% { transform: translate(-2px, 20px) rotate(-10deg)}
+}
+
+@keyframes bee-two--flutter-back {
+  0% { transform: translate(-4px, 18px) rotate(-40deg)}
+  100% { transform: translate(-4px, 18px) rotate(-10deg)}
+}
+
+@keyframes bee-three--straight-flight {
+  0% {transform: translate(0px, 0px) rotate(0deg)}
+  15% {transform: translate(-10px, -25px) rotate(45deg)}
+  40% {transform: translate(20px, -80px) rotate(-10deg)}
+  100% {transform: translate(-12px, -135px) rotate(0deg)}
+}
+
+@keyframes loop {
+  0% {transform: rotate(0deg)}
+  15% {transform: rotate(0deg)}
+  60% {transform: rotate(-360deg)}
+  100% {transform: rotate(-360deg)}
+}
+
+@keyframes bee-bob {
+  0% {transform: translate(0,0)}
+  50% {transform: translate(0,15px)}
+  100% {transform: translate(0,0)}
+}
+
+body {background-color: $backgroundColor}
+
+#purex-laundry-detergent-fresh-lavender-blossom {
+  path,
+  circle,
+  ellipse,
+  line {
+    @include default(#FFF, 4)
+  }
+
+  .bee-1,
+  .bee-loop-wrapper  {
+    transform-origin: 50% 35% !important;
+  }
+
+  .path {stroke: $backgroundColor}
+
+  .head,
+  .body,
+  .wing-top {fill: $backgroundColor !important}
+
+  .bee-1 {
+    .wing {transform-origin: bottom !important}
+    .wing-top {transform: translate(8px, -2px) rotate(-10deg)}
+    .wing-bottom {transform: translate(10px,-2px) rotate(-30deg)}
+  }
+
+  .bee-2,
+  .bee-3 {
+    .wing {transform-origin: 0% 0% !important}
+    .wing-top {transform: translate(-2px, 20px) rotate(-60deg)}
+    .wing-bottom {transform: translate(-4px, 18px) rotate(-40deg)}
+  }
+
+
+
+
+
+  &:hover {
+    .bees  * {
+      transition: stroke 700ms;
+      stroke: $orange;
+    }
+    .bow path {
+      transition: stroke 400ms;
+      stroke: $yellow;
+    }
+    .leaf {
+      transition: stroke 600ms;
+      stroke: $green;
+    }
+    .flower line {
+      transition: stroke 1050ms;
+      stroke: $purple;
+    }
+    .path-left {@include draw($orange, 240, 240, offset, 500ms, 1, 150ms)}
+    .path-middle {@include draw($orange, 38, 38, offset, 500ms, 1, 250ms)}
+    .path-right {@include draw($orange, 92, 92, offset, 600ms, 1, 200ms)}
+    .stalk-short {@include draw($green, 187, 187, offset, 300ms, 1, 0ms)}
+    .stalk-long {@include draw($green, 223, 223, offset, 300ms, 1, 0ms)}
+    .bee-1 {
+      animation: bee-one--straight-flight 1000ms ease 0ms 1 normal;
+      animation-fill-mode: forwards;
+    }
+    .bee-loop-wrapper {
+      animation: loop 1s ease 0ms 1 !important;
+      animation-fill-mode: forwards;
+    }
+    .bee-bob-wrapper {
+      animation: bee-bob 1000ms ease-in-out 900ms infinite alternate;
+    }
+    .bees {
+      .bee-1 {
+        .wing-top {
+          transform: translate(8px, -2px) rotate(-10deg);
+          animation: bee-one--flutter-front 50ms linear 0s infinite alternate;
+        }
+        .wing-bottom {
+          transform: translate(10px,-2px) rotate(-30deg);
+          animation: bee-one--flutter-back 50ms linear 75ms infinite alternate-reverse;
+        }
+      }
+      .bee-2,
+      .bee-3 {
+        .wing-top {
+          transform: translate(-2px, 20px) rotate(-60deg);
+          animation: bee-two--flutter-front 50ms linear 0s infinite alternate;
+        }
+        .wing-bottom {
+          transform: translate(-4px, 18px) rotate(-40deg);
+          animation: bee-two--flutter-back 50ms linear 100ms infinite alternate-reverse;
+        }
+      }
+      .bee-2 {
+        animation: bee-two--straight-flight 1000ms ease 0ms 1 normal;
+        animation-fill-mode: forwards;
+        transform-origin: 50% 50% !important;
+      }
+      .bee-3 {
+        animation: bee-three--straight-flight 1000ms ease 0ms 1 normal;
+        transform-origin: 50% 50%;
+        animation-fill-mode: forwards;
+      }
+    }
+  } // end hover
+} // end #purex

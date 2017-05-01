@@ -1,0 +1,91 @@
+@keyframes growWellBeing {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  70% {
+    transform: scale(1.15);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity:1;
+  }
+}
+
+#purex-crystals-well-being {
+  path,
+  circle,
+  ellipse,
+  line {
+    @include default(#FFF, 4)
+  }
+
+  .white-flowers .flower path, ellipse {
+    fill: $backgroundColor !important;
+    stroke-opacity: 1 !important;
+  }
+
+  .late-bloomers .flower path, ellipse {
+    fill: $backgroundColor !important;
+  }
+
+  .bloomers {
+    .flower path,
+    .flower ellipse {
+      stroke-opacity: 0;
+    }
+  }
+
+  .late-bloomers {
+    .flower {
+      transform-origin: 40% 80% !important;
+      transform: scale(0);
+      opacity: 0;
+    }
+  }
+
+  &:hover {
+
+    .flower .seed {stroke: $orange}
+
+    .red path,
+    .red .flower-center {stroke: $red}
+
+    .pink path,
+    .pink .flower-center {stroke: $pink}
+
+    .bloomers {
+      .flower path,
+      .flower ellipse  {
+        stroke-opacity: 1 !important;
+        transition: stroke 850ms;
+      }
+    }
+
+    .late-bloomers {
+      .flower {
+        animation: growWellBeing 850ms ease-in-out;
+        animation-fill-mode: forwards;
+      }
+    }
+
+    @for $i from 1 through 8 {
+      .late-bloomers {
+        .flower-#{$i} {
+          animation-delay: ($i * 100) + random(100) + ms;
+        }
+      }
+    }
+
+    @for $i from 1 through 9 {
+      .bloomers {
+        .flower-#{$i} path,
+        .flower-#{$i} ellipse  {
+          transition-delay: ($i * 100) + random(100) + ms;
+        }
+      }
+    }
+
+  } // end hover
+} // end #purex

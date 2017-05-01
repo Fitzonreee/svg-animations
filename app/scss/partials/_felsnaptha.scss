@@ -1,0 +1,91 @@
+@mixin drawSmaller($array, $offset, $seconds) {
+  stroke-dasharray: $array;
+  stroke-dashoffset: $offset;
+  animation-duration: $seconds;
+}
+
+@keyframes bubbleAppear {
+  0% {transform: scale(0)}
+  75% { transform: scale(1.65)}
+  100% {transform: scale(1)}
+}
+
+#purex-fels-naptha-laundry-bar {
+  path,
+  circle,
+  ellipse,
+  line {
+    @include default(#FFF, 4)
+  }
+
+  .late-bloomers {
+    .bubble {
+      transform-origin: 50% 50%;
+      circle, path {
+        stroke-opacity: 0;
+        stroke: $lightBlue;
+      }
+    }
+  }
+
+  &:hover {
+
+    .draw-animation {
+      stroke: $lightBlue;
+      animation-name: fade-offset;
+      animation-timing-function: ease-out;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+    }
+
+    .circle-large {@include drawSmaller(428, 428, 350ms)}
+    .circle-med {@include drawSmaller(271, 271, 300ms)}
+    .circle-sm {@include drawSmaller(167, 167, 450ms)}
+    .reflect {@include drawSmaller(69, 69, 250ms)}
+
+
+    .late-bloomers {
+      .bubble {
+        animation-name: bubbleAppear;
+        animation-duration: 400ms;
+        animation-timing-function: ease-in-out;
+      }
+    }
+
+    .late-bloomers {
+      .bubble-12 {
+        animation-delay: 100ms;
+        .bubble-paths {transition-delay: 200ms;}
+      }
+      .bubble-14 {
+        animation-delay: 200ms;
+        .bubble-paths {transition-delay: 300ms;}
+      }
+      .bubble-15 {
+        animation-delay: 300ms;
+        .bubble-paths {transition-delay: 400ms;}
+      }
+      .bubble-17 {
+        animation-delay: 400ms;
+        .bubble-paths {transition-delay: 500ms;}
+      }
+      .bubble-13 {
+        animation-delay: 500ms;
+        .bubble-paths {transition-delay: 550ms;}
+      }
+      .bubble-16 {
+        animation-delay: 600ms;
+        .bubble-paths {transition-delay: 600ms;}
+      }
+      .bubble {
+        animation-name: bubbleAppear;
+        animation-timing-function: ease-in-out;
+        .bubble-paths {
+          stroke-opacity: 1;
+          transition-property: stroke-opacity;
+          transition-duration: 400ms;
+        }
+      }
+    }
+  } // end hover
+} // end #purex

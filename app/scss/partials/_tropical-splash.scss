@@ -1,0 +1,121 @@
+@keyframes offset-fade {
+  0% {
+    stroke-opacity: 0
+  }
+  100% {
+    stroke-dashoffset: 0;
+    stroke-opacity: 100;
+  }
+}
+
+@keyframes flowerSpin {
+  0% {transform: rotate(0deg)}
+  100% {transform: rotate(360deg)}
+}
+
+@keyframes pineappleWiggle {
+  0% {transform: rotate(0deg)}
+  25% {transform: rotate(-15deg)}
+  75% {transform: rotate(25deg)}
+  100% {transform: rotate(0deg)}
+}
+
+@keyframes flowerRiseShort {
+  0% {transform: translateY(40px) rotate(0deg)}
+  100% {transform: translateY(0px) rotate(360deg)}
+}
+
+@keyframes flowerRiseLong {
+  0% {transform: translate(60px, 100px) rotate(0deg)}
+  100% {transform: translate(0px, 0px) rotate(360deg)}
+}
+
+#purex-laundry-detergent-tropical-splash {
+  path,
+  circle,
+  ellipse,
+  line {
+    @include default(#FFF, 4)
+  }
+
+  .pineapple {transform-origin: 60% 90%}
+
+  .late-bloomers {
+    .flower {
+      opacity: 0;
+    }
+  }
+
+  &:hover {
+
+    .red {
+      path {
+        stroke: $red !important
+      }
+    }
+
+    .pink {
+      path {
+        stroke: $pink !important
+      }
+    }
+
+    .pineapple {
+      animation: pineappleWiggle 500ms;
+      animation-timing-function: step-start;
+    }
+
+    .pineapple-top {
+      stroke-dasharray: 533;
+      stroke-dashoffset: 533;
+      animation-delay: 120ms;
+    }
+    .pineapple-outline {
+      stroke-dasharray: 448;
+      stroke-dashoffset: -448;
+      animation-delay: 0;
+    }
+    .pineapple-line {
+      stroke-dasharray: 137;
+      stroke-dashoffset: -137;
+      animation-delay: 0;
+    }
+
+    .pineapple-top,
+    .pineapple-outline,
+    .pineapple-line {
+      stroke: $orange;
+      animation-name: offset-fade;
+      animation-duration: 600ms;
+      animation-timing-function: ease-out;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+    }
+
+    .flower, .white-flower {
+      animation: flowerSpin 800ms;
+      animation-timing-function: ease-out;
+    }
+
+    .late-bloomers {
+      .flower {
+        opacity: 1;
+        transition: opacity 500ms;
+        animation-timing-function: ease-out;
+        animation-fill-mode: forwards;
+      }
+    }
+
+    .flower-1,
+    .flower-5  {
+      animation: flowerRiseShort 800ms;
+    }
+
+    .flower-2,
+    .flower-3,
+    .flower-4  {
+      animation: flowerRiseLong 800ms;
+    }
+
+  } // end hover
+} // end #purex

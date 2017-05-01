@@ -1,0 +1,18 @@
+#purex-hdd-original-fresh {
+  path,line {@include default(#FFF, 2)}
+  &:hover {
+    .cloud-left {@include draw($lightBlue, 100, 100, offset, 400ms, 1, 0s)}
+    .blue-line-long-left {@include draw($lightBlue, 18, 18, offset, 200ms, 1, 0s)}
+    .blue-line-short-left {@include draw($lightBlue, 8, 8, offset, 200ms, 1, 0s)}
+    .top {@include draw($red, 160, 160, offset, 1s, 1, 100ms)}
+    .middle {@include draw($orange, 155, 155, offset, 1s, 1, 250ms)}
+    .bottom {@include draw($blue, 160, 160, offset, 1s, 1, 500ms)}
+    .cloud-and-lines-right {
+      path, line {
+        transition: all 500ms ease 1000ms;
+        stroke: $lightBlue;
+        stroke-opacity: 1;
+      }
+    }
+  } // end hover
+} // end #purex-hdd-original-fresh

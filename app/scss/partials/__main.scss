@@ -1,0 +1,74 @@
+$red: #e95869;
+$pink: #e45ba1;
+$coralPink: #f05266;
+$yellow: #f9f6c9;
+$orange: #f79058;
+$green:#5dbf85;
+$blue: #45a0d9;
+$lightBlue: #95d5f5;
+$purple: #996caf;
+$teal: #47c0b5;
+$backgroundColor: #dcf0f1;
+
+@mixin default($color, $width) {
+  stroke: $color;
+  stroke-width: $width;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+  fill: none;
+  stroke-linejoin:round;
+}
+
+@mixin draw($color, $array, $offset, $keyframes, $seconds, $count, $delay) {
+  stroke: $color;
+  stroke-dasharray: $array;
+  stroke-dashoffset: $offset;
+  animation-name: $keyframes;
+  animation-duration: $seconds;
+  animation-timing-function: ease-in;
+  animation-delay: $delay;
+  animation-iteration-count: $count;
+  animation-fill-mode: forwards;
+}
+
+@mixin show($color, $keyframes, $duration, $timing, $delay, $count) {
+  stroke: $color;
+  animation: $keyframes $duration $timing $delay $count;
+  animation-fill-mode: forwards;
+}
+
+@mixin showOutside($color, $duration, $delay) {
+  stroke: $color;
+  transition: stroke-opacity $duration ease-in $delay;
+  stroke-opacity: 1;
+}
+
+@keyframes fade {
+  0% {stroke-opacity: 0}
+  100% {stroke-opacity: 100}
+}
+
+@keyframes offset {
+  0% {
+    stroke-opacity: 0;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    stroke-opacity: 100%;
+  }
+}
+
+body {background-color: $backgroundColor}
+
+.fullWidth {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+}
+
+.container {padding-top: 60px}
+.row {padding: 20px 0}
+
+.fill {fill: $backgroundColor !important}
+.center {transform-origin: 50% 50% !important}

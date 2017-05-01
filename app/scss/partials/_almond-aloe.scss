@@ -1,0 +1,76 @@
+@keyframes fade-offset {
+  0% {stroke-opacity: 0}
+  100% {
+    stroke-dashoffset: 0;
+    stroke-opacity: 1;
+  }
+}
+@keyframes wiggle {
+  0% {transform: rotate(0deg) scale(1)}
+  25% {transform: rotate(30deg) scale(1.15)}
+  50% {transform: rotate(-40deg) scale(1.10)}
+  100%{transform: rotate(0deg) scale(1)}
+}
+
+body {background-color: $backgroundColor}
+
+#purex-classic-fabric-softener-almond-milk-aloe{
+  path,
+  circle,
+  ellipse,
+  line {
+    @include default(#FFF,4)
+  }
+
+  .fill {fill: $backgroundColor}
+  .almond {transform-origin: 50% 70%}
+
+  &:hover {
+
+    .almond path, line {
+      stroke: $orange;
+      transition: stroke 200ms;
+    }
+
+    .almond-1,
+    .almond-2,
+    .almond-3 {
+      animation-name: wiggle;
+      animation-duration: 400ms;
+      animation-timing-function: ease-in-out;
+    }
+
+    .almond-1 {animation-delay: 0ms}
+    .almond-2 {animation-delay: 200ms}
+    .almond-3 {animation-delay: 400ms}
+
+    .aloe-base-1,
+    .aloe-base-2,
+    .aloe-top-1,
+    .aloe-top-2 {
+      stroke: $green;
+      animation-name: fade-offset;
+      animation-duration: 500ms;
+      animation-timing-function: ease-out;
+      animation-delay: 0ms;
+      animation-fill-mode: forwards;
+    }
+
+    .aloe-base-1 {
+      stroke-dasharray: 353;
+      stroke-dashoffset: 353;
+    }
+    .aloe-base-2 {
+      stroke-dasharray: 401;
+      stroke-dashoffset: 401;
+    }
+    .aloe-top-1 {
+      stroke-dasharray: 196;
+      stroke-dashoffset: 196;
+    }
+    .aloe-top-2 {
+      stroke-dasharray: 193;
+      stroke-dashoffset: 193;
+    }
+  } // end hover
+} // end #purex

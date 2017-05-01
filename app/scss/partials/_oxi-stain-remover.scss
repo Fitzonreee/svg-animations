@@ -1,0 +1,77 @@
+@keyframes oxiBubbleApppear {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  70% {
+    transform: scale(1.25);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity:1;
+  }
+}
+
+#purex-oxi-stain-remover-powder {
+  path,
+  circle,
+  ellipse,
+  line {
+    @include default(#FFF, 4)
+  }
+
+  .late-bloomers {
+    .bubble {
+      transform: scale(0);
+      opacity: 0;
+      transform-origin: 50% 50%;
+    }
+  }
+
+  .bloomers {
+    .bubble {
+      opacity: 0;
+    }
+  }
+
+  .dark circle,
+  .dark ellipse {stroke: $blue}
+
+  .light circle,
+  .light ellipse {stroke: $lightBlue}
+
+  &:hover {
+
+    .bloomers {
+      .bubble {
+        opacity: 1;
+        transition: opacity 400ms;
+      }
+    }
+
+    @for $i from 1 through 12 {
+      .bloomers {
+        .bubble-#{$i} {
+          transition-delay: ($i * 50) + ms
+        }
+      }
+    }
+
+    .late-bloomers {
+      .bubble {
+        animation: oxiBubbleApppear 500ms ease-in-out;
+        animation-fill-mode: forwards;
+      }
+    }
+
+    @for $i from 13 through 17 {
+      .late-bloomers {
+        .bubble-#{$i} {
+          animation-delay: ($i * 50) +  ms;
+        }
+      }
+    }
+
+  } // end hover
+} // end #purex
