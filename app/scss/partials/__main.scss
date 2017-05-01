@@ -31,6 +31,13 @@ $backgroundColor: #dcf0f1;
   animation-fill-mode: forwards;
 }
 
+@mixin draw-tmoney($array, $offset, $seconds, $delay) {
+  stroke-dasharray: $array;
+  stroke-dashoffset: $offset;
+  animation-duration: $seconds;
+  animation-delay: $delay;
+}
+
 @mixin show($color, $keyframes, $duration, $timing, $delay, $count) {
   stroke: $color;
   animation: $keyframes $duration $timing $delay $count;

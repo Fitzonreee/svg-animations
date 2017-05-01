@@ -15,4 +15,6 @@ $(document).ready(function() {
   $('#crystals-tahitian-breeze').load('svgs/crystals-tahitian-breeze.html');
   $('#crystals-fresh-spring-waters').load('svgs/crystals-fresh-spring-waters.html');
   $('#hdd-fresh-spring-waters').load('svgs/hdd-fresh-spring-waters.html');
+  $('#hdd-mountain-breeze').load('svgs/hdd-mountain-breeze.html');
+  $('#crystals-mountain-breeze').load('svgs/crystals-mountain-breeze.html');
 });
