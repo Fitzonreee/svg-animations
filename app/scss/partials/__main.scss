@@ -9,6 +9,12 @@ $lightBlue: #95d5f5;
 $purple: #996caf;
 $teal: #47c0b5;
 $backgroundColor: #dcf0f1;
+$darkBlue: #053264;
+
+@font-face {
+  font-family: Proxima;
+  src: url("../../fonts/ProximaNovaLight.otf") format("opentype");
+}
 
 @mixin default($color, $width) {
   stroke: $color;
@@ -65,6 +71,16 @@ $backgroundColor: #dcf0f1;
   }
 }
 
+// Global SVG helper classes
+.fill {fill: $backgroundColor !important}
+.center {transform-origin: 50% 50% !important}
+
+
+
+// Just for the index page on this repo
+.container {padding-top: 60px}
+.row {padding: 20px 0}
+
 body {background-color: $backgroundColor}
 
 .fullWidth {
@@ -74,8 +90,15 @@ body {background-color: $backgroundColor}
    max-width: initial;
 }
 
-.container {padding-top: 60px}
-.row {padding: 20px 0}
+p {
+  text-align: center;
+  text-transform: uppercase;
+  color: $darkBlue;
+  font-family: 'Proxima', sans-serif;
+  font-weight: 100;
+  margin-bottom: 0;
+}
 
-.fill {fill: $backgroundColor !important}
-.center {transform-origin: 50% 50% !important}
+.byline {
+  font-size: 10px;
+}
