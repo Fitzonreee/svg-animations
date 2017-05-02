@@ -1,0 +1,92 @@
+@keyframes rain {
+	0%{
+		transform: translateY(0);
+	}
+	100%{
+		transform: translateY(70px);
+		opacity: 1;
+	}
+}
+
+#purex-laundry-detergent-after-the-rain {
+	path, line{@include default(#fff, 4);}
+
+	.flower {
+		opacity: 0;
+		transform: scale(.01);
+		transform-origin: bottom center;
+
+		path {fill:$backgroundColor;}
+	}
+
+	&:hover {
+		.flower {
+			opacity: 1;
+			transform: scale(1);
+			transition: all 500ms ease-in;
+			path {stroke: $pink;}
+			&.flower1 {transition-delay: 200ms;}
+			&.flower2,
+			&.flower3 {transition-delay: 110ms;}
+		}
+		.stem {
+			stroke: $green;
+			animation-name: offset;
+			animation-iteration-count: 1;
+			animation-timing-function: ease-out;
+			animation-fill-mode: forwards;
+			animation-direction: forwards;
+			@include draw-tmoney(33, -33, 300ms, 0);
+		}
+
+		.rain {
+			line {
+				stroke: $lightBlue;
+				transition: all 200ms ease;
+				opacity: 0;
+			}
+			.drop {animation: rain .8s infinite;}
+			.rain-group-1 .drop {animation-delay: 300ms;}
+			.rain-group-2 .drop {animation-delay: 100ms;}
+			.rain-group-3 .drop {animation-delay: 400ms;}
+			.rain-group-4 .drop {animation-delay: 200ms;}
+			.rain-group-5 .drop {animation-delay: 300ms;}
+		}
+
+		.clouds {
+			.cloud path,
+			.cloud line {
+				stroke: $blue;
+				animation-name: offset;
+				animation-iteration-count: 1;
+				animation-timing-function: ease-out;
+				animation-fill-mode: forwards;
+			}
+			.cloud-left,
+			.cloud-right  {
+				path {@include draw-tmoney(200, 200, 500ms, 0s);}
+				line {@include draw-tmoney(57, 57, 500ms, .15s);}
+			}
+			.cloud-small path {@include draw-tmoney(112, 112, 500ms, 0s);}
+		}
+
+		.sun .color-rays{
+			line,
+			path {
+				stroke: $orange;
+				animation-name: offset;
+				animation-iteration-count: 1;
+				animation-timing-function: ease-out;
+				animation-fill-mode: forwards;
+			}
+			path {@include draw-tmoney(55, 55, 500ms, 0);}
+			.ray-xs {@include draw-tmoney(22, 22, 2s, 400ms);}
+			.ray-md {@include draw-tmoney(30, 30, 2s, 400ms);}
+			.ray-xl {@include draw-tmoney(82, 82, 2s, 400ms);}
+			.ray-xs-reverse {@include draw-tmoney(22, -22, 2s, 400ms);}
+			.ray-sm-reverse {@include draw-tmoney(15, -15, 2s, 400ms);}
+			.ray-lg-reverse {@include draw-tmoney(56, -56, 2s, 400ms);}
+			.ray-xl-reverse {@include draw-tmoney(82, -82, 2s, 400ms);}
+		}
+	}
+}

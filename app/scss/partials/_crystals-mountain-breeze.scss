@@ -16,9 +16,12 @@
 	&:hover {
 		.fadeIn {opacity: 1;} // this could be globalized in some way like the above
 
-		.breeze-left {transform: translateX(100px);}
-		.breeze-middle {transform: translateX(30px);}
-		.breeze-bottom {transform: translateX(100px);}
+		.breeze-left,
+		.breeze-middle,
+		.breeze-bottom {
+			transition-duration: 2.15s;
+			transform: translateX(50px);
+		}
 
 		.draw path,
 		.fadeIn path {
@@ -54,7 +57,7 @@
 				animation-timing-function: ease-out;
 				animation-fill-mode: forwards;
 			}
-			.short {@include draw-tmoney(135, 135, 750ms, 0s);}
+			.short {@include draw-tmoney(145, 145, 750ms, 0s);}
 			.tall {@include draw-tmoney(285, 285, 750ms, .15s);}
 			.squiggle {@include draw-tmoney(80,80,500ms, .25s);}
 		}

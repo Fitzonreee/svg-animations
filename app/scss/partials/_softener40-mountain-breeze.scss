@@ -1,4 +1,4 @@
-#purex-laundry-detergent-mountain-breeze {
+#purex-mountain-breeze-fabric-softener-40loads {
 	path{ @include default(#fff, 4); }
 
 	.fadeIn { //this could be moved to a parent file to be globalized in some way
@@ -16,21 +16,19 @@
 	&:hover {
 		.fadeIn {opacity: 1;} // this could be globalized in some way like the above
 
-		.breeze-left,
-		.breeze-middle,
-		.breeze-bottom {
-			transform: translateX(60px);
-			transition-duration: 2s;
+		.breeze-top,
+		.breeze-right {
+			transition-duration: 2.15s;
+			transform: translateX(50px);
 		}
 
-		.draw path,
 		.fadeIn path {
 			stroke: $lightBlue;
 			animation-name: offset;
 			animation-iteration-count: 1;
 			animation-timing-function: ease-out;
 			animation-fill-mode: forwards;
-			@include draw-tmoney(87, 87, 1s, 0s);
+			@include draw-tmoney(110, 110, 1s, 0s);
 		}
 
 		.cloud-group {
@@ -46,8 +44,8 @@
 				animation-timing-function: ease-out;
 				animation-fill-mode: forwards;
 			}
-			.cloud1 path {@include draw-tmoney(155, 155, 750ms, .10s);}
-			.cloud2 path {@include draw-tmoney(225, 225, 750ms, 0s);}
+			.cloud1 path {@include draw-tmoney(175, 175, 750ms, .15s);}
+			.cloud2 path {@include draw-tmoney(225, 225, 750ms, .1s);}
 		}
 		.mountain {
 			path {
@@ -57,8 +55,8 @@
 				animation-timing-function: ease-out;
 				animation-fill-mode: forwards;
 			}
-			.short {@include draw-tmoney(150, 150, 750ms, 0s);}
-			.tall {@include draw-tmoney(211, 211, 750ms, .15s);}
+			.short {@include draw-tmoney(135, 135, 750ms, 0s);}
+			.tall {@include draw-tmoney(285, 285, 750ms, .15s);}
 			.squiggle {@include draw-tmoney(80,80,500ms, .25s);}
 		}
 	}
