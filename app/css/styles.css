@@ -36,13 +36,21 @@ body {
   margin-right: auto;
   max-width: initial; }
 
-p {
+h6 {
+  font-size: 10px; }
+
+p, h6 {
   text-align: center;
-  text-transform: uppercase;
   color: #053264;
   font-family: 'Proxima', sans-serif;
-  font-weight: 100;
-  margin-bottom: 0; }
+  margin-bottom: 8px; }
+
+p {
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 6px 0;
+  background-color: rgba(255, 255, 255, 0.45); }
 
 .byline {
   font-size: 10px; }
@@ -83,7 +91,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 348ms;
+  animation-delay: 165ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -99,7 +107,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 215ms;
+  animation-delay: 315ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -113,7 +121,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 445ms;
+  animation-delay: 507ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -127,7 +135,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 632ms;
+  animation-delay: 615ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -142,7 +150,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 56ms;
+  animation-delay: 229ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -158,7 +166,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 211ms;
+  animation-delay: 236ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -172,7 +180,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 448ms;
+  animation-delay: 470ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -186,7 +194,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 686ms;
+  animation-delay: 633ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -201,7 +209,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 182ms;
+  animation-delay: 365ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -217,7 +225,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 374ms;
+  animation-delay: 234ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -231,7 +239,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 441ms;
+  animation-delay: 580ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -245,7 +253,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 762ms;
+  animation-delay: 733ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -260,7 +268,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 331ms;
+  animation-delay: 177ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -276,7 +284,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 394ms;
+  animation-delay: 266ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -290,7 +298,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 444ms;
+  animation-delay: 583ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -304,7 +312,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 644ms;
+  animation-delay: 679ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -319,7 +327,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 80ms;
+  animation-delay: 249ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -335,7 +343,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 303ms;
+  animation-delay: 339ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -349,7 +357,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 579ms;
+  animation-delay: 488ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -363,7 +371,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 773ms;
+  animation-delay: 752ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -378,7 +386,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 294ms;
+  animation-delay: 390ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -394,7 +402,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 398ms;
+  animation-delay: 209ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -408,7 +416,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 583ms;
+  animation-delay: 490ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -422,7 +430,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 722ms;
+  animation-delay: 659ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -433,7 +441,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 637ms;
+  animation-delay: 772ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -444,7 +452,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 473ms;
+  animation-delay: 463ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -455,7 +463,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 610ms;
+  animation-delay: 716ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -466,7 +474,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 409ms;
+  animation-delay: 435ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -477,7 +485,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 727ms;
+  animation-delay: 744ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -488,7 +496,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 531ms;
+  animation-delay: 437ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -499,7 +507,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 635ms;
+  animation-delay: 628ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -510,7 +518,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 584ms;
+  animation-delay: 535ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -521,7 +529,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 767ms;
+  animation-delay: 668ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -532,7 +540,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 471ms;
+  animation-delay: 519ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -554,937 +562,937 @@ p {
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(1) {
   stroke: #e95869;
-  transition: stroke 1413ms;
-  transition-duration: 902ms;
-  transition-delay: 340ms; }
+  transition: stroke 630ms;
+  transition-duration: 823ms;
+  transition-delay: 719ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(1) {
   stroke: #45a0d9;
-  transition: stroke 866ms;
-  transition-duration: 733ms;
-  transition-delay: 972ms; }
+  transition: stroke 767ms;
+  transition-duration: 581ms;
+  transition-delay: 364ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(1) {
   stroke: #5dbf85;
-  transition: stroke 451ms;
-  transition-duration: 973ms;
-  transition-delay: 51ms; }
+  transition: stroke 186ms;
+  transition-duration: 545ms;
+  transition-delay: 509ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(1) {
   stroke: #f79058;
-  transition: stroke 900ms;
-  transition-duration: 841ms;
-  transition-delay: 329ms; }
+  transition: stroke 855ms;
+  transition-duration: 613ms;
+  transition-delay: 495ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 850ms;
-  transition-duration: 655ms;
-  transition-delay: 393ms;
-  transition: stroke-opacity 822ms;
-  transition-duration: 594ms;
-  transition-delay: 104ms;
+  transition: stroke 685ms;
+  transition-duration: 415ms;
+  transition-delay: 839ms;
+  transition: stroke-opacity 226ms;
+  transition-duration: 163ms;
+  transition-delay: 218ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 170ms;
-  transition-duration: 234ms;
-  transition-delay: 111ms;
-  transition: stroke-opacity 525ms;
-  transition-duration: 816ms;
-  transition-delay: 680ms;
+  transition: stroke 1443ms;
+  transition-duration: 692ms;
+  transition-delay: 513ms;
+  transition: stroke-opacity 572ms;
+  transition-duration: 1282ms;
+  transition-delay: 473ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 987ms;
-  transition-duration: 666ms;
-  transition-delay: 953ms;
-  transition: stroke-opacity 528ms;
-  transition-duration: 1348ms;
-  transition-delay: 698ms;
+  transition: stroke 44ms;
+  transition-duration: 342ms;
+  transition-delay: 160ms;
+  transition: stroke-opacity 977ms;
+  transition-duration: 483ms;
+  transition-delay: 347ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 687ms;
-  transition-duration: 22ms;
-  transition-delay: 873ms;
-  transition: stroke-opacity 1329ms;
-  transition-duration: 413ms;
-  transition-delay: 708ms;
+  transition: stroke 763ms;
+  transition-duration: 435ms;
+  transition-delay: 402ms;
+  transition: stroke-opacity 1099ms;
+  transition-duration: 936ms;
+  transition-delay: 697ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(2) {
   stroke: #e95869;
-  transition: stroke 1197ms;
-  transition-duration: 24ms;
-  transition-delay: 609ms; }
+  transition: stroke 448ms;
+  transition-duration: 291ms;
+  transition-delay: 852ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(2) {
   stroke: #45a0d9;
-  transition: stroke 245ms;
-  transition-duration: 860ms;
-  transition-delay: 126ms; }
+  transition: stroke 1304ms;
+  transition-duration: 388ms;
+  transition-delay: 189ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(2) {
   stroke: #5dbf85;
-  transition: stroke 33ms;
-  transition-duration: 264ms;
-  transition-delay: 690ms; }
+  transition: stroke 1450ms;
+  transition-duration: 779ms;
+  transition-delay: 815ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(2) {
   stroke: #f79058;
-  transition: stroke 1213ms;
-  transition-duration: 577ms;
-  transition-delay: 884ms; }
+  transition: stroke 64ms;
+  transition-duration: 804ms;
+  transition-delay: 912ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 1023ms;
-  transition-duration: 780ms;
-  transition-delay: 419ms;
-  transition: stroke-opacity 668ms;
-  transition-duration: 1463ms;
-  transition-delay: 391ms;
+  transition: stroke 266ms;
+  transition-duration: 685ms;
+  transition-delay: 369ms;
+  transition: stroke-opacity 1071ms;
+  transition-duration: 1546ms;
+  transition-delay: 493ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 129ms;
-  transition-duration: 694ms;
-  transition-delay: 902ms;
-  transition: stroke-opacity 808ms;
-  transition-duration: 1298ms;
-  transition-delay: 326ms;
+  transition: stroke 503ms;
+  transition-duration: 958ms;
+  transition-delay: 331ms;
+  transition: stroke-opacity 546ms;
+  transition-duration: 1539ms;
+  transition-delay: 446ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 57ms;
-  transition-duration: 296ms;
-  transition-delay: 721ms;
-  transition: stroke-opacity 109ms;
-  transition-duration: 1287ms;
-  transition-delay: 569ms;
+  transition: stroke 757ms;
+  transition-duration: 637ms;
+  transition-delay: 953ms;
+  transition: stroke-opacity 315ms;
+  transition-duration: 1400ms;
+  transition-delay: 112ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 1162ms;
-  transition-duration: 290ms;
-  transition-delay: 836ms;
-  transition: stroke-opacity 1370ms;
-  transition-duration: 1360ms;
-  transition-delay: 406ms;
+  transition: stroke 31ms;
+  transition-duration: 980ms;
+  transition-delay: 486ms;
+  transition: stroke-opacity 686ms;
+  transition-duration: 121ms;
+  transition-delay: 458ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(3) {
   stroke: #e95869;
-  transition: stroke 1143ms;
-  transition-duration: 172ms;
-  transition-delay: 635ms; }
+  transition: stroke 311ms;
+  transition-duration: 462ms;
+  transition-delay: 182ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(3) {
   stroke: #45a0d9;
-  transition: stroke 862ms;
-  transition-duration: 233ms;
-  transition-delay: 773ms; }
+  transition: stroke 679ms;
+  transition-duration: 585ms;
+  transition-delay: 993ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(3) {
   stroke: #5dbf85;
-  transition: stroke 502ms;
-  transition-duration: 56ms;
-  transition-delay: 171ms; }
+  transition: stroke 945ms;
+  transition-duration: 172ms;
+  transition-delay: 982ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(3) {
   stroke: #f79058;
-  transition: stroke 675ms;
-  transition-duration: 872ms;
-  transition-delay: 433ms; }
+  transition: stroke 661ms;
+  transition-duration: 682ms;
+  transition-delay: 408ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 256ms;
-  transition-duration: 927ms;
-  transition-delay: 645ms;
-  transition: stroke-opacity 641ms;
-  transition-duration: 1472ms;
-  transition-delay: 249ms;
+  transition: stroke 536ms;
+  transition-duration: 645ms;
+  transition-delay: 868ms;
+  transition: stroke-opacity 1061ms;
+  transition-duration: 1480ms;
+  transition-delay: 138ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 1224ms;
-  transition-duration: 116ms;
-  transition-delay: 197ms;
-  transition: stroke-opacity 1080ms;
-  transition-duration: 1199ms;
-  transition-delay: 745ms;
+  transition: stroke 1211ms;
+  transition-duration: 296ms;
+  transition-delay: 1ms;
+  transition: stroke-opacity 1058ms;
+  transition-duration: 6ms;
+  transition-delay: 664ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 439ms;
-  transition-duration: 388ms;
-  transition-delay: 332ms;
-  transition: stroke-opacity 631ms;
-  transition-duration: 137ms;
-  transition-delay: 232ms;
+  transition: stroke 923ms;
+  transition-duration: 805ms;
+  transition-delay: 521ms;
+  transition: stroke-opacity 606ms;
+  transition-duration: 114ms;
+  transition-delay: 28ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 498ms;
-  transition-duration: 289ms;
-  transition-delay: 472ms;
-  transition: stroke-opacity 49ms;
-  transition-duration: 517ms;
-  transition-delay: 83ms;
+  transition: stroke 183ms;
+  transition-duration: 973ms;
+  transition-delay: 380ms;
+  transition: stroke-opacity 1321ms;
+  transition-duration: 381ms;
+  transition-delay: 218ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(4) {
   stroke: #e95869;
-  transition: stroke 1095ms;
-  transition-duration: 487ms;
-  transition-delay: 860ms; }
+  transition: stroke 77ms;
+  transition-duration: 743ms;
+  transition-delay: 36ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(4) {
   stroke: #45a0d9;
-  transition: stroke 808ms;
-  transition-duration: 405ms;
-  transition-delay: 823ms; }
+  transition: stroke 1204ms;
+  transition-duration: 327ms;
+  transition-delay: 850ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(4) {
   stroke: #5dbf85;
-  transition: stroke 1089ms;
-  transition-duration: 777ms;
-  transition-delay: 975ms; }
+  transition: stroke 288ms;
+  transition-duration: 201ms;
+  transition-delay: 901ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(4) {
   stroke: #f79058;
-  transition: stroke 1324ms;
-  transition-duration: 76ms;
-  transition-delay: 512ms; }
+  transition: stroke 1168ms;
+  transition-duration: 357ms;
+  transition-delay: 600ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 1203ms;
-  transition-duration: 452ms;
-  transition-delay: 619ms;
-  transition: stroke-opacity 303ms;
-  transition-duration: 1356ms;
-  transition-delay: 644ms;
+  transition: stroke 242ms;
+  transition-duration: 758ms;
+  transition-delay: 119ms;
+  transition: stroke-opacity 135ms;
+  transition-duration: 391ms;
+  transition-delay: 51ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 696ms;
-  transition-duration: 652ms;
-  transition-delay: 205ms;
-  transition: stroke-opacity 618ms;
-  transition-duration: 586ms;
-  transition-delay: 697ms;
+  transition: stroke 96ms;
+  transition-duration: 827ms;
+  transition-delay: 650ms;
+  transition: stroke-opacity 555ms;
+  transition-duration: 226ms;
+  transition-delay: 616ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 437ms;
-  transition-duration: 116ms;
-  transition-delay: 140ms;
-  transition: stroke-opacity 167ms;
-  transition-duration: 1271ms;
-  transition-delay: 560ms;
+  transition: stroke 1258ms;
+  transition-duration: 33ms;
+  transition-delay: 952ms;
+  transition: stroke-opacity 310ms;
+  transition-duration: 1230ms;
+  transition-delay: 776ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 1138ms;
-  transition-duration: 594ms;
-  transition-delay: 971ms;
-  transition: stroke-opacity 1398ms;
-  transition-duration: 343ms;
-  transition-delay: 489ms;
+  transition: stroke 876ms;
+  transition-duration: 570ms;
+  transition-delay: 295ms;
+  transition: stroke-opacity 1178ms;
+  transition-duration: 857ms;
+  transition-delay: 528ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(5) {
   stroke: #e95869;
-  transition: stroke 953ms;
-  transition-duration: 857ms;
-  transition-delay: 741ms; }
+  transition: stroke 666ms;
+  transition-duration: 865ms;
+  transition-delay: 254ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(5) {
   stroke: #45a0d9;
-  transition: stroke 946ms;
-  transition-duration: 249ms;
-  transition-delay: 501ms; }
+  transition: stroke 466ms;
+  transition-duration: 842ms;
+  transition-delay: 544ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(5) {
   stroke: #5dbf85;
-  transition: stroke 977ms;
-  transition-duration: 421ms;
-  transition-delay: 184ms; }
+  transition: stroke 1417ms;
+  transition-duration: 480ms;
+  transition-delay: 874ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(5) {
   stroke: #f79058;
-  transition: stroke 1385ms;
-  transition-duration: 815ms;
-  transition-delay: 314ms; }
+  transition: stroke 1027ms;
+  transition-duration: 573ms;
+  transition-delay: 363ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 928ms;
-  transition-duration: 499ms;
-  transition-delay: 142ms;
-  transition: stroke-opacity 7ms;
-  transition-duration: 170ms;
-  transition-delay: 11ms;
+  transition: stroke 502ms;
+  transition-duration: 208ms;
+  transition-delay: 586ms;
+  transition: stroke-opacity 1358ms;
+  transition-duration: 423ms;
+  transition-delay: 786ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 768ms;
-  transition-duration: 52ms;
-  transition-delay: 462ms;
-  transition: stroke-opacity 1013ms;
-  transition-duration: 314ms;
-  transition-delay: 522ms;
+  transition: stroke 892ms;
+  transition-duration: 835ms;
+  transition-delay: 305ms;
+  transition: stroke-opacity 26ms;
+  transition-duration: 241ms;
+  transition-delay: 260ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 305ms;
-  transition-duration: 498ms;
-  transition-delay: 193ms;
-  transition: stroke-opacity 1052ms;
-  transition-duration: 746ms;
-  transition-delay: 594ms;
+  transition: stroke 35ms;
+  transition-duration: 154ms;
+  transition-delay: 262ms;
+  transition: stroke-opacity 1249ms;
+  transition-duration: 1106ms;
+  transition-delay: 383ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 268ms;
-  transition-duration: 80ms;
-  transition-delay: 790ms;
-  transition: stroke-opacity 1406ms;
-  transition-duration: 1205ms;
-  transition-delay: 687ms;
+  transition: stroke 431ms;
+  transition-duration: 396ms;
+  transition-delay: 199ms;
+  transition: stroke-opacity 1256ms;
+  transition-duration: 383ms;
+  transition-delay: 785ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(6) {
   stroke: #e95869;
-  transition: stroke 566ms;
-  transition-duration: 932ms;
-  transition-delay: 785ms; }
+  transition: stroke 1265ms;
+  transition-duration: 124ms;
+  transition-delay: 591ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(6) {
   stroke: #45a0d9;
-  transition: stroke 827ms;
-  transition-duration: 729ms;
-  transition-delay: 962ms; }
+  transition: stroke 1410ms;
+  transition-duration: 902ms;
+  transition-delay: 952ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(6) {
   stroke: #5dbf85;
-  transition: stroke 1347ms;
-  transition-duration: 577ms;
-  transition-delay: 770ms; }
+  transition: stroke 613ms;
+  transition-duration: 69ms;
+  transition-delay: 332ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(6) {
   stroke: #f79058;
-  transition: stroke 965ms;
-  transition-duration: 808ms;
-  transition-delay: 121ms; }
+  transition: stroke 1057ms;
+  transition-duration: 279ms;
+  transition-delay: 381ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 943ms;
-  transition-duration: 335ms;
-  transition-delay: 218ms;
-  transition: stroke-opacity 21ms;
-  transition-duration: 430ms;
-  transition-delay: 499ms;
+  transition: stroke 231ms;
+  transition-duration: 802ms;
+  transition-delay: 850ms;
+  transition: stroke-opacity 388ms;
+  transition-duration: 1514ms;
+  transition-delay: 493ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 390ms;
-  transition-duration: 609ms;
-  transition-delay: 204ms;
-  transition: stroke-opacity 57ms;
-  transition-duration: 1483ms;
-  transition-delay: 486ms;
+  transition: stroke 609ms;
+  transition-duration: 621ms;
+  transition-delay: 7ms;
+  transition: stroke-opacity 508ms;
+  transition-duration: 155ms;
+  transition-delay: 202ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 546ms;
-  transition-duration: 103ms;
-  transition-delay: 564ms;
-  transition: stroke-opacity 833ms;
-  transition-duration: 1013ms;
-  transition-delay: 767ms;
+  transition: stroke 1127ms;
+  transition-duration: 544ms;
+  transition-delay: 347ms;
+  transition: stroke-opacity 972ms;
+  transition-duration: 40ms;
+  transition-delay: 667ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 1207ms;
-  transition-duration: 889ms;
-  transition-delay: 250ms;
-  transition: stroke-opacity 713ms;
-  transition-duration: 204ms;
-  transition-delay: 686ms;
+  transition: stroke 1236ms;
+  transition-duration: 76ms;
+  transition-delay: 196ms;
+  transition: stroke-opacity 32ms;
+  transition-duration: 1022ms;
+  transition-delay: 659ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(7) {
   stroke: #e95869;
-  transition: stroke 283ms;
-  transition-duration: 800ms;
-  transition-delay: 220ms; }
+  transition: stroke 835ms;
+  transition-duration: 93ms;
+  transition-delay: 137ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(7) {
   stroke: #45a0d9;
-  transition: stroke 1469ms;
-  transition-duration: 54ms;
-  transition-delay: 86ms; }
+  transition: stroke 586ms;
+  transition-duration: 255ms;
+  transition-delay: 281ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(7) {
   stroke: #5dbf85;
-  transition: stroke 706ms;
-  transition-duration: 508ms;
-  transition-delay: 924ms; }
+  transition: stroke 730ms;
+  transition-duration: 258ms;
+  transition-delay: 38ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(7) {
   stroke: #f79058;
-  transition: stroke 267ms;
-  transition-duration: 876ms;
-  transition-delay: 411ms; }
+  transition: stroke 263ms;
+  transition-duration: 649ms;
+  transition-delay: 817ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 274ms;
-  transition-duration: 151ms;
-  transition-delay: 666ms;
-  transition: stroke-opacity 240ms;
-  transition-duration: 433ms;
-  transition-delay: 244ms;
+  transition: stroke 86ms;
+  transition-duration: 674ms;
+  transition-delay: 622ms;
+  transition: stroke-opacity 1221ms;
+  transition-duration: 818ms;
+  transition-delay: 740ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 466ms;
-  transition-duration: 571ms;
-  transition-delay: 855ms;
-  transition: stroke-opacity 308ms;
-  transition-duration: 1034ms;
-  transition-delay: 627ms;
+  transition: stroke 1448ms;
+  transition-duration: 231ms;
+  transition-delay: 29ms;
+  transition: stroke-opacity 1051ms;
+  transition-duration: 429ms;
+  transition-delay: 777ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 220ms;
-  transition-duration: 645ms;
-  transition-delay: 982ms;
-  transition: stroke-opacity 287ms;
-  transition-duration: 540ms;
-  transition-delay: 427ms;
+  transition: stroke 1335ms;
+  transition-duration: 942ms;
+  transition-delay: 895ms;
+  transition: stroke-opacity 1271ms;
+  transition-duration: 1012ms;
+  transition-delay: 403ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 20ms;
-  transition-duration: 198ms;
-  transition-delay: 836ms;
-  transition: stroke-opacity 44ms;
-  transition-duration: 351ms;
-  transition-delay: 414ms;
+  transition: stroke 444ms;
+  transition-duration: 594ms;
+  transition-delay: 567ms;
+  transition: stroke-opacity 1083ms;
+  transition-duration: 1113ms;
+  transition-delay: 759ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(8) {
   stroke: #e95869;
-  transition: stroke 860ms;
-  transition-duration: 395ms;
-  transition-delay: 477ms; }
+  transition: stroke 800ms;
+  transition-duration: 638ms;
+  transition-delay: 8ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(8) {
   stroke: #45a0d9;
-  transition: stroke 9ms;
-  transition-duration: 73ms;
-  transition-delay: 482ms; }
+  transition: stroke 404ms;
+  transition-duration: 323ms;
+  transition-delay: 550ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(8) {
   stroke: #5dbf85;
-  transition: stroke 909ms;
-  transition-duration: 717ms;
-  transition-delay: 357ms; }
+  transition: stroke 818ms;
+  transition-duration: 812ms;
+  transition-delay: 768ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(8) {
   stroke: #f79058;
-  transition: stroke 149ms;
-  transition-duration: 908ms;
-  transition-delay: 765ms; }
+  transition: stroke 326ms;
+  transition-duration: 925ms;
+  transition-delay: 447ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 133ms;
-  transition-duration: 179ms;
-  transition-delay: 391ms;
-  transition: stroke-opacity 366ms;
-  transition-duration: 1495ms;
-  transition-delay: 516ms;
+  transition: stroke 589ms;
+  transition-duration: 892ms;
+  transition-delay: 672ms;
+  transition: stroke-opacity 949ms;
+  transition-duration: 593ms;
+  transition-delay: 33ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 1025ms;
-  transition-duration: 4ms;
-  transition-delay: 70ms;
-  transition: stroke-opacity 903ms;
-  transition-duration: 1400ms;
-  transition-delay: 723ms;
+  transition: stroke 1183ms;
+  transition-duration: 36ms;
+  transition-delay: 147ms;
+  transition: stroke-opacity 230ms;
+  transition-duration: 1464ms;
+  transition-delay: 358ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 883ms;
-  transition-duration: 975ms;
-  transition-delay: 225ms;
-  transition: stroke-opacity 608ms;
-  transition-duration: 1370ms;
-  transition-delay: 750ms;
+  transition: stroke 931ms;
+  transition-duration: 339ms;
+  transition-delay: 812ms;
+  transition: stroke-opacity 446ms;
+  transition-duration: 467ms;
+  transition-delay: 282ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 440ms;
-  transition-duration: 143ms;
-  transition-delay: 572ms;
-  transition: stroke-opacity 98ms;
-  transition-duration: 163ms;
-  transition-delay: 730ms;
+  transition: stroke 888ms;
+  transition-duration: 749ms;
+  transition-delay: 809ms;
+  transition: stroke-opacity 354ms;
+  transition-duration: 1387ms;
+  transition-delay: 291ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(9) {
   stroke: #e95869;
-  transition: stroke 873ms;
-  transition-duration: 302ms;
-  transition-delay: 190ms; }
+  transition: stroke 616ms;
+  transition-duration: 44ms;
+  transition-delay: 83ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(9) {
   stroke: #45a0d9;
-  transition: stroke 1060ms;
-  transition-duration: 972ms;
-  transition-delay: 890ms; }
+  transition: stroke 397ms;
+  transition-duration: 462ms;
+  transition-delay: 156ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(9) {
   stroke: #5dbf85;
-  transition: stroke 1430ms;
-  transition-duration: 1ms;
-  transition-delay: 790ms; }
+  transition: stroke 1439ms;
+  transition-duration: 28ms;
+  transition-delay: 121ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(9) {
   stroke: #f79058;
-  transition: stroke 534ms;
-  transition-duration: 743ms;
-  transition-delay: 932ms; }
+  transition: stroke 689ms;
+  transition-duration: 308ms;
+  transition-delay: 339ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 570ms;
-  transition-duration: 638ms;
-  transition-delay: 298ms;
-  transition: stroke-opacity 337ms;
-  transition-duration: 1466ms;
-  transition-delay: 481ms;
+  transition: stroke 1177ms;
+  transition-duration: 64ms;
+  transition-delay: 98ms;
+  transition: stroke-opacity 154ms;
+  transition-duration: 1513ms;
+  transition-delay: 426ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 71ms;
-  transition-duration: 873ms;
-  transition-delay: 605ms;
-  transition: stroke-opacity 14ms;
-  transition-duration: 1363ms;
-  transition-delay: 791ms;
+  transition: stroke 832ms;
+  transition-duration: 568ms;
+  transition-delay: 234ms;
+  transition: stroke-opacity 393ms;
+  transition-duration: 790ms;
+  transition-delay: 415ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 885ms;
-  transition-duration: 692ms;
-  transition-delay: 857ms;
-  transition: stroke-opacity 1418ms;
-  transition-duration: 158ms;
-  transition-delay: 576ms;
+  transition: stroke 685ms;
+  transition-duration: 517ms;
+  transition-delay: 265ms;
+  transition: stroke-opacity 1111ms;
+  transition-duration: 1432ms;
+  transition-delay: 269ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 77ms;
-  transition-duration: 90ms;
-  transition-delay: 30ms;
-  transition: stroke-opacity 489ms;
-  transition-duration: 665ms;
-  transition-delay: 535ms;
+  transition: stroke 527ms;
+  transition-duration: 538ms;
+  transition-delay: 531ms;
+  transition: stroke-opacity 917ms;
+  transition-duration: 939ms;
+  transition-delay: 326ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(10) {
   stroke: #e95869;
-  transition: stroke 984ms;
-  transition-duration: 33ms;
-  transition-delay: 870ms; }
+  transition: stroke 742ms;
+  transition-duration: 489ms;
+  transition-delay: 281ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(10) {
   stroke: #45a0d9;
-  transition: stroke 984ms;
+  transition: stroke 992ms;
   transition-duration: 546ms;
-  transition-delay: 668ms; }
+  transition-delay: 725ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(10) {
   stroke: #5dbf85;
-  transition: stroke 896ms;
-  transition-duration: 855ms;
-  transition-delay: 374ms; }
+  transition: stroke 1497ms;
+  transition-duration: 173ms;
+  transition-delay: 643ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(10) {
   stroke: #f79058;
-  transition: stroke 1105ms;
-  transition-duration: 861ms;
-  transition-delay: 399ms; }
+  transition: stroke 1122ms;
+  transition-duration: 385ms;
+  transition-delay: 949ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 360ms;
-  transition-duration: 486ms;
-  transition-delay: 758ms;
-  transition: stroke-opacity 803ms;
-  transition-duration: 1447ms;
-  transition-delay: 91ms;
+  transition: stroke 802ms;
+  transition-duration: 759ms;
+  transition-delay: 422ms;
+  transition: stroke-opacity 1134ms;
+  transition-duration: 1021ms;
+  transition-delay: 420ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 1110ms;
-  transition-duration: 444ms;
-  transition-delay: 705ms;
-  transition: stroke-opacity 64ms;
-  transition-duration: 483ms;
-  transition-delay: 123ms;
+  transition: stroke 741ms;
+  transition-duration: 638ms;
+  transition-delay: 567ms;
+  transition: stroke-opacity 645ms;
+  transition-duration: 322ms;
+  transition-delay: 236ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 250ms;
-  transition-duration: 964ms;
-  transition-delay: 999ms;
-  transition: stroke-opacity 498ms;
-  transition-duration: 597ms;
-  transition-delay: 756ms;
+  transition: stroke 551ms;
+  transition-duration: 536ms;
+  transition-delay: 54ms;
+  transition: stroke-opacity 162ms;
+  transition-duration: 544ms;
+  transition-delay: 672ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 63ms;
-  transition-duration: 411ms;
-  transition-delay: 92ms;
-  transition: stroke-opacity 685ms;
-  transition-duration: 327ms;
-  transition-delay: 738ms;
+  transition: stroke 764ms;
+  transition-duration: 730ms;
+  transition-delay: 549ms;
+  transition: stroke-opacity 695ms;
+  transition-duration: 1084ms;
+  transition-delay: 685ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(11) {
   stroke: #e95869;
-  transition: stroke 215ms;
-  transition-duration: 386ms;
-  transition-delay: 201ms; }
+  transition: stroke 365ms;
+  transition-duration: 952ms;
+  transition-delay: 764ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(11) {
   stroke: #45a0d9;
-  transition: stroke 671ms;
-  transition-duration: 509ms;
-  transition-delay: 370ms; }
+  transition: stroke 527ms;
+  transition-duration: 848ms;
+  transition-delay: 518ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(11) {
   stroke: #5dbf85;
-  transition: stroke 250ms;
-  transition-duration: 522ms;
-  transition-delay: 812ms; }
+  transition: stroke 1221ms;
+  transition-duration: 784ms;
+  transition-delay: 975ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(11) {
   stroke: #f79058;
-  transition: stroke 491ms;
-  transition-duration: 594ms;
-  transition-delay: 312ms; }
+  transition: stroke 1425ms;
+  transition-duration: 647ms;
+  transition-delay: 650ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 885ms;
-  transition-duration: 502ms;
-  transition-delay: 896ms;
-  transition: stroke-opacity 634ms;
-  transition-duration: 329ms;
-  transition-delay: 314ms;
+  transition: stroke 100ms;
+  transition-duration: 357ms;
+  transition-delay: 169ms;
+  transition: stroke-opacity 94ms;
+  transition-duration: 498ms;
+  transition-delay: 624ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 1164ms;
-  transition-duration: 629ms;
-  transition-delay: 364ms;
-  transition: stroke-opacity 328ms;
-  transition-duration: 1375ms;
-  transition-delay: 375ms;
+  transition: stroke 1033ms;
+  transition-duration: 436ms;
+  transition-delay: 570ms;
+  transition: stroke-opacity 769ms;
+  transition-duration: 888ms;
+  transition-delay: 768ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 19ms;
-  transition-duration: 29ms;
-  transition-delay: 282ms;
-  transition: stroke-opacity 1179ms;
-  transition-duration: 761ms;
-  transition-delay: 756ms;
+  transition: stroke 366ms;
+  transition-duration: 701ms;
+  transition-delay: 184ms;
+  transition: stroke-opacity 428ms;
+  transition-duration: 653ms;
+  transition-delay: 391ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 1489ms;
-  transition-duration: 70ms;
-  transition-delay: 533ms;
-  transition: stroke-opacity 188ms;
-  transition-duration: 412ms;
-  transition-delay: 466ms;
+  transition: stroke 676ms;
+  transition-duration: 44ms;
+  transition-delay: 565ms;
+  transition: stroke-opacity 643ms;
+  transition-duration: 943ms;
+  transition-delay: 358ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(12) {
   stroke: #e95869;
-  transition: stroke 528ms;
-  transition-duration: 417ms;
-  transition-delay: 746ms; }
+  transition: stroke 556ms;
+  transition-duration: 297ms;
+  transition-delay: 804ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(12) {
   stroke: #45a0d9;
-  transition: stroke 28ms;
-  transition-duration: 714ms;
-  transition-delay: 732ms; }
+  transition: stroke 598ms;
+  transition-duration: 543ms;
+  transition-delay: 136ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(12) {
   stroke: #5dbf85;
-  transition: stroke 1373ms;
-  transition-duration: 40ms;
-  transition-delay: 34ms; }
+  transition: stroke 902ms;
+  transition-duration: 978ms;
+  transition-delay: 712ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(12) {
   stroke: #f79058;
-  transition: stroke 1034ms;
-  transition-duration: 519ms;
-  transition-delay: 835ms; }
+  transition: stroke 737ms;
+  transition-duration: 368ms;
+  transition-delay: 717ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 173ms;
-  transition-duration: 607ms;
-  transition-delay: 454ms;
-  transition: stroke-opacity 1402ms;
-  transition-duration: 711ms;
-  transition-delay: 180ms;
+  transition: stroke 1433ms;
+  transition-duration: 528ms;
+  transition-delay: 558ms;
+  transition: stroke-opacity 356ms;
+  transition-duration: 186ms;
+  transition-delay: 673ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 752ms;
-  transition-duration: 889ms;
-  transition-delay: 26ms;
-  transition: stroke-opacity 1037ms;
-  transition-duration: 1322ms;
-  transition-delay: 132ms;
+  transition: stroke 77ms;
+  transition-duration: 515ms;
+  transition-delay: 858ms;
+  transition: stroke-opacity 609ms;
+  transition-duration: 967ms;
+  transition-delay: 758ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 1164ms;
-  transition-duration: 995ms;
-  transition-delay: 71ms;
-  transition: stroke-opacity 873ms;
-  transition-duration: 715ms;
-  transition-delay: 687ms;
+  transition: stroke 1386ms;
+  transition-duration: 79ms;
+  transition-delay: 309ms;
+  transition: stroke-opacity 383ms;
+  transition-duration: 1383ms;
+  transition-delay: 462ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 773ms;
-  transition-duration: 869ms;
-  transition-delay: 718ms;
-  transition: stroke-opacity 1110ms;
-  transition-duration: 1258ms;
-  transition-delay: 28ms;
+  transition: stroke 1166ms;
+  transition-duration: 429ms;
+  transition-delay: 49ms;
+  transition: stroke-opacity 1183ms;
+  transition-duration: 527ms;
+  transition-delay: 653ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(13) {
   stroke: #e95869;
-  transition: stroke 17ms;
-  transition-duration: 120ms;
-  transition-delay: 620ms; }
+  transition: stroke 1448ms;
+  transition-duration: 492ms;
+  transition-delay: 512ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(13) {
   stroke: #45a0d9;
-  transition: stroke 869ms;
-  transition-duration: 747ms;
-  transition-delay: 739ms; }
+  transition: stroke 1007ms;
+  transition-duration: 922ms;
+  transition-delay: 792ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(13) {
   stroke: #5dbf85;
-  transition: stroke 458ms;
-  transition-duration: 163ms;
-  transition-delay: 43ms; }
+  transition: stroke 1427ms;
+  transition-duration: 481ms;
+  transition-delay: 850ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(13) {
   stroke: #f79058;
-  transition: stroke 1353ms;
-  transition-duration: 912ms;
-  transition-delay: 444ms; }
+  transition: stroke 411ms;
+  transition-duration: 78ms;
+  transition-delay: 513ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 1ms;
-  transition-duration: 403ms;
-  transition-delay: 955ms;
-  transition: stroke-opacity 608ms;
-  transition-duration: 945ms;
-  transition-delay: 76ms;
+  transition: stroke 1320ms;
+  transition-duration: 365ms;
+  transition-delay: 969ms;
+  transition: stroke-opacity 1108ms;
+  transition-duration: 256ms;
+  transition-delay: 611ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 909ms;
-  transition-duration: 491ms;
-  transition-delay: 156ms;
-  transition: stroke-opacity 251ms;
-  transition-duration: 107ms;
-  transition-delay: 283ms;
+  transition: stroke 404ms;
+  transition-duration: 854ms;
+  transition-delay: 899ms;
+  transition: stroke-opacity 909ms;
+  transition-duration: 139ms;
+  transition-delay: 782ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 1197ms;
-  transition-duration: 778ms;
-  transition-delay: 771ms;
-  transition: stroke-opacity 768ms;
-  transition-duration: 417ms;
-  transition-delay: 488ms;
+  transition: stroke 995ms;
+  transition-duration: 636ms;
+  transition-delay: 175ms;
+  transition: stroke-opacity 1469ms;
+  transition-duration: 679ms;
+  transition-delay: 186ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 293ms;
-  transition-duration: 839ms;
-  transition-delay: 156ms;
-  transition: stroke-opacity 909ms;
-  transition-duration: 1166ms;
-  transition-delay: 179ms;
+  transition: stroke 859ms;
+  transition-duration: 806ms;
+  transition-delay: 302ms;
+  transition: stroke-opacity 198ms;
+  transition-duration: 982ms;
+  transition-delay: 260ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
@@ -1693,7 +1701,7 @@ p {
   animation-fill-mode: forwards; }
 
 #purex-sta-flo-liquid-starch:hover .star-1 {
-  transition: stroke-opacity 300ms ease 606ms;
+  transition: stroke-opacity 300ms ease 631ms;
   stroke-opacity: 1; }
 
 #purex-sta-flo-liquid-starch:hover .star-1-wrapper {
@@ -1701,12 +1709,12 @@ p {
   animation: starRotate;
   animation-duration: 300ms;
   animation-iteration-count: 1;
-  animation-delay: 750ms;
+  animation-delay: 719ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 #purex-sta-flo-liquid-starch:hover .star-2 {
-  transition: stroke-opacity 300ms ease 549ms;
+  transition: stroke-opacity 300ms ease 629ms;
   stroke-opacity: 1; }
 
 #purex-sta-flo-liquid-starch:hover .star-2-wrapper {
@@ -1714,12 +1722,12 @@ p {
   animation: starRotate;
   animation-duration: 300ms;
   animation-iteration-count: 1;
-  animation-delay: 640ms;
+  animation-delay: 721ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 #purex-sta-flo-liquid-starch:hover .star-3 {
-  transition: stroke-opacity 300ms ease 629ms;
+  transition: stroke-opacity 300ms ease 569ms;
   stroke-opacity: 1; }
 
 #purex-sta-flo-liquid-starch:hover .star-3-wrapper {
@@ -1727,12 +1735,12 @@ p {
   animation: starRotate;
   animation-duration: 300ms;
   animation-iteration-count: 1;
-  animation-delay: 588ms;
+  animation-delay: 613ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 #purex-sta-flo-liquid-starch:hover .star-4 {
-  transition: stroke-opacity 300ms ease 866ms;
+  transition: stroke-opacity 300ms ease 667ms;
   stroke-opacity: 1; }
 
 #purex-sta-flo-liquid-starch:hover .star-4-wrapper {
@@ -1740,12 +1748,12 @@ p {
   animation: starRotate;
   animation-duration: 300ms;
   animation-iteration-count: 1;
-  animation-delay: 883ms;
+  animation-delay: 597ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 #purex-sta-flo-liquid-starch:hover .star-5 {
-  transition: stroke-opacity 300ms ease 731ms;
+  transition: stroke-opacity 300ms ease 861ms;
   stroke-opacity: 1; }
 
 #purex-sta-flo-liquid-starch:hover .star-5-wrapper {
@@ -1753,12 +1761,12 @@ p {
   animation: starRotate;
   animation-duration: 300ms;
   animation-iteration-count: 1;
-  animation-delay: 609ms;
+  animation-delay: 643ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 #purex-sta-flo-liquid-starch:hover .star-6 {
-  transition: stroke-opacity 300ms ease 572ms;
+  transition: stroke-opacity 300ms ease 889ms;
   stroke-opacity: 1; }
 
 #purex-sta-flo-liquid-starch:hover .star-6-wrapper {
@@ -1766,12 +1774,12 @@ p {
   animation: starRotate;
   animation-duration: 300ms;
   animation-iteration-count: 1;
-  animation-delay: 844ms;
+  animation-delay: 774ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 #purex-sta-flo-liquid-starch:hover .star-7 {
-  transition: stroke-opacity 300ms ease 599ms;
+  transition: stroke-opacity 300ms ease 762ms;
   stroke-opacity: 1; }
 
 #purex-sta-flo-liquid-starch:hover .star-7-wrapper {
@@ -1779,12 +1787,12 @@ p {
   animation: starRotate;
   animation-duration: 300ms;
   animation-iteration-count: 1;
-  animation-delay: 533ms;
+  animation-delay: 851ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 #purex-sta-flo-liquid-starch:hover .star-8 {
-  transition: stroke-opacity 300ms ease 589ms;
+  transition: stroke-opacity 300ms ease 562ms;
   stroke-opacity: 1; }
 
 #purex-sta-flo-liquid-starch:hover .star-8-wrapper {
@@ -1792,12 +1800,12 @@ p {
   animation: starRotate;
   animation-duration: 300ms;
   animation-iteration-count: 1;
-  animation-delay: 650ms;
+  animation-delay: 801ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 #purex-sta-flo-liquid-starch:hover .star-9 {
-  transition: stroke-opacity 300ms ease 703ms;
+  transition: stroke-opacity 300ms ease 580ms;
   stroke-opacity: 1; }
 
 #purex-sta-flo-liquid-starch:hover .star-9-wrapper {
@@ -1805,7 +1813,7 @@ p {
   animation: starRotate;
   animation-duration: 300ms;
   animation-iteration-count: 1;
-  animation-delay: 670ms;
+  animation-delay: 708ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
@@ -2654,64 +2662,64 @@ body {
   animation-fill-mode: forwards; }
 
 #purex-crystals-well-being:hover .late-bloomers .flower-1 {
-  animation-delay: 131ms; }
+  animation-delay: 168ms; }
 
 #purex-crystals-well-being:hover .late-bloomers .flower-2 {
-  animation-delay: 269ms; }
+  animation-delay: 222ms; }
 
 #purex-crystals-well-being:hover .late-bloomers .flower-3 {
-  animation-delay: 356ms; }
+  animation-delay: 350ms; }
 
 #purex-crystals-well-being:hover .late-bloomers .flower-4 {
-  animation-delay: 486ms; }
+  animation-delay: 423ms; }
 
 #purex-crystals-well-being:hover .late-bloomers .flower-5 {
-  animation-delay: 579ms; }
+  animation-delay: 598ms; }
 
 #purex-crystals-well-being:hover .late-bloomers .flower-6 {
-  animation-delay: 633ms; }
+  animation-delay: 683ms; }
 
 #purex-crystals-well-being:hover .late-bloomers .flower-7 {
-  animation-delay: 752ms; }
+  animation-delay: 768ms; }
 
 #purex-crystals-well-being:hover .late-bloomers .flower-8 {
-  animation-delay: 813ms; }
+  animation-delay: 893ms; }
 
 #purex-crystals-well-being:hover .bloomers .flower-1 path,
 #purex-crystals-well-being:hover .bloomers .flower-1 ellipse {
-  transition-delay: 171ms; }
+  transition-delay: 179ms; }
 
 #purex-crystals-well-being:hover .bloomers .flower-2 path,
 #purex-crystals-well-being:hover .bloomers .flower-2 ellipse {
-  transition-delay: 278ms; }
+  transition-delay: 267ms; }
 
 #purex-crystals-well-being:hover .bloomers .flower-3 path,
 #purex-crystals-well-being:hover .bloomers .flower-3 ellipse {
-  transition-delay: 396ms; }
+  transition-delay: 355ms; }
 
 #purex-crystals-well-being:hover .bloomers .flower-4 path,
 #purex-crystals-well-being:hover .bloomers .flower-4 ellipse {
-  transition-delay: 450ms; }
+  transition-delay: 424ms; }
 
 #purex-crystals-well-being:hover .bloomers .flower-5 path,
 #purex-crystals-well-being:hover .bloomers .flower-5 ellipse {
-  transition-delay: 576ms; }
+  transition-delay: 563ms; }
 
 #purex-crystals-well-being:hover .bloomers .flower-6 path,
 #purex-crystals-well-being:hover .bloomers .flower-6 ellipse {
-  transition-delay: 655ms; }
+  transition-delay: 684ms; }
 
 #purex-crystals-well-being:hover .bloomers .flower-7 path,
 #purex-crystals-well-being:hover .bloomers .flower-7 ellipse {
-  transition-delay: 744ms; }
+  transition-delay: 738ms; }
 
 #purex-crystals-well-being:hover .bloomers .flower-8 path,
 #purex-crystals-well-being:hover .bloomers .flower-8 ellipse {
-  transition-delay: 875ms; }
+  transition-delay: 893ms; }
 
 #purex-crystals-well-being:hover .bloomers .flower-9 path,
 #purex-crystals-well-being:hover .bloomers .flower-9 ellipse {
-  transition-delay: 939ms; }
+  transition-delay: 923ms; }
 
 @keyframes oxiBubbleApppear {
   0% {
@@ -3087,28 +3095,28 @@ body {
   transition: opacity 1s !important; }
 
 #purex-crystals-tahitian-breeze:hover .breeze-group-1 {
-  transform: translateX(40px);
-  transition: transform 310ms;
+  transform: translateX(33px);
+  transition: transform 353ms;
   transition-delay: 50ms; }
 
 #purex-crystals-tahitian-breeze:hover .breeze-group-2 {
-  transform: translateX(38px);
-  transition: transform 371ms;
+  transform: translateX(32px);
+  transition: transform 258ms;
   transition-delay: 100ms; }
 
 #purex-crystals-tahitian-breeze:hover .breeze-group-3 {
-  transform: translateX(39px);
-  transition: transform 206ms;
+  transform: translateX(37px);
+  transition: transform 375ms;
   transition-delay: 150ms; }
 
 #purex-crystals-tahitian-breeze:hover .breeze-group-4 {
-  transform: translateX(31px);
-  transition: transform 394ms;
+  transform: translateX(41px);
+  transition: transform 319ms;
   transition-delay: 200ms; }
 
 #purex-crystals-tahitian-breeze:hover .breeze-group-5 {
-  transform: translateX(49px);
-  transition: transform 368ms;
+  transform: translateX(31px);
+  transition: transform 311ms;
   transition-delay: 250ms; }
 
 #purex-crystals-tahitian-breeze:hover .breeze {
