@@ -87,7 +87,21 @@
   100% {transform: translate(0,0)}
 }
 
-body {background-color: $backgroundColor}
+//Bee flight paths
+@keyframes dash-left {
+  from {stroke-dashoffset: 0}
+  to {stroke-dashoffset: -240}
+}
+
+@keyframes dash-middle {
+  from {stroke-dashoffset: 0}
+  to {stroke-dashoffset: -38}
+}
+
+@keyframes dash-right {
+  from {stroke-dashoffset: 0}
+  to {stroke-dashoffset: -92}
+}
 
 #purex-laundry-detergent-fresh-lavender-blossom {
   path,
@@ -101,8 +115,6 @@ body {background-color: $backgroundColor}
   .bee-loop-wrapper  {
     transform-origin: 50% 35% !important;
   }
-
-  .path {stroke: $backgroundColor}
 
   .head,
   .body,
@@ -121,9 +133,12 @@ body {background-color: $backgroundColor}
     .wing-bottom {transform: translate(-4px, 18px) rotate(-40deg)}
   }
 
+  .path {stroke: $backgroundColor}
 
-
-
+  .dashed {
+    stroke-dasharray: 12;
+    stroke: $orange;
+  }
 
   &:hover {
     .bees  * {
@@ -142,11 +157,39 @@ body {background-color: $backgroundColor}
       transition: stroke 1050ms;
       stroke: $purple;
     }
-    .path-left {@include draw($orange, 240, 240, offset, 500ms, 1, 150ms)}
-    .path-middle {@include draw($orange, 38, 38, offset, 500ms, 1, 250ms)}
-    .path-right {@include draw($orange, 92, 92, offset, 600ms, 1, 200ms)}
+
+    .bee-lines-group {
+      .path {
+        stroke: $backgroundColor;
+        animation-fill-mode: backwards;
+        animation-timing-function: linear;
+      }
+    }
+
+    .path-left {
+      stroke-dasharray: 240;
+      stroke-dashoffset: 240;
+      animation: dash-left 500ms;
+      animation-delay: 100ms;
+    }
+
+    .path-middle {
+      stroke-dasharray: 38;
+      stroke-dashoffset: 38;
+      animation: dash-middle 500ms;
+      animation-delay: 250ms;
+    }
+
+    .path-right {
+      stroke-dasharray: 92;
+      stroke-dashoffset: 92;
+      animation: dash-right 600ms;
+      animation-delay: 200ms;
+    }
+
     .stalk-short {@include draw($green, 187, 187, offset, 300ms, 1, 0ms)}
     .stalk-long {@include draw($green, 223, 223, offset, 300ms, 1, 0ms)}
+
     .bee-1 {
       animation: bee-one--straight-flight 1000ms ease 0ms 1 normal;
       animation-fill-mode: forwards;
