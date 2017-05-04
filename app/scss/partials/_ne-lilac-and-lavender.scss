@@ -1,0 +1,157 @@
+
+@keyframes flap {
+  0% {transform: rotate(-10deg)}
+  100% {transform: rotate(10deg)}
+}
+
+@keyframes bob {
+  0% {transform: translateY(0px) rotate(0deg)}
+  100% {transform: translateY(-4px) rotate(10deg)}
+}
+
+@keyframes hover {
+  0% {transform: translateY(0px) rotate(0deg)}
+  100% {transform: translateY( -8px) rotate(5deg)}
+}
+
+@keyframes fly {
+  0% {transform: translate(0px, 0px)}
+  100% {transform: translate(-220px, -130px)}
+}
+
+@keyframes rotate {
+  0% {transform: rotate(0deg)}
+  20% {transform: rotate(0deg)}
+  80% {transform: rotate(360deg)}
+  100% {transform: rotate(360deg)}
+}
+
+@keyframes dash {
+  from {stroke-dashoffset: 0}
+  to {stroke-dashoffset: 266}
+}
+
+.lilac-white-lavender {
+  path,
+  circle,
+  ellipse,
+  line {
+    @include default(#FFF, 4)
+  }
+
+
+
+
+  .path {
+    stroke: $backgroundColor;
+    stroke-width: 4.5 !important;
+  }
+
+  .late-bloomers {
+    .flower {
+      opacity: 0;
+    }
+    .purple {
+      path {
+        stroke: $purple;
+      }
+    }
+  }
+
+  &:hover {
+
+    .bloomers {
+      .purple {
+        path {
+          stroke: $purple;
+          transition: stroke 1s;
+        }
+      }
+    }
+
+    @for $i from 1 through 6 {
+      .bloomers {
+        .flower-#{$i} {
+          path {
+            transition-delay: $i * 100 + ms;
+          }
+        }
+      }
+    }
+
+    .late-bloomers {
+      .flower {
+        opacity: 1;
+        transition: opacity 1s;
+      }
+    }
+
+    @for $i from 1 through 10 {
+      .late-bloomers {
+        .flower-#{$i} {
+          transition-delay: $i * 100 + ms;
+        }
+      }
+    }
+
+    .dashed {
+      stroke-dasharray: 15;
+      stroke: $purple !important;
+    }
+
+    .path {
+      stroke-dasharray: 266;
+      stroke-dashoffset: 266;
+      animation: dash 500ms ease-in;
+      animation-delay: 250ms;
+      animation-fill-mode: backwards;
+    }
+
+    .bird-flip-wrapper,
+    .bird {
+      transform-origin: 60% 50%;
+      animation-timing-function: ease-out;
+      animation-fill-mode: forwards;
+      animation-duration: 1050ms;
+    }
+
+    .bird-hover-wrapper {
+      animation: hover 1500ms;
+      animation-delay: 1s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+
+    .bird-flip-wrapper {
+      animation: rotate 1000ms;
+    }
+
+    .bird {
+      path, ellipse {
+        stroke: $purple;
+        transition: stroke 1s;
+      }
+      animation-name: fly;
+    }
+
+    .head {
+      animation-name: bob;
+      animation-duration: 1000ms;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+
+    .feather-1,
+    .feather-2,
+    .feather-3 {
+      transform-origin: bottom left;
+      animation-name: flap;
+      animation-duration: 75ms;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+
+  } // end hover
+} // end .lilac-white-lavender

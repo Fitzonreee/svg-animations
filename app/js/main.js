@@ -21,6 +21,7 @@ $(document).ready(function() {
   $('#softener-sheets-mountain-breeze').load('svgs/softener-sheets-mountain-breeze.html');
   $('#softener40-mountain-breeze').load('svgs/softener40-mountain-breeze.html');
   $('#softener52-mountain-breeze').load('svgs/softener52-mountain-breeze.html');
-    $('#dry-mountain-breeze').load('svgs/dry-mountain-breeze.html');
+  $('#dry-mountain-breeze').load('svgs/dry-mountain-breeze.html');
   $('#hdd-after-the-rain').load('svgs/hdd-after-the-rain.html');
+  $('#ne-lilac-and-lavender').load('svgs/ne-lilac-and-lavender.html');
 });
