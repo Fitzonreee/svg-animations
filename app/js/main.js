@@ -24,4 +24,5 @@ $(document).ready(function() {
   $('#dry-mountain-breeze').load('svgs/dry-mountain-breeze.html');
   $('#hdd-after-the-rain').load('svgs/hdd-after-the-rain.html');
   $('#ne-lilac-and-lavender').load('svgs/ne-lilac-and-lavender.html');
+  $('#hdd-fab-fresh').load('svgs/hdd-fab-fresh.html');
 });
