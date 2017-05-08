@@ -17,7 +17,8 @@
 		.fadeIn {opacity: 1;} // this could be globalized in some way like the above
 
 		.breeze-top,
-		.breeze-right {
+		.breeze-right,
+		.clouds .breeze {
 			transition-duration: 2.15s;
 			transform: translateX(50px);
 		}

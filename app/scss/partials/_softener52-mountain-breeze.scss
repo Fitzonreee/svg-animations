@@ -17,9 +17,10 @@
 		.fadeIn {opacity: 1;} // this could be globalized in some way like the above
 
 		.breeze-top,
-		.breeze-bottom {
+		.breeze-bottom,
+		.clouds .breeze {
 			transition-duration: 2.15s;
-			transform: translateX(25px);
+			transform: translateX(50px);
 		}
 
 		.draw path,

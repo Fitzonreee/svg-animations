@@ -20,7 +20,8 @@
 		.breeze-left1,
 		.breeze-left2,
 		.breeze-top,
-		.breeze-right {
+		.breeze-right,
+		.clouds .breeze {
 			transform: translateX(60px);
 			transition-duration: 2s;
 		}
