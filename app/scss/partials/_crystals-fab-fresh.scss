@@ -1,0 +1,128 @@
+@keyframes blooming {
+	0% {
+		transform: rotate(0deg);
+		stroke-opacity: 0;
+	}
+	100% {
+		transform: rotate(30deg);
+		stroke-opacity: 1;
+	}
+}
+
+@keyframes bloomingSpin {
+	0% {
+		transform: translate(10px, 20px) rotate(0deg);
+		stroke-opacity: 0;
+	}
+	100% {
+		transform: translate(0px, 0px) rotate(45deg);
+		stroke-opacity: 1;
+	}
+}
+
+#crystals-fab-fresh {
+	path, line, ellipse, { @include default(#fff, 4);}
+	.flower circle {fill: $backgroundColor;}
+
+	.sun circle {@include default(#fff, 4);}
+
+	.fadeIn { //this could be moved to a parent file to be globalized in some way
+		stroke-opacity: 0;
+	}
+
+	&:hover {
+
+		.flower {
+			animation-duration: 1000ms !important;
+			animation-fill-mode: forwards !important;
+			transform-origin: 50% 50% !important;
+		}
+
+		.late-bloomers {
+			.flower {
+				animation: bloomingSpin;
+				@for $i from 1 through 19 {
+					&.fadeIn#{$i} {
+						animation-delay: ($i * 15) +  ms;
+					}
+				}
+			}
+		}
+		.grown {
+			.flower {animation: blooming;}
+		}
+
+		.sun {
+			transform-origin: 50% 50%;
+			animation: spin;
+			animation-iteration-count: infinite;
+			animation-timing-function: linear;
+			animation-duration: 30s;
+			animation-direction: normal;
+
+			.sun-center,
+			.beam {
+				stroke: $orange;
+				animation-iteration-count: 1;
+				animation-timing-function: ease-out;
+				animation-fill-mode: forwards;
+			}
+
+			.sun-center {animation-name: offset; @include draw-tmoney(114, 114, 300ms, 0ms);}
+
+			.beam {
+				animation-name: shine;
+			}
+
+			.beam-3,
+			.beam-16 {@include draw-tmoney(12, -12, 1600ms, 0ms);}
+
+			.beam-6,
+			.beam-19{@include draw-tmoney(14, -14, 1600ms, 0ms);}
+
+			.beam-13,
+			.beam-26{@include draw-tmoney(20, -20, 1600ms, 800ms);}
+
+			.beam-1,
+			.beam-14{@include draw-tmoney(23, 23, 1600ms, 750ms);}
+
+			.beam-8,
+			.beam-21{@include draw-tmoney(26, 26, 1600ms, 750ms);}
+
+			.beam-2,
+			.beam-9,
+			.beam-15,
+			.beam-22{@include draw-tmoney(32, 32, 1600ms, 0ms);}
+
+			.beam-7,
+			.beam-12,
+			.beam-20,
+			.beam-25{@include draw-tmoney(57, -57, 1000ms, 750ms);}
+
+			.beam-4,
+			.beam-17{@include draw-tmoney(60, -60, 1600ms, 0ms);}
+
+			.beam-5,
+			.beam-18{@include draw-tmoney(74, 74, 1600ms, 0ms);}
+
+			.beam-11,
+			.beam-24{@include draw-tmoney(86, 86, 1600ms, 0ms);}
+
+			.beam-10,
+			.beam-23{@include draw-tmoney(86, -86, 1600ms, 0ms);}
+
+		}
+
+		.flower-purple {
+			path,
+			circle,
+			ellipse {stroke: $purple;}
+		}
+		.flower-pink {
+			path,
+			circle,
+			ellipse {stroke: $pink;}
+		}
+
+	}
+}

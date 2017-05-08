@@ -25,4 +25,5 @@ $(document).ready(function() {
   $('#hdd-after-the-rain').load('svgs/hdd-after-the-rain.html');
   $('#ne-lilac-and-lavender').load('svgs/ne-lilac-and-lavender.html');
   $('#hdd-fab-fresh').load('svgs/hdd-fab-fresh.html');
+  $('#crystals-fab-fresh').load('svgs/crystals-fab-fresh.html');
 });
