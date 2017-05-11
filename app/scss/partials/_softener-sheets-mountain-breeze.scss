@@ -1,7 +1,7 @@
 #purex-mountain-breeze-fabric-softener-sheets {
-	path{ @include default(#fff, 4); }
 
-	.fadeIn { //this could be moved to a parent file to be globalized in some way
+	//this could be moved to a parent file to be globalized in some way
+	.fadeIn {
 		opacity: 0;
 		transition: opacity 250ms ease-in;
 	}
@@ -14,7 +14,8 @@
 
 	// Animate
 	&:hover {
-		.fadeIn {opacity: 1;} // this could be globalized in some way like the above
+		 // this could be globalized in some way like the above
+		.fadeIn {opacity: 1;}
 
 		.breeze-left,
 		.breeze-middle,

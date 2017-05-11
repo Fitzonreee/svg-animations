@@ -32,21 +32,10 @@
 }
 
 .lilac-white-lavender {
-  path,
-  circle,
-  ellipse,
-  line {
-    @include default(#FFF, 4)
-  }
-
-
-
-
   .path {
     stroke: $backgroundColor;
     stroke-width: 4.5 !important;
   }
-
   .late-bloomers {
     .flower {
       opacity: 0;
@@ -57,9 +46,7 @@
       }
     }
   }
-
   &:hover {
-
     .bloomers {
       .purple {
         path {
@@ -68,7 +55,6 @@
         }
       }
     }
-
     @for $i from 1 through 6 {
       .bloomers {
         .flower-#{$i} {
@@ -78,7 +64,6 @@
         }
       }
     }
-
     .late-bloomers {
       .flower {
         opacity: 1;
@@ -93,12 +78,10 @@
         }
       }
     }
-
     .dashed {
       stroke-dasharray: 15;
       stroke: $purple !important;
     }
-
     .path {
       stroke-dasharray: 266;
       stroke-dashoffset: 266;
@@ -133,7 +116,6 @@
       }
       animation-name: fly;
     }
-
     .head {
       animation-name: bob;
       animation-duration: 1000ms;
@@ -141,7 +123,6 @@
       animation-iteration-count: infinite;
       animation-direction: alternate;
     }
-
     .feather-1,
     .feather-2,
     .feather-3 {
@@ -152,6 +133,5 @@
       animation-iteration-count: infinite;
       animation-direction: alternate;
     }
-
   } // end hover
 } // end .lilac-white-lavender

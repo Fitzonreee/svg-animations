@@ -3,7 +3,6 @@
   transition: stroke random(1500ms) +  ms;
   transition-duration: random(1000) + ms;
   transition-delay: random(1000) + ms;
-  // transition-timing-function: random(1000) + ms;
 }
 
 @mixin fill_outside_box {
@@ -20,10 +19,6 @@
   }
 }
 
-@keyframes offset {
-  100% {stroke-dashoffset: 0;}
-}
-
 #purex-hdd-stain-fighter-bright-booster {
   path {@include default(#FFF, 2)}
 
@@ -31,7 +26,6 @@
   .bottom {stroke-opacity: 0}
 
   &:hover {
-
     @for $i from 1 through 13 {
       .red:nth-child(#{$i}) {
         @include fill_box($red);
@@ -54,13 +48,11 @@
       .bottom-blue {
         @include fill_box($blue);
         @include fill_outside_box;
-
       }
       .top-green,
       .bottom-green {
         @include fill_box($green);
         @include fill_outside_box;
-
       }
       .top-orange,
       .bottom-orange {
@@ -68,6 +60,5 @@
         @include fill_outside_box;
       }
     }
-
   } // end hover
 } // end #purex-hdd-stain-fighter-bright-booster

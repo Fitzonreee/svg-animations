@@ -1,10 +1,4 @@
-@keyframes fade-offset {
-  0% {stroke-opacity: 0}
-  100% {
-    stroke-dashoffset: 0;
-    stroke-opacity: 1;
-  }
-}
+
 @keyframes wiggle {
   0% {transform: rotate(0deg) scale(1)}
   25% {transform: rotate(30deg) scale(1.15)}
@@ -12,17 +6,8 @@
   100%{transform: rotate(0deg) scale(1)}
 }
 
-body {background-color: $backgroundColor}
+#purex-classic-fabric-softener-almond-milk-aloe {
 
-#purex-classic-fabric-softener-almond-milk-aloe{
-  path,
-  circle,
-  ellipse,
-  line {
-    @include default(#FFF,4)
-  }
-
-  .fill {fill: $backgroundColor}
   .almond {transform-origin: 50% 70%}
 
   &:hover {
@@ -49,7 +34,7 @@ body {background-color: $backgroundColor}
     .aloe-top-1,
     .aloe-top-2 {
       stroke: $green;
-      animation-name: fade-offset;
+      animation-name: offset-fade;
       animation-duration: 500ms;
       animation-timing-function: ease-out;
       animation-delay: 0ms;

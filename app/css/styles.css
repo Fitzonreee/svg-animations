@@ -1,6 +1,10 @@
-@font-face {
-  font-family: Proxima;
-  src: url("../../fonts/ProximaNovaLight.otf") format("opentype"); }
+@keyframes popUp {
+  0% {
+    transform: scale(0); }
+  75% {
+    transform: scale(1.5); }
+  100% {
+    transform: scale(1); } }
 
 @keyframes fade {
   0% {
@@ -9,17 +13,66 @@
     stroke-opacity: 100; } }
 
 @keyframes offset {
+  100% {
+    stroke-dashoffset: 0; } }
+
+@keyframes offset {
   0% {
     stroke-opacity: 0; }
   100% {
     stroke-dashoffset: 0;
-    stroke-opacity: 100%; } }
+    stroke-opacity: 1; } }
+
+@keyframes offset-fade {
+  0% {
+    stroke-opacity: 0; }
+  100% {
+    stroke-dashoffset: 0;
+    stroke-opacity: 1; } }
+
+@keyframes shine {
+  0% {
+    stroke-opacity: 0; }
+  100% {
+    stroke-dashoffset: 0;
+    stroke-opacity: 1; } }
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+
+@keyframes fade-offset {
+  0% {
+    stroke-opacity: 0; }
+  100% {
+    stroke-dashoffset: 0;
+    stroke-opacity: 1; } }
+
+.default path,
+.default circle,
+.default ellipse,
+.default line {
+  stroke: #FFF;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+  fill: none;
+  stroke-linejoin: round; }
 
 .fill {
   fill: #dcf0f1 !important; }
 
 .center {
   transform-origin: 50% 50% !important; }
+
+.fade-in-stroke {
+  stroke-opacity: 0; }
+
+@font-face {
+  font-family: Proxima;
+  src: url("../../fonts/ProximaNovaLight.otf") format("opentype"); }
 
 .container {
   padding-top: 60px; }
@@ -91,7 +144,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 371ms;
+  animation-delay: 410ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -107,7 +160,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 231ms;
+  animation-delay: 351ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -121,7 +174,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 573ms;
+  animation-delay: 530ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -135,7 +188,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 630ms;
+  animation-delay: 784ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -150,7 +203,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 43ms;
+  animation-delay: 376ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -166,7 +219,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 340ms;
+  animation-delay: 349ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -180,7 +233,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 501ms;
+  animation-delay: 459ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -194,7 +247,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 622ms;
+  animation-delay: 722ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -209,7 +262,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 476ms;
+  animation-delay: 136ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -225,7 +278,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 362ms;
+  animation-delay: 341ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -239,7 +292,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 518ms;
+  animation-delay: 401ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -253,7 +306,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 647ms;
+  animation-delay: 743ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -268,7 +321,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 326ms;
+  animation-delay: 119ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -284,7 +337,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 387ms;
+  animation-delay: 392ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -298,7 +351,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 554ms;
+  animation-delay: 596ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -312,7 +365,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 608ms;
+  animation-delay: 610ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -327,7 +380,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 264ms;
+  animation-delay: 344ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -343,7 +396,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 378ms;
+  animation-delay: 391ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -357,7 +410,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 513ms;
+  animation-delay: 401ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -371,7 +424,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 622ms;
+  animation-delay: 788ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -386,7 +439,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 195ms;
+  animation-delay: 462ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -402,7 +455,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 374ms;
+  animation-delay: 203ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -416,7 +469,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 406ms;
+  animation-delay: 538ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -430,7 +483,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 659ms;
+  animation-delay: 667ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -441,7 +494,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 713ms;
+  animation-delay: 625ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -452,7 +505,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 577ms;
+  animation-delay: 486ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -463,7 +516,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 666ms;
+  animation-delay: 758ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -474,7 +527,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 524ms;
+  animation-delay: 417ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -485,7 +538,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 796ms;
+  animation-delay: 621ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -496,7 +549,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 503ms;
+  animation-delay: 473ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -507,7 +560,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 725ms;
+  animation-delay: 668ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -518,7 +571,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 585ms;
+  animation-delay: 590ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -529,7 +582,7 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 652ms;
+  animation-delay: 615ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
 
@@ -540,13 +593,9 @@ p {
   animation-name: offset;
   animation-duration: 500ms;
   animation-timing-function: ease-in;
-  animation-delay: 451ms;
+  animation-delay: 537ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
-
-@keyframes offset {
-  100% {
-    stroke-dashoffset: 0; } }
 
 #purex-hdd-stain-fighter-bright-booster path {
   stroke: #FFF;
@@ -562,564 +611,132 @@ p {
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(1) {
   stroke: #e95869;
-  transition: stroke 200ms;
-  transition-duration: 984ms;
-  transition-delay: 329ms; }
+  transition: stroke 211ms;
+  transition-duration: 837ms;
+  transition-delay: 901ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(1) {
   stroke: #45a0d9;
-  transition: stroke 647ms;
-  transition-duration: 627ms;
-  transition-delay: 83ms; }
+  transition: stroke 704ms;
+  transition-duration: 980ms;
+  transition-delay: 735ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(1) {
   stroke: #5dbf85;
-  transition: stroke 874ms;
-  transition-duration: 263ms;
-  transition-delay: 265ms; }
+  transition: stroke 922ms;
+  transition-duration: 754ms;
+  transition-delay: 229ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(1) {
   stroke: #f79058;
-  transition: stroke 853ms;
-  transition-duration: 597ms;
-  transition-delay: 880ms; }
+  transition: stroke 788ms;
+  transition-duration: 390ms;
+  transition-delay: 517ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 613ms;
-  transition-duration: 481ms;
-  transition-delay: 92ms;
-  transition: stroke-opacity 1059ms;
-  transition-duration: 269ms;
-  transition-delay: 689ms;
+  transition: stroke 771ms;
+  transition-duration: 636ms;
+  transition-delay: 785ms;
+  transition: stroke-opacity 1111ms;
+  transition-duration: 626ms;
+  transition-delay: 637ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 804ms;
-  transition-duration: 13ms;
-  transition-delay: 195ms;
-  transition: stroke-opacity 7ms;
-  transition-duration: 312ms;
-  transition-delay: 12ms;
+  transition: stroke 313ms;
+  transition-duration: 836ms;
+  transition-delay: 557ms;
+  transition: stroke-opacity 126ms;
+  transition-duration: 819ms;
+  transition-delay: 325ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 1135ms;
-  transition-duration: 807ms;
-  transition-delay: 438ms;
-  transition: stroke-opacity 741ms;
-  transition-duration: 949ms;
-  transition-delay: 519ms;
+  transition: stroke 1056ms;
+  transition-duration: 70ms;
+  transition-delay: 476ms;
+  transition: stroke-opacity 1248ms;
+  transition-duration: 136ms;
+  transition-delay: 772ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 447ms;
-  transition-duration: 146ms;
-  transition-delay: 573ms;
-  transition: stroke-opacity 1056ms;
-  transition-duration: 1276ms;
-  transition-delay: 678ms;
+  transition: stroke 500ms;
+  transition-duration: 129ms;
+  transition-delay: 877ms;
+  transition: stroke-opacity 161ms;
+  transition-duration: 1120ms;
+  transition-delay: 181ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(2) {
   stroke: #e95869;
-  transition: stroke 274ms;
-  transition-duration: 964ms;
-  transition-delay: 115ms; }
+  transition: stroke 258ms;
+  transition-duration: 966ms;
+  transition-delay: 172ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(2) {
   stroke: #45a0d9;
-  transition: stroke 394ms;
-  transition-duration: 508ms;
-  transition-delay: 610ms; }
+  transition: stroke 1463ms;
+  transition-duration: 273ms;
+  transition-delay: 995ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(2) {
   stroke: #5dbf85;
-  transition: stroke 663ms;
-  transition-duration: 689ms;
-  transition-delay: 482ms; }
+  transition: stroke 265ms;
+  transition-duration: 922ms;
+  transition-delay: 983ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(2) {
   stroke: #f79058;
-  transition: stroke 1041ms;
-  transition-duration: 568ms;
-  transition-delay: 603ms; }
+  transition: stroke 157ms;
+  transition-duration: 880ms;
+  transition-delay: 322ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 603ms;
-  transition-duration: 206ms;
-  transition-delay: 818ms;
-  transition: stroke-opacity 528ms;
-  transition-duration: 934ms;
-  transition-delay: 234ms;
+  transition: stroke 419ms;
+  transition-duration: 491ms;
+  transition-delay: 244ms;
+  transition: stroke-opacity 1492ms;
+  transition-duration: 48ms;
+  transition-delay: 569ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 66ms;
-  transition-duration: 854ms;
-  transition-delay: 654ms;
-  transition: stroke-opacity 242ms;
-  transition-duration: 332ms;
-  transition-delay: 548ms;
+  transition: stroke 718ms;
+  transition-duration: 86ms;
+  transition-delay: 136ms;
+  transition: stroke-opacity 154ms;
+  transition-duration: 92ms;
+  transition-delay: 629ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 512ms;
-  transition-duration: 710ms;
-  transition-delay: 89ms;
-  transition: stroke-opacity 1157ms;
-  transition-duration: 805ms;
-  transition-delay: 228ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-orange,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
-  stroke: #f79058;
-  transition: stroke 1087ms;
-  transition-duration: 399ms;
-  transition-delay: 980ms;
-  transition: stroke-opacity 124ms;
-  transition-duration: 1533ms;
-  transition-delay: 49ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(3) {
-  stroke: #e95869;
-  transition: stroke 148ms;
-  transition-duration: 154ms;
-  transition-delay: 156ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(3) {
-  stroke: #45a0d9;
-  transition: stroke 936ms;
-  transition-duration: 312ms;
-  transition-delay: 629ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(3) {
-  stroke: #5dbf85;
-  transition: stroke 1372ms;
-  transition-duration: 295ms;
-  transition-delay: 893ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(3) {
-  stroke: #f79058;
-  transition: stroke 248ms;
-  transition-duration: 785ms;
-  transition-delay: 226ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-red,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
-  stroke: #e95869;
-  transition: stroke 744ms;
-  transition-duration: 925ms;
-  transition-delay: 390ms;
-  transition: stroke-opacity 207ms;
-  transition-duration: 591ms;
-  transition-delay: 400ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-blue,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
-  stroke: #45a0d9;
-  transition: stroke 851ms;
-  transition-duration: 677ms;
-  transition-delay: 246ms;
-  transition: stroke-opacity 905ms;
-  transition-duration: 898ms;
-  transition-delay: 426ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-green,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
-  stroke: #5dbf85;
-  transition: stroke 372ms;
-  transition-duration: 876ms;
-  transition-delay: 107ms;
-  transition: stroke-opacity 140ms;
-  transition-duration: 647ms;
-  transition-delay: 13ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-orange,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
-  stroke: #f79058;
-  transition: stroke 1118ms;
-  transition-duration: 837ms;
-  transition-delay: 329ms;
-  transition: stroke-opacity 411ms;
-  transition-duration: 503ms;
-  transition-delay: 528ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(4) {
-  stroke: #e95869;
-  transition: stroke 270ms;
-  transition-duration: 447ms;
-  transition-delay: 564ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(4) {
-  stroke: #45a0d9;
-  transition: stroke 1057ms;
-  transition-duration: 270ms;
-  transition-delay: 692ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(4) {
-  stroke: #5dbf85;
-  transition: stroke 304ms;
-  transition-duration: 313ms;
-  transition-delay: 556ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(4) {
-  stroke: #f79058;
-  transition: stroke 1464ms;
-  transition-duration: 899ms;
-  transition-delay: 460ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-red,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
-  stroke: #e95869;
-  transition: stroke 231ms;
-  transition-duration: 612ms;
-  transition-delay: 715ms;
-  transition: stroke-opacity 1171ms;
-  transition-duration: 69ms;
-  transition-delay: 720ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-blue,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
-  stroke: #45a0d9;
-  transition: stroke 1038ms;
-  transition-duration: 912ms;
-  transition-delay: 844ms;
-  transition: stroke-opacity 266ms;
-  transition-duration: 185ms;
-  transition-delay: 550ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-green,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
-  stroke: #5dbf85;
-  transition: stroke 41ms;
-  transition-duration: 560ms;
-  transition-delay: 568ms;
-  transition: stroke-opacity 1188ms;
-  transition-duration: 215ms;
-  transition-delay: 524ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-orange,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
-  stroke: #f79058;
-  transition: stroke 685ms;
-  transition-duration: 473ms;
-  transition-delay: 120ms;
-  transition: stroke-opacity 207ms;
-  transition-duration: 1446ms;
-  transition-delay: 274ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(5) {
-  stroke: #e95869;
-  transition: stroke 762ms;
-  transition-duration: 340ms;
-  transition-delay: 83ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(5) {
-  stroke: #45a0d9;
-  transition: stroke 1464ms;
-  transition-duration: 194ms;
-  transition-delay: 246ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(5) {
-  stroke: #5dbf85;
-  transition: stroke 810ms;
-  transition-duration: 605ms;
-  transition-delay: 782ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(5) {
-  stroke: #f79058;
-  transition: stroke 1309ms;
-  transition-duration: 871ms;
-  transition-delay: 593ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-red,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
-  stroke: #e95869;
-  transition: stroke 975ms;
-  transition-duration: 240ms;
-  transition-delay: 768ms;
-  transition: stroke-opacity 579ms;
-  transition-duration: 304ms;
-  transition-delay: 597ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-blue,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
-  stroke: #45a0d9;
-  transition: stroke 1340ms;
-  transition-duration: 742ms;
-  transition-delay: 960ms;
-  transition: stroke-opacity 525ms;
-  transition-duration: 56ms;
-  transition-delay: 628ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-green,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
-  stroke: #5dbf85;
-  transition: stroke 996ms;
-  transition-duration: 953ms;
-  transition-delay: 928ms;
-  transition: stroke-opacity 546ms;
-  transition-duration: 1326ms;
-  transition-delay: 26ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-orange,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
-  stroke: #f79058;
-  transition: stroke 1180ms;
-  transition-duration: 958ms;
-  transition-delay: 662ms;
-  transition: stroke-opacity 898ms;
-  transition-duration: 123ms;
-  transition-delay: 714ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(6) {
-  stroke: #e95869;
-  transition: stroke 704ms;
-  transition-duration: 34ms;
-  transition-delay: 669ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(6) {
-  stroke: #45a0d9;
-  transition: stroke 1125ms;
-  transition-duration: 277ms;
-  transition-delay: 780ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(6) {
-  stroke: #5dbf85;
-  transition: stroke 457ms;
-  transition-duration: 720ms;
-  transition-delay: 415ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(6) {
-  stroke: #f79058;
-  transition: stroke 512ms;
-  transition-duration: 359ms;
-  transition-delay: 74ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-red,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
-  stroke: #e95869;
-  transition: stroke 1477ms;
-  transition-duration: 528ms;
-  transition-delay: 822ms;
-  transition: stroke-opacity 546ms;
-  transition-duration: 1105ms;
-  transition-delay: 202ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-blue,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
-  stroke: #45a0d9;
-  transition: stroke 693ms;
-  transition-duration: 174ms;
-  transition-delay: 62ms;
-  transition: stroke-opacity 75ms;
-  transition-duration: 1138ms;
-  transition-delay: 84ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-green,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
-  stroke: #5dbf85;
-  transition: stroke 46ms;
-  transition-duration: 379ms;
-  transition-delay: 729ms;
-  transition: stroke-opacity 1198ms;
-  transition-duration: 874ms;
-  transition-delay: 330ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-orange,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
-  stroke: #f79058;
-  transition: stroke 1364ms;
-  transition-duration: 943ms;
-  transition-delay: 125ms;
-  transition: stroke-opacity 504ms;
-  transition-duration: 408ms;
-  transition-delay: 452ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(7) {
-  stroke: #e95869;
-  transition: stroke 1477ms;
-  transition-duration: 435ms;
-  transition-delay: 693ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(7) {
-  stroke: #45a0d9;
-  transition: stroke 441ms;
-  transition-duration: 91ms;
-  transition-delay: 367ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(7) {
-  stroke: #5dbf85;
-  transition: stroke 406ms;
-  transition-duration: 242ms;
-  transition-delay: 373ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(7) {
-  stroke: #f79058;
-  transition: stroke 1012ms;
-  transition-duration: 13ms;
-  transition-delay: 862ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-red,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
-  stroke: #e95869;
-  transition: stroke 45ms;
-  transition-duration: 671ms;
-  transition-delay: 68ms;
-  transition: stroke-opacity 806ms;
-  transition-duration: 173ms;
-  transition-delay: 324ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-blue,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
-  stroke: #45a0d9;
-  transition: stroke 914ms;
-  transition-duration: 958ms;
-  transition-delay: 207ms;
-  transition: stroke-opacity 2ms;
-  transition-duration: 937ms;
-  transition-delay: 74ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-green,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
-  stroke: #5dbf85;
-  transition: stroke 332ms;
-  transition-duration: 907ms;
-  transition-delay: 156ms;
-  transition: stroke-opacity 1342ms;
-  transition-duration: 951ms;
-  transition-delay: 496ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-orange,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
-  stroke: #f79058;
-  transition: stroke 1043ms;
-  transition-duration: 262ms;
-  transition-delay: 625ms;
-  transition: stroke-opacity 596ms;
-  transition-duration: 1455ms;
-  transition-delay: 19ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(8) {
-  stroke: #e95869;
-  transition: stroke 983ms;
-  transition-duration: 425ms;
-  transition-delay: 707ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(8) {
-  stroke: #45a0d9;
-  transition: stroke 1122ms;
-  transition-duration: 507ms;
-  transition-delay: 685ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(8) {
-  stroke: #5dbf85;
-  transition: stroke 855ms;
-  transition-duration: 423ms;
-  transition-delay: 312ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(8) {
-  stroke: #f79058;
-  transition: stroke 617ms;
-  transition-duration: 628ms;
-  transition-delay: 510ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-red,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
-  stroke: #e95869;
-  transition: stroke 1170ms;
-  transition-duration: 74ms;
-  transition-delay: 775ms;
-  transition: stroke-opacity 925ms;
-  transition-duration: 516ms;
-  transition-delay: 439ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-blue,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
-  stroke: #45a0d9;
-  transition: stroke 651ms;
-  transition-duration: 174ms;
-  transition-delay: 85ms;
-  transition: stroke-opacity 1486ms;
-  transition-duration: 1536ms;
-  transition-delay: 426ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-green,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
-  stroke: #5dbf85;
-  transition: stroke 1460ms;
-  transition-duration: 191ms;
-  transition-delay: 1ms;
-  transition: stroke-opacity 973ms;
-  transition-duration: 771ms;
+  transition: stroke 293ms;
+  transition-duration: 236ms;
+  transition-delay: 407ms;
+  transition: stroke-opacity 512ms;
+  transition-duration: 1364ms;
   transition-delay: 301ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
@@ -1127,372 +744,804 @@ p {
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 354ms;
-  transition-duration: 43ms;
-  transition-delay: 515ms;
-  transition: stroke-opacity 1073ms;
-  transition-duration: 760ms;
-  transition-delay: 488ms;
+  transition: stroke 596ms;
+  transition-duration: 368ms;
+  transition-delay: 389ms;
+  transition: stroke-opacity 109ms;
+  transition-duration: 1062ms;
+  transition-delay: 596ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(3) {
+  stroke: #e95869;
+  transition: stroke 30ms;
+  transition-duration: 250ms;
+  transition-delay: 55ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(3) {
+  stroke: #45a0d9;
+  transition: stroke 1109ms;
+  transition-duration: 569ms;
+  transition-delay: 98ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(3) {
+  stroke: #5dbf85;
+  transition: stroke 910ms;
+  transition-duration: 678ms;
+  transition-delay: 318ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(3) {
+  stroke: #f79058;
+  transition: stroke 1149ms;
+  transition-duration: 122ms;
+  transition-delay: 913ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-red,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
+  stroke: #e95869;
+  transition: stroke 888ms;
+  transition-duration: 247ms;
+  transition-delay: 776ms;
+  transition: stroke-opacity 632ms;
+  transition-duration: 639ms;
+  transition-delay: 732ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-blue,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
+  stroke: #45a0d9;
+  transition: stroke 732ms;
+  transition-duration: 94ms;
+  transition-delay: 802ms;
+  transition: stroke-opacity 1248ms;
+  transition-duration: 1168ms;
+  transition-delay: 559ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-green,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
+  stroke: #5dbf85;
+  transition: stroke 308ms;
+  transition-duration: 76ms;
+  transition-delay: 395ms;
+  transition: stroke-opacity 1182ms;
+  transition-duration: 1278ms;
+  transition-delay: 87ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-orange,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
+  stroke: #f79058;
+  transition: stroke 1049ms;
+  transition-duration: 572ms;
+  transition-delay: 252ms;
+  transition: stroke-opacity 484ms;
+  transition-duration: 194ms;
+  transition-delay: 342ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(4) {
+  stroke: #e95869;
+  transition: stroke 265ms;
+  transition-duration: 477ms;
+  transition-delay: 814ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(4) {
+  stroke: #45a0d9;
+  transition: stroke 710ms;
+  transition-duration: 214ms;
+  transition-delay: 776ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(4) {
+  stroke: #5dbf85;
+  transition: stroke 1193ms;
+  transition-duration: 642ms;
+  transition-delay: 781ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(4) {
+  stroke: #f79058;
+  transition: stroke 815ms;
+  transition-duration: 244ms;
+  transition-delay: 850ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-red,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
+  stroke: #e95869;
+  transition: stroke 139ms;
+  transition-duration: 331ms;
+  transition-delay: 21ms;
+  transition: stroke-opacity 492ms;
+  transition-duration: 1134ms;
+  transition-delay: 479ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-blue,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
+  stroke: #45a0d9;
+  transition: stroke 850ms;
+  transition-duration: 207ms;
+  transition-delay: 269ms;
+  transition: stroke-opacity 75ms;
+  transition-duration: 1322ms;
+  transition-delay: 484ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-green,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
+  stroke: #5dbf85;
+  transition: stroke 1481ms;
+  transition-duration: 385ms;
+  transition-delay: 138ms;
+  transition: stroke-opacity 847ms;
+  transition-duration: 216ms;
+  transition-delay: 567ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-orange,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
+  stroke: #f79058;
+  transition: stroke 1394ms;
+  transition-duration: 433ms;
+  transition-delay: 770ms;
+  transition: stroke-opacity 1013ms;
+  transition-duration: 233ms;
+  transition-delay: 697ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(5) {
+  stroke: #e95869;
+  transition: stroke 2ms;
+  transition-duration: 743ms;
+  transition-delay: 585ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(5) {
+  stroke: #45a0d9;
+  transition: stroke 296ms;
+  transition-duration: 955ms;
+  transition-delay: 417ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(5) {
+  stroke: #5dbf85;
+  transition: stroke 315ms;
+  transition-duration: 949ms;
+  transition-delay: 347ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(5) {
+  stroke: #f79058;
+  transition: stroke 502ms;
+  transition-duration: 13ms;
+  transition-delay: 816ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-red,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
+  stroke: #e95869;
+  transition: stroke 703ms;
+  transition-duration: 335ms;
+  transition-delay: 323ms;
+  transition: stroke-opacity 48ms;
+  transition-duration: 947ms;
+  transition-delay: 588ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-blue,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
+  stroke: #45a0d9;
+  transition: stroke 377ms;
+  transition-duration: 738ms;
+  transition-delay: 690ms;
+  transition: stroke-opacity 1306ms;
+  transition-duration: 904ms;
+  transition-delay: 336ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-green,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
+  stroke: #5dbf85;
+  transition: stroke 98ms;
+  transition-duration: 58ms;
+  transition-delay: 216ms;
+  transition: stroke-opacity 834ms;
+  transition-duration: 1019ms;
+  transition-delay: 163ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-orange,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
+  stroke: #f79058;
+  transition: stroke 579ms;
+  transition-duration: 81ms;
+  transition-delay: 390ms;
+  transition: stroke-opacity 441ms;
+  transition-duration: 1534ms;
+  transition-delay: 642ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(6) {
+  stroke: #e95869;
+  transition: stroke 444ms;
+  transition-duration: 96ms;
+  transition-delay: 691ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(6) {
+  stroke: #45a0d9;
+  transition: stroke 1149ms;
+  transition-duration: 210ms;
+  transition-delay: 954ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(6) {
+  stroke: #5dbf85;
+  transition: stroke 1426ms;
+  transition-duration: 702ms;
+  transition-delay: 629ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(6) {
+  stroke: #f79058;
+  transition: stroke 286ms;
+  transition-duration: 780ms;
+  transition-delay: 307ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-red,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
+  stroke: #e95869;
+  transition: stroke 1112ms;
+  transition-duration: 174ms;
+  transition-delay: 131ms;
+  transition: stroke-opacity 946ms;
+  transition-duration: 1261ms;
+  transition-delay: 379ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-blue,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
+  stroke: #45a0d9;
+  transition: stroke 51ms;
+  transition-duration: 595ms;
+  transition-delay: 393ms;
+  transition: stroke-opacity 1192ms;
+  transition-duration: 1550ms;
+  transition-delay: 352ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-green,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
+  stroke: #5dbf85;
+  transition: stroke 537ms;
+  transition-duration: 468ms;
+  transition-delay: 616ms;
+  transition: stroke-opacity 766ms;
+  transition-duration: 303ms;
+  transition-delay: 160ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-orange,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
+  stroke: #f79058;
+  transition: stroke 1231ms;
+  transition-duration: 524ms;
+  transition-delay: 423ms;
+  transition: stroke-opacity 1084ms;
+  transition-duration: 60ms;
+  transition-delay: 553ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(7) {
+  stroke: #e95869;
+  transition: stroke 740ms;
+  transition-duration: 792ms;
+  transition-delay: 954ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(7) {
+  stroke: #45a0d9;
+  transition: stroke 454ms;
+  transition-duration: 997ms;
+  transition-delay: 918ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(7) {
+  stroke: #5dbf85;
+  transition: stroke 401ms;
+  transition-duration: 636ms;
+  transition-delay: 622ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(7) {
+  stroke: #f79058;
+  transition: stroke 539ms;
+  transition-duration: 431ms;
+  transition-delay: 421ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-red,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
+  stroke: #e95869;
+  transition: stroke 543ms;
+  transition-duration: 75ms;
+  transition-delay: 671ms;
+  transition: stroke-opacity 1207ms;
+  transition-duration: 537ms;
+  transition-delay: 541ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-blue,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
+  stroke: #45a0d9;
+  transition: stroke 1117ms;
+  transition-duration: 652ms;
+  transition-delay: 848ms;
+  transition: stroke-opacity 812ms;
+  transition-duration: 280ms;
+  transition-delay: 519ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-green,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
+  stroke: #5dbf85;
+  transition: stroke 621ms;
+  transition-duration: 477ms;
+  transition-delay: 579ms;
+  transition: stroke-opacity 1018ms;
+  transition-duration: 106ms;
+  transition-delay: 692ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-orange,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
+  stroke: #f79058;
+  transition: stroke 1490ms;
+  transition-duration: 44ms;
+  transition-delay: 141ms;
+  transition: stroke-opacity 1454ms;
+  transition-duration: 238ms;
+  transition-delay: 341ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(8) {
+  stroke: #e95869;
+  transition: stroke 1367ms;
+  transition-duration: 986ms;
+  transition-delay: 600ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(8) {
+  stroke: #45a0d9;
+  transition: stroke 1163ms;
+  transition-duration: 66ms;
+  transition-delay: 889ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(8) {
+  stroke: #5dbf85;
+  transition: stroke 773ms;
+  transition-duration: 523ms;
+  transition-delay: 397ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(8) {
+  stroke: #f79058;
+  transition: stroke 784ms;
+  transition-duration: 204ms;
+  transition-delay: 118ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-red,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
+  stroke: #e95869;
+  transition: stroke 1312ms;
+  transition-duration: 530ms;
+  transition-delay: 272ms;
+  transition: stroke-opacity 1452ms;
+  transition-duration: 1405ms;
+  transition-delay: 540ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-blue,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
+  stroke: #45a0d9;
+  transition: stroke 1040ms;
+  transition-duration: 596ms;
+  transition-delay: 865ms;
+  transition: stroke-opacity 667ms;
+  transition-duration: 452ms;
+  transition-delay: 503ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-green,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
+  stroke: #5dbf85;
+  transition: stroke 132ms;
+  transition-duration: 807ms;
+  transition-delay: 40ms;
+  transition: stroke-opacity 1028ms;
+  transition-duration: 1104ms;
+  transition-delay: 468ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-orange,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
+  stroke: #f79058;
+  transition: stroke 681ms;
+  transition-duration: 26ms;
+  transition-delay: 32ms;
+  transition: stroke-opacity 431ms;
+  transition-duration: 317ms;
+  transition-delay: 381ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(9) {
   stroke: #e95869;
-  transition: stroke 1011ms;
-  transition-duration: 164ms;
-  transition-delay: 211ms; }
+  transition: stroke 923ms;
+  transition-duration: 662ms;
+  transition-delay: 803ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(9) {
   stroke: #45a0d9;
-  transition: stroke 685ms;
-  transition-duration: 185ms;
-  transition-delay: 156ms; }
+  transition: stroke 994ms;
+  transition-duration: 499ms;
+  transition-delay: 68ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(9) {
   stroke: #5dbf85;
-  transition: stroke 350ms;
-  transition-duration: 790ms;
-  transition-delay: 563ms; }
+  transition: stroke 1289ms;
+  transition-duration: 196ms;
+  transition-delay: 794ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(9) {
   stroke: #f79058;
-  transition: stroke 1493ms;
-  transition-duration: 427ms;
-  transition-delay: 478ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-red,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
-  stroke: #e95869;
-  transition: stroke 930ms;
-  transition-duration: 142ms;
-  transition-delay: 519ms;
-  transition: stroke-opacity 1280ms;
-  transition-duration: 153ms;
-  transition-delay: 789ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-blue,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
-  stroke: #45a0d9;
-  transition: stroke 253ms;
-  transition-duration: 954ms;
-  transition-delay: 295ms;
-  transition: stroke-opacity 782ms;
-  transition-duration: 1166ms;
-  transition-delay: 678ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-green,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
-  stroke: #5dbf85;
-  transition: stroke 383ms;
-  transition-duration: 754ms;
-  transition-delay: 703ms;
-  transition: stroke-opacity 463ms;
-  transition-duration: 729ms;
-  transition-delay: 101ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .top-orange,
-#purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
-  stroke: #f79058;
-  transition: stroke 572ms;
-  transition-duration: 816ms;
-  transition-delay: 972ms;
-  transition: stroke-opacity 1318ms;
-  transition-duration: 833ms;
-  transition-delay: 368ms;
-  transition-timing-function: ease-in;
-  stroke-opacity: 1; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(10) {
-  stroke: #e95869;
-  transition: stroke 44ms;
-  transition-duration: 562ms;
-  transition-delay: 869ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(10) {
-  stroke: #45a0d9;
-  transition: stroke 1093ms;
-  transition-duration: 245ms;
-  transition-delay: 679ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(10) {
-  stroke: #5dbf85;
-  transition: stroke 826ms;
-  transition-duration: 866ms;
-  transition-delay: 149ms; }
-
-#purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(10) {
-  stroke: #f79058;
-  transition: stroke 587ms;
-  transition-duration: 381ms;
+  transition: stroke 1133ms;
+  transition-duration: 490ms;
   transition-delay: 463ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 1176ms;
-  transition-duration: 349ms;
-  transition-delay: 828ms;
-  transition: stroke-opacity 307ms;
-  transition-duration: 181ms;
-  transition-delay: 471ms;
+  transition: stroke 320ms;
+  transition-duration: 416ms;
+  transition-delay: 595ms;
+  transition: stroke-opacity 1214ms;
+  transition-duration: 1042ms;
+  transition-delay: 798ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 737ms;
-  transition-duration: 293ms;
-  transition-delay: 890ms;
-  transition: stroke-opacity 1139ms;
-  transition-duration: 1346ms;
-  transition-delay: 156ms;
+  transition: stroke 1287ms;
+  transition-duration: 902ms;
+  transition-delay: 655ms;
+  transition: stroke-opacity 588ms;
+  transition-duration: 1106ms;
+  transition-delay: 797ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 234ms;
-  transition-duration: 642ms;
-  transition-delay: 799ms;
-  transition: stroke-opacity 1354ms;
-  transition-duration: 1530ms;
-  transition-delay: 495ms;
+  transition: stroke 935ms;
+  transition-duration: 618ms;
+  transition-delay: 595ms;
+  transition: stroke-opacity 281ms;
+  transition-duration: 644ms;
+  transition-delay: 8ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 169ms;
-  transition-duration: 234ms;
-  transition-delay: 964ms;
-  transition: stroke-opacity 8ms;
-  transition-duration: 97ms;
-  transition-delay: 375ms;
+  transition: stroke 938ms;
+  transition-duration: 621ms;
+  transition-delay: 536ms;
+  transition: stroke-opacity 1110ms;
+  transition-duration: 711ms;
+  transition-delay: 565ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(10) {
+  stroke: #e95869;
+  transition: stroke 891ms;
+  transition-duration: 970ms;
+  transition-delay: 78ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(10) {
+  stroke: #45a0d9;
+  transition: stroke 1096ms;
+  transition-duration: 906ms;
+  transition-delay: 980ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(10) {
+  stroke: #5dbf85;
+  transition: stroke 761ms;
+  transition-duration: 440ms;
+  transition-delay: 708ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(10) {
+  stroke: #f79058;
+  transition: stroke 1298ms;
+  transition-duration: 984ms;
+  transition-delay: 894ms; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-red,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
+  stroke: #e95869;
+  transition: stroke 1446ms;
+  transition-duration: 43ms;
+  transition-delay: 301ms;
+  transition: stroke-opacity 106ms;
+  transition-duration: 800ms;
+  transition-delay: 221ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-blue,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
+  stroke: #45a0d9;
+  transition: stroke 416ms;
+  transition-duration: 67ms;
+  transition-delay: 568ms;
+  transition: stroke-opacity 215ms;
+  transition-duration: 487ms;
+  transition-delay: 394ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-green,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
+  stroke: #5dbf85;
+  transition: stroke 720ms;
+  transition-duration: 819ms;
+  transition-delay: 835ms;
+  transition: stroke-opacity 334ms;
+  transition-duration: 1319ms;
+  transition-delay: 469ms;
+  transition-timing-function: ease-in;
+  stroke-opacity: 1; }
+
+#purex-hdd-stain-fighter-bright-booster:hover .top-orange,
+#purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
+  stroke: #f79058;
+  transition: stroke 1227ms;
+  transition-duration: 321ms;
+  transition-delay: 642ms;
+  transition: stroke-opacity 44ms;
+  transition-duration: 1399ms;
+  transition-delay: 519ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(11) {
   stroke: #e95869;
-  transition: stroke 1144ms;
-  transition-duration: 728ms;
-  transition-delay: 910ms; }
+  transition: stroke 395ms;
+  transition-duration: 467ms;
+  transition-delay: 681ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(11) {
   stroke: #45a0d9;
-  transition: stroke 1134ms;
-  transition-duration: 306ms;
-  transition-delay: 187ms; }
+  transition: stroke 35ms;
+  transition-duration: 410ms;
+  transition-delay: 880ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(11) {
   stroke: #5dbf85;
-  transition: stroke 831ms;
-  transition-duration: 1000ms;
-  transition-delay: 744ms; }
+  transition: stroke 705ms;
+  transition-duration: 616ms;
+  transition-delay: 410ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(11) {
   stroke: #f79058;
-  transition: stroke 627ms;
-  transition-duration: 482ms;
-  transition-delay: 597ms; }
+  transition: stroke 1387ms;
+  transition-duration: 295ms;
+  transition-delay: 749ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 765ms;
-  transition-duration: 46ms;
-  transition-delay: 954ms;
-  transition: stroke-opacity 978ms;
-  transition-duration: 92ms;
-  transition-delay: 141ms;
+  transition: stroke 972ms;
+  transition-duration: 728ms;
+  transition-delay: 189ms;
+  transition: stroke-opacity 1487ms;
+  transition-duration: 603ms;
+  transition-delay: 376ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 359ms;
-  transition-duration: 410ms;
-  transition-delay: 71ms;
-  transition: stroke-opacity 730ms;
-  transition-duration: 772ms;
-  transition-delay: 23ms;
+  transition: stroke 994ms;
+  transition-duration: 782ms;
+  transition-delay: 831ms;
+  transition: stroke-opacity 565ms;
+  transition-duration: 1494ms;
+  transition-delay: 303ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 921ms;
-  transition-duration: 828ms;
-  transition-delay: 438ms;
-  transition: stroke-opacity 1100ms;
-  transition-duration: 562ms;
-  transition-delay: 775ms;
+  transition: stroke 336ms;
+  transition-duration: 810ms;
+  transition-delay: 773ms;
+  transition: stroke-opacity 317ms;
+  transition-duration: 752ms;
+  transition-delay: 121ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 1115ms;
-  transition-duration: 958ms;
-  transition-delay: 280ms;
-  transition: stroke-opacity 1379ms;
-  transition-duration: 224ms;
-  transition-delay: 52ms;
+  transition: stroke 566ms;
+  transition-duration: 440ms;
+  transition-delay: 993ms;
+  transition: stroke-opacity 19ms;
+  transition-duration: 897ms;
+  transition-delay: 212ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(12) {
   stroke: #e95869;
-  transition: stroke 174ms;
-  transition-duration: 564ms;
-  transition-delay: 187ms; }
+  transition: stroke 1077ms;
+  transition-duration: 759ms;
+  transition-delay: 527ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(12) {
   stroke: #45a0d9;
-  transition: stroke 566ms;
-  transition-duration: 563ms;
-  transition-delay: 723ms; }
+  transition: stroke 26ms;
+  transition-duration: 523ms;
+  transition-delay: 346ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(12) {
   stroke: #5dbf85;
-  transition: stroke 710ms;
-  transition-duration: 912ms;
-  transition-delay: 361ms; }
+  transition: stroke 1183ms;
+  transition-duration: 873ms;
+  transition-delay: 232ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(12) {
   stroke: #f79058;
-  transition: stroke 662ms;
-  transition-duration: 110ms;
-  transition-delay: 186ms; }
+  transition: stroke 28ms;
+  transition-duration: 530ms;
+  transition-delay: 810ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 1179ms;
-  transition-duration: 978ms;
-  transition-delay: 423ms;
-  transition: stroke-opacity 705ms;
-  transition-duration: 149ms;
-  transition-delay: 147ms;
+  transition: stroke 1096ms;
+  transition-duration: 767ms;
+  transition-delay: 588ms;
+  transition: stroke-opacity 583ms;
+  transition-duration: 674ms;
+  transition-delay: 231ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 603ms;
-  transition-duration: 543ms;
-  transition-delay: 649ms;
-  transition: stroke-opacity 374ms;
-  transition-duration: 1174ms;
-  transition-delay: 556ms;
+  transition: stroke 1125ms;
+  transition-duration: 768ms;
+  transition-delay: 393ms;
+  transition: stroke-opacity 1454ms;
+  transition-duration: 778ms;
+  transition-delay: 563ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 638ms;
-  transition-duration: 960ms;
-  transition-delay: 458ms;
-  transition: stroke-opacity 1384ms;
-  transition-duration: 607ms;
-  transition-delay: 796ms;
+  transition: stroke 1225ms;
+  transition-duration: 664ms;
+  transition-delay: 999ms;
+  transition: stroke-opacity 143ms;
+  transition-duration: 419ms;
+  transition-delay: 553ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 975ms;
-  transition-duration: 738ms;
-  transition-delay: 121ms;
-  transition: stroke-opacity 498ms;
-  transition-duration: 453ms;
-  transition-delay: 163ms;
+  transition: stroke 1396ms;
+  transition-duration: 764ms;
+  transition-delay: 350ms;
+  transition: stroke-opacity 1194ms;
+  transition-duration: 1482ms;
+  transition-delay: 619ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(13) {
   stroke: #e95869;
-  transition: stroke 279ms;
-  transition-duration: 231ms;
-  transition-delay: 104ms; }
+  transition: stroke 963ms;
+  transition-duration: 87ms;
+  transition-delay: 861ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(13) {
   stroke: #45a0d9;
-  transition: stroke 733ms;
-  transition-duration: 834ms;
-  transition-delay: 168ms; }
+  transition: stroke 172ms;
+  transition-duration: 385ms;
+  transition-delay: 497ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(13) {
   stroke: #5dbf85;
-  transition: stroke 1040ms;
-  transition-duration: 911ms;
-  transition-delay: 499ms; }
+  transition: stroke 643ms;
+  transition-duration: 388ms;
+  transition-delay: 375ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(13) {
   stroke: #f79058;
-  transition: stroke 1099ms;
-  transition-duration: 68ms;
-  transition-delay: 211ms; }
+  transition: stroke 1174ms;
+  transition-duration: 959ms;
+  transition-delay: 452ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 1222ms;
-  transition-duration: 929ms;
-  transition-delay: 632ms;
-  transition: stroke-opacity 1090ms;
-  transition-duration: 690ms;
-  transition-delay: 555ms;
+  transition: stroke 638ms;
+  transition-duration: 266ms;
+  transition-delay: 457ms;
+  transition: stroke-opacity 59ms;
+  transition-duration: 726ms;
+  transition-delay: 585ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 385ms;
-  transition-duration: 322ms;
-  transition-delay: 357ms;
-  transition: stroke-opacity 555ms;
-  transition-duration: 638ms;
-  transition-delay: 8ms;
+  transition: stroke 266ms;
+  transition-duration: 652ms;
+  transition-delay: 668ms;
+  transition: stroke-opacity 142ms;
+  transition-duration: 931ms;
+  transition-delay: 745ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 126ms;
-  transition-duration: 694ms;
-  transition-delay: 383ms;
-  transition: stroke-opacity 70ms;
-  transition-duration: 985ms;
-  transition-delay: 299ms;
+  transition: stroke 53ms;
+  transition-duration: 638ms;
+  transition-delay: 458ms;
+  transition: stroke-opacity 256ms;
+  transition-duration: 928ms;
+  transition-delay: 293ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 1386ms;
-  transition-duration: 119ms;
-  transition-delay: 188ms;
-  transition: stroke-opacity 1451ms;
-  transition-duration: 1032ms;
-  transition-delay: 85ms;
+  transition: stroke 797ms;
+  transition-duration: 839ms;
+  transition-delay: 505ms;
+  transition: stroke-opacity 257ms;
+  transition-duration: 1077ms;
+  transition-delay: 621ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
@@ -1517,16 +1566,6 @@ p {
 
 #baby .star {
   transform-origin: 50% 50%; }
-
-#baby path,
-#baby circle,
-#baby ellipse,
-#baby line {
-  stroke: #FFF;
-  stroke-width: 5;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-  fill: none; }
 
 #baby:hover .moon {
   stroke: #45a0d9;
@@ -1701,7 +1740,7 @@ p {
   animation-fill-mode: forwards; }
 
 #purex-sta-flo-liquid-starch:hover .star-1 {
-  transition: stroke-opacity 300ms ease 711ms;
+  transition: stroke-opacity 300ms ease 579ms;
   stroke-opacity: 1; }
 
 #purex-sta-flo-liquid-starch:hover .star-1-wrapper {
@@ -1709,12 +1748,12 @@ p {
   animation: starRotate;
   animation-duration: 300ms;
   animation-iteration-count: 1;
-  animation-delay: 557ms;
+  animation-delay: 529ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 #purex-sta-flo-liquid-starch:hover .star-2 {
-  transition: stroke-opacity 300ms ease 635ms;
+  transition: stroke-opacity 300ms ease 621ms;
   stroke-opacity: 1; }
 
 #purex-sta-flo-liquid-starch:hover .star-2-wrapper {
@@ -1722,12 +1761,12 @@ p {
   animation: starRotate;
   animation-duration: 300ms;
   animation-iteration-count: 1;
-  animation-delay: 679ms;
+  animation-delay: 517ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 #purex-sta-flo-liquid-starch:hover .star-3 {
-  transition: stroke-opacity 300ms ease 697ms;
+  transition: stroke-opacity 300ms ease 840ms;
   stroke-opacity: 1; }
 
 #purex-sta-flo-liquid-starch:hover .star-3-wrapper {
@@ -1735,12 +1774,12 @@ p {
   animation: starRotate;
   animation-duration: 300ms;
   animation-iteration-count: 1;
-  animation-delay: 643ms;
+  animation-delay: 650ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 #purex-sta-flo-liquid-starch:hover .star-4 {
-  transition: stroke-opacity 300ms ease 851ms;
+  transition: stroke-opacity 300ms ease 678ms;
   stroke-opacity: 1; }
 
 #purex-sta-flo-liquid-starch:hover .star-4-wrapper {
@@ -1748,12 +1787,12 @@ p {
   animation: starRotate;
   animation-duration: 300ms;
   animation-iteration-count: 1;
-  animation-delay: 875ms;
+  animation-delay: 861ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 #purex-sta-flo-liquid-starch:hover .star-5 {
-  transition: stroke-opacity 300ms ease 563ms;
+  transition: stroke-opacity 300ms ease 785ms;
   stroke-opacity: 1; }
 
 #purex-sta-flo-liquid-starch:hover .star-5-wrapper {
@@ -1761,12 +1800,12 @@ p {
   animation: starRotate;
   animation-duration: 300ms;
   animation-iteration-count: 1;
-  animation-delay: 570ms;
+  animation-delay: 854ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 #purex-sta-flo-liquid-starch:hover .star-6 {
-  transition: stroke-opacity 300ms ease 536ms;
+  transition: stroke-opacity 300ms ease 761ms;
   stroke-opacity: 1; }
 
 #purex-sta-flo-liquid-starch:hover .star-6-wrapper {
@@ -1774,12 +1813,12 @@ p {
   animation: starRotate;
   animation-duration: 300ms;
   animation-iteration-count: 1;
-  animation-delay: 819ms;
+  animation-delay: 597ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 #purex-sta-flo-liquid-starch:hover .star-7 {
-  transition: stroke-opacity 300ms ease 609ms;
+  transition: stroke-opacity 300ms ease 834ms;
   stroke-opacity: 1; }
 
 #purex-sta-flo-liquid-starch:hover .star-7-wrapper {
@@ -1787,12 +1826,12 @@ p {
   animation: starRotate;
   animation-duration: 300ms;
   animation-iteration-count: 1;
-  animation-delay: 767ms;
+  animation-delay: 652ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 #purex-sta-flo-liquid-starch:hover .star-8 {
-  transition: stroke-opacity 300ms ease 614ms;
+  transition: stroke-opacity 300ms ease 891ms;
   stroke-opacity: 1; }
 
 #purex-sta-flo-liquid-starch:hover .star-8-wrapper {
@@ -1800,12 +1839,12 @@ p {
   animation: starRotate;
   animation-duration: 300ms;
   animation-iteration-count: 1;
-  animation-delay: 609ms;
+  animation-delay: 873ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
 #purex-sta-flo-liquid-starch:hover .star-9 {
-  transition: stroke-opacity 300ms ease 611ms;
+  transition: stroke-opacity 300ms ease 741ms;
   stroke-opacity: 1; }
 
 #purex-sta-flo-liquid-starch:hover .star-9-wrapper {
@@ -1813,7 +1852,7 @@ p {
   animation: starRotate;
   animation-duration: 300ms;
   animation-iteration-count: 1;
-  animation-delay: 833ms;
+  animation-delay: 701ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards; }
 
@@ -1896,19 +1935,6 @@ p {
   stroke: #95d5f5;
   stroke-opacity: 1; }
 
-@keyframes spin {
-  0% {
-    transform: rotate(0deg); }
-  100% {
-    transform: rotate(360deg); } }
-
-@keyframes shine {
-  0% {
-    stroke-opacity: 0; }
-  100% {
-    stroke-dashoffset: 0;
-    stroke-opacity: 1; } }
-
 @keyframes swing {
   0% {
     transform: rotate(0deg); }
@@ -1932,17 +1958,6 @@ p {
     transform: rotate(0deg) translate(0px, -3px); }
   100% {
     transform: rotate(0deg) translate(0px, 0px); } }
-
-#purex-laundry-detergent-sunny-linen path,
-#purex-laundry-detergent-sunny-linen circle,
-#purex-laundry-detergent-sunny-linen ellipse,
-#purex-laundry-detergent-sunny-linen line {
-  stroke: #FFF;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-  fill: none;
-  stroke-linejoin: round; }
 
 #purex-laundry-detergent-sunny-linen:hover .sun {
   transform-origin: 50% 50%;
@@ -2162,13 +2177,6 @@ p {
 #purex-laundry-detergent-sunny-linen:hover .pegs-3 .hook-1, #purex-laundry-detergent-sunny-linen:hover .hook-2 {
   animation-delay: 150ms; }
 
-@keyframes fade-offset {
-  0% {
-    stroke-opacity: 0; }
-  100% {
-    stroke-dashoffset: 0;
-    stroke-opacity: 1; } }
-
 @keyframes wiggle {
   0% {
     transform: rotate(0deg) scale(1); }
@@ -2178,23 +2186,6 @@ p {
     transform: rotate(-40deg) scale(1.1); }
   100% {
     transform: rotate(0deg) scale(1); } }
-
-body {
-  background-color: #dcf0f1; }
-
-#purex-classic-fabric-softener-almond-milk-aloe path,
-#purex-classic-fabric-softener-almond-milk-aloe circle,
-#purex-classic-fabric-softener-almond-milk-aloe ellipse,
-#purex-classic-fabric-softener-almond-milk-aloe line {
-  stroke: #FFF;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-  fill: none;
-  stroke-linejoin: round; }
-
-#purex-classic-fabric-softener-almond-milk-aloe .fill {
-  fill: #dcf0f1; }
 
 #purex-classic-fabric-softener-almond-milk-aloe .almond {
   transform-origin: 50% 70%; }
@@ -2224,7 +2215,7 @@ body {
 #purex-classic-fabric-softener-almond-milk-aloe:hover .aloe-top-1,
 #purex-classic-fabric-softener-almond-milk-aloe:hover .aloe-top-2 {
   stroke: #5dbf85;
-  animation-name: fade-offset;
+  animation-name: offset-fade;
   animation-duration: 500ms;
   animation-timing-function: ease-out;
   animation-delay: 0ms;
@@ -2359,17 +2350,6 @@ body {
     stroke-dashoffset: 0; }
   to {
     stroke-dashoffset: -92; } }
-
-#purex-laundry-detergent-fresh-lavender-blossom path,
-#purex-laundry-detergent-fresh-lavender-blossom circle,
-#purex-laundry-detergent-fresh-lavender-blossom ellipse,
-#purex-laundry-detergent-fresh-lavender-blossom line {
-  stroke: #FFF;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-  fill: none;
-  stroke-linejoin: round; }
 
 #purex-laundry-detergent-fresh-lavender-blossom .bee-1,
 #purex-laundry-detergent-fresh-lavender-blossom .bee-loop-wrapper {
@@ -2508,25 +2488,6 @@ body {
   transform-origin: 50% 50%;
   animation-fill-mode: forwards; }
 
-@keyframes bubbleAppear {
-  0% {
-    transform: scale(0); }
-  75% {
-    transform: scale(1.65); }
-  100% {
-    transform: scale(1); } }
-
-#purex-fels-naptha-laundry-bar path,
-#purex-fels-naptha-laundry-bar circle,
-#purex-fels-naptha-laundry-bar ellipse,
-#purex-fels-naptha-laundry-bar line {
-  stroke: #FFF;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-  fill: none;
-  stroke-linejoin: round; }
-
 #purex-fels-naptha-laundry-bar .late-bloomers .bubble {
   transform-origin: 50% 50%; }
   #purex-fels-naptha-laundry-bar .late-bloomers .bubble circle, #purex-fels-naptha-laundry-bar .late-bloomers .bubble path {
@@ -2535,7 +2496,7 @@ body {
 
 #purex-fels-naptha-laundry-bar:hover .draw-animation {
   stroke: #95d5f5;
-  animation-name: fade-offset;
+  animation-name: offset-fade;
   animation-timing-function: ease-out;
   animation-iteration-count: 1;
   animation-fill-mode: forwards; }
@@ -2561,7 +2522,7 @@ body {
   animation-duration: 250ms; }
 
 #purex-fels-naptha-laundry-bar:hover .late-bloomers .bubble {
-  animation-name: bubbleAppear;
+  animation-name: popUp;
   animation-duration: 400ms;
   animation-timing-function: ease-in-out; }
 
@@ -2596,7 +2557,7 @@ body {
     transition-delay: 600ms; }
 
 #purex-fels-naptha-laundry-bar:hover .late-bloomers .bubble {
-  animation-name: bubbleAppear;
+  animation-name: popUp;
   animation-timing-function: ease-in-out; }
   #purex-fels-naptha-laundry-bar:hover .late-bloomers .bubble .bubble-paths {
     stroke-opacity: 1;
@@ -2614,16 +2575,9 @@ body {
     transform: scale(1);
     opacity: 1; } }
 
-#purex-crystals-well-being path,
-#purex-crystals-well-being circle,
-#purex-crystals-well-being ellipse,
-#purex-crystals-well-being line {
-  stroke: #FFF;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-  fill: none;
-  stroke-linejoin: round; }
+#purex-crystals-well-being .bloomers .flower path,
+#purex-crystals-well-being .bloomers .flower ellipse {
+  stroke-opacity: 0; }
 
 #purex-crystals-well-being .white-flowers .flower path, #purex-crystals-well-being ellipse {
   fill: #dcf0f1 !important;
@@ -2631,10 +2585,6 @@ body {
 
 #purex-crystals-well-being .late-bloomers .flower path, #purex-crystals-well-being ellipse {
   fill: #dcf0f1 !important; }
-
-#purex-crystals-well-being .bloomers .flower path,
-#purex-crystals-well-being .bloomers .flower ellipse {
-  stroke-opacity: 0; }
 
 #purex-crystals-well-being .late-bloomers .flower {
   transform-origin: 40% 80% !important;
@@ -2662,64 +2612,64 @@ body {
   animation-fill-mode: forwards; }
 
 #purex-crystals-well-being:hover .late-bloomers .flower-1 {
-  animation-delay: 155ms; }
+  animation-delay: 133ms; }
 
 #purex-crystals-well-being:hover .late-bloomers .flower-2 {
-  animation-delay: 269ms; }
+  animation-delay: 230ms; }
 
 #purex-crystals-well-being:hover .late-bloomers .flower-3 {
-  animation-delay: 355ms; }
+  animation-delay: 360ms; }
 
 #purex-crystals-well-being:hover .late-bloomers .flower-4 {
-  animation-delay: 416ms; }
+  animation-delay: 420ms; }
 
 #purex-crystals-well-being:hover .late-bloomers .flower-5 {
-  animation-delay: 583ms; }
+  animation-delay: 551ms; }
 
 #purex-crystals-well-being:hover .late-bloomers .flower-6 {
-  animation-delay: 601ms; }
+  animation-delay: 677ms; }
 
 #purex-crystals-well-being:hover .late-bloomers .flower-7 {
-  animation-delay: 756ms; }
+  animation-delay: 768ms; }
 
 #purex-crystals-well-being:hover .late-bloomers .flower-8 {
-  animation-delay: 865ms; }
+  animation-delay: 837ms; }
 
 #purex-crystals-well-being:hover .bloomers .flower-1 path,
 #purex-crystals-well-being:hover .bloomers .flower-1 ellipse {
-  transition-delay: 133ms; }
+  transition-delay: 120ms; }
 
 #purex-crystals-well-being:hover .bloomers .flower-2 path,
 #purex-crystals-well-being:hover .bloomers .flower-2 ellipse {
-  transition-delay: 286ms; }
+  transition-delay: 299ms; }
 
 #purex-crystals-well-being:hover .bloomers .flower-3 path,
 #purex-crystals-well-being:hover .bloomers .flower-3 ellipse {
-  transition-delay: 316ms; }
+  transition-delay: 303ms; }
 
 #purex-crystals-well-being:hover .bloomers .flower-4 path,
 #purex-crystals-well-being:hover .bloomers .flower-4 ellipse {
-  transition-delay: 493ms; }
+  transition-delay: 461ms; }
 
 #purex-crystals-well-being:hover .bloomers .flower-5 path,
 #purex-crystals-well-being:hover .bloomers .flower-5 ellipse {
-  transition-delay: 563ms; }
+  transition-delay: 535ms; }
 
 #purex-crystals-well-being:hover .bloomers .flower-6 path,
 #purex-crystals-well-being:hover .bloomers .flower-6 ellipse {
-  transition-delay: 655ms; }
+  transition-delay: 675ms; }
 
 #purex-crystals-well-being:hover .bloomers .flower-7 path,
 #purex-crystals-well-being:hover .bloomers .flower-7 ellipse {
-  transition-delay: 747ms; }
+  transition-delay: 777ms; }
 
 #purex-crystals-well-being:hover .bloomers .flower-8 path,
 #purex-crystals-well-being:hover .bloomers .flower-8 ellipse {
-  transition-delay: 825ms; }
+  transition-delay: 871ms; }
 
 #purex-crystals-well-being:hover .bloomers .flower-9 path,
 #purex-crystals-well-being:hover .bloomers .flower-9 ellipse {
-  transition-delay: 961ms; }
+  transition-delay: 965ms; }
 
 @keyframes oxiBubbleApppear {
   0% {
@@ -2731,17 +2681,6 @@ body {
   100% {
     transform: scale(1);
     opacity: 1; } }
-
-#purex-oxi-stain-remover-powder path,
-#purex-oxi-stain-remover-powder circle,
-#purex-oxi-stain-remover-powder ellipse,
-#purex-oxi-stain-remover-powder line {
-  stroke: #FFF;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-  fill: none;
-  stroke-linejoin: round; }
 
 #purex-oxi-stain-remover-powder .late-bloomers .bubble {
   transform: scale(0);
@@ -2818,19 +2757,6 @@ body {
 #purex-oxi-stain-remover-powder:hover .late-bloomers .bubble-17 {
   animation-delay: 850ms; }
 
-@keyframes offset-fade {
-  0% {
-    stroke-opacity: 0; }
-  100% {
-    stroke-dashoffset: 0;
-    stroke-opacity: 100; } }
-
-@keyframes flowerSpin {
-  0% {
-    transform: rotate(0deg); }
-  100% {
-    transform: rotate(360deg); } }
-
 @keyframes pineappleWiggle {
   0% {
     transform: rotate(0deg); }
@@ -2853,20 +2779,6 @@ body {
   100% {
     transform: translate(0px, 0px) rotate(360deg); } }
 
-#purex-laundry-detergent-tropical-splash path,
-#purex-laundry-detergent-tropical-splash circle,
-#purex-laundry-detergent-tropical-splash ellipse,
-#purex-laundry-detergent-tropical-splash line {
-  stroke: #FFF;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-  fill: none;
-  stroke-linejoin: round; }
-
-#purex-laundry-detergent-tropical-splash .pineapple {
-  transform-origin: 60% 90%; }
-
 #purex-laundry-detergent-tropical-splash .late-bloomers .flower {
   opacity: 0; }
 
@@ -2878,7 +2790,8 @@ body {
 
 #purex-laundry-detergent-tropical-splash:hover .pineapple {
   animation: pineappleWiggle 500ms;
-  animation-timing-function: step-start; }
+  animation-timing-function: step-start;
+  transform-origin: 60% 90%; }
 
 #purex-laundry-detergent-tropical-splash:hover .pineapple-top {
   stroke-dasharray: 533;
@@ -2906,7 +2819,7 @@ body {
   animation-fill-mode: forwards; }
 
 #purex-laundry-detergent-tropical-splash:hover .flower, #purex-laundry-detergent-tropical-splash:hover .white-flower {
-  animation: flowerSpin 800ms;
+  animation: spin 800ms;
   animation-timing-function: ease-out; }
 
 #purex-laundry-detergent-tropical-splash:hover .late-bloomers .flower {
@@ -2946,20 +2859,6 @@ body {
   100% {
     transform: scale(1); } }
 
-#fabric-softener-tropical-escape path,
-#fabric-softener-tropical-escape circle,
-#fabric-softener-tropical-escape ellipse,
-#fabric-softener-tropical-escape line {
-  stroke: #FFF;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-  fill: none;
-  stroke-linejoin: round; }
-
-#fabric-softener-tropical-escape .pineapple {
-  transform-origin: 60% 90%; }
-
 #fabric-softener-tropical-escape:hover .big-flower path, #fabric-softener-tropical-escape:hover ellipse {
   stroke: #e45ba1; }
 
@@ -2981,7 +2880,7 @@ body {
   animation-timing-function: ease-out !important; }
 
 #fabric-softener-tropical-escape:hover .big-flower {
-  animation: spinFlower 400ms; }
+  animation: growFlower 400ms; }
 
 #fabric-softener-tropical-escape:hover .big-flower-wrapper {
   animation: growFlower 400ms; }
@@ -3005,7 +2904,7 @@ body {
   animation: jump 500ms; }
 
 #fabric-softener-tropical-escape:hover .flower-wrapper {
-  animation: spinFlower 500ms; }
+  animation: spin 500ms; }
 
 #fabric-softener-tropical-escape:hover .pineapple-top,
 #fabric-softener-tropical-escape:hover .pineapple-outline,
@@ -3018,6 +2917,7 @@ body {
   animation-fill-mode: forwards; }
 
 #fabric-softener-tropical-escape:hover .pineapple {
+  transform-origin: 60% 90%;
   animation: pineappleWiggle 500ms;
   animation-timing-function: step-start; }
 
@@ -3028,13 +2928,11 @@ body {
 
 #fabric-softener-tropical-escape:hover .pineapple-outline {
   stroke-dasharray: 448;
-  stroke-dashoffset: -448;
-  animation-delay: 0; }
+  stroke-dashoffset: -448; }
 
 #fabric-softener-tropical-escape:hover .pineapple-line {
   stroke-dasharray: 137;
-  stroke-dashoffset: -137;
-  animation-delay: 0; }
+  stroke-dashoffset: -137; }
 
 @keyframes rockTheBoat {
   50% {
@@ -3042,25 +2940,10 @@ body {
   100% {
     transform: rotate(0deg); } }
 
-#purex-crystals-tahitian-breeze path,
-#purex-crystals-tahitian-breeze circle,
-#purex-crystals-tahitian-breeze ellipse,
-#purex-crystals-tahitian-breeze line {
-  stroke: #FFF;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-  fill: none;
-  stroke-linejoin: round; }
-
-#purex-crystals-tahitian-breeze .breeze-group-late {
-  opacity: 0; }
-
 #purex-crystals-tahitian-breeze:hover .palm-tree-group {
   transform-origin: bottom center;
   animation: rockTheBoat;
-  animation-duration: 2s;
-  animation-delay: 0ms; }
+  animation-duration: 2s; }
 
 #purex-crystals-tahitian-breeze:hover .palm-tree,
 #purex-crystals-tahitian-breeze:hover .wave-long,
@@ -3079,19 +2962,16 @@ body {
   stroke: #f79058;
   stroke-dasharray: 1364;
   stroke-dashoffset: 1364;
-  animation-duration: 600ms;
-  animation-delay: 0ms; }
+  animation-duration: 600ms; }
 
 #purex-crystals-tahitian-breeze:hover .wave-long {
   stroke-dasharray: 265;
   stroke-dashoffset: 265;
-  animation-duration: 2s;
-  animation-delay: 0ms; }
+  animation-duration: 2s; }
 
 #purex-crystals-tahitian-breeze:hover .wave-short-left,
 #purex-crystals-tahitian-breeze:hover .wave-short-right {
   animation-duration: 1s;
-  animation-delay: 0ms;
   animation-direction: alternate; }
 
 #purex-crystals-tahitian-breeze:hover .wave-short-left {
@@ -3102,7 +2982,7 @@ body {
   stroke-dasharray: 66;
   stroke-dashoffset: 66; }
 
-#purex-crystals-tahitian-breeze:hover .breeze-group-late {
+#purex-crystals-tahitian-breeze:hover .fade-in {
   opacity: 1;
   transition: opacity 1s !important; }
 
@@ -3115,21 +2995,7 @@ body {
   stroke: #95d5f5;
   stroke-dasharray: 98;
   stroke-dashoffset: 98;
-  animation-duration: 700ms;
-  animation-delay: 0ms; }
-
-@keyframes fade {
-  0% {
-    stroke-opacity: 0; }
-  100% {
-    stroke-opacity: 100; } }
-
-@keyframes offset-fade {
-  0% {
-    stroke-opacity: 0; }
-  100% {
-    stroke-dashoffset: 0;
-    stroke-opacity: 100%; } }
+  animation-duration: 700ms; }
 
 @keyframes flowerRise1 {
   0% {
@@ -3148,17 +3014,6 @@ body {
     transform: translate(-80px, -80px) rotate(0deg); }
   100% {
     transform: translate(0px, 0px) rotate(135deg); } }
-
-#purex-crystals-fresh-spring-waters path,
-#purex-crystals-fresh-spring-waters circle,
-#purex-crystals-fresh-spring-waters ellipse,
-#purex-crystals-fresh-spring-waters line {
-  stroke: #FFF;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-  fill: none;
-  stroke-linejoin: round; }
 
 #purex-crystals-fresh-spring-waters .flower-1,
 #purex-crystals-fresh-spring-waters .flower-2,
@@ -3255,20 +3110,6 @@ body {
     transform: translate(0px, 0px) rotate(100deg);
     stroke-opacity: 1; } }
 
-#purex-laundry-detergent-fresh-spring-waters path,
-#purex-laundry-detergent-fresh-spring-waters circle,
-#purex-laundry-detergent-fresh-spring-waters ellipse,
-#purex-laundry-detergent-fresh-spring-waters line {
-  stroke: #FFF;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-  fill: none;
-  stroke-linejoin: round; }
-
-#purex-laundry-detergent-fresh-spring-waters .fade-in {
-  stroke-opacity: 0; }
-
 #purex-laundry-detergent-fresh-spring-waters:hover .wave-short {
   stroke: #45a0d9;
   stroke-dasharray: 71;
@@ -3318,14 +3159,6 @@ body {
 
 #purex-laundry-detergent-fresh-spring-waters:hover .flower-5 {
   animation: hdd-fsw-flower-5; }
-
-#purex-laundry-detergent-mountain-breeze path {
-  stroke: #fff;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-  fill: none;
-  stroke-linejoin: round; }
 
 #purex-laundry-detergent-mountain-breeze .fadeIn {
   opacity: 0;
@@ -3404,14 +3237,6 @@ body {
   animation-duration: 500ms;
   animation-delay: 0.25s; }
 
-#purex-crystals-mountain-breeze path {
-  stroke: #fff;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-  fill: none;
-  stroke-linejoin: round; }
-
 #purex-crystals-mountain-breeze .fadeIn {
   opacity: 0;
   transition: opacity 250ms ease-in; }
@@ -3489,14 +3314,6 @@ body {
   animation-duration: 500ms;
   animation-delay: 0.25s; }
 
-#purex-mountain-breeze-fabric-softener-sheets path {
-  stroke: #fff;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-  fill: none;
-  stroke-linejoin: round; }
-
 #purex-mountain-breeze-fabric-softener-sheets .fadeIn {
   opacity: 0;
   transition: opacity 250ms ease-in; }
@@ -3568,15 +3385,6 @@ body {
   stroke-dashoffset: 80;
   animation-duration: 500ms;
   animation-delay: 0.25s; }
-
-#purex-fresh-mountain-breeze-powder path,
-#purex-fresh-mountain-breeze-powder line {
-  stroke: #fff;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-  fill: none;
-  stroke-linejoin: round; }
 
 #purex-fresh-mountain-breeze-powder .fadeIn {
   opacity: 0;
@@ -3656,14 +3464,6 @@ body {
   animation-duration: 500ms;
   animation-delay: 0.25s; }
 
-#purex-mountain-breeze-fabric-softener-40loads path {
-  stroke: #fff;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-  fill: none;
-  stroke-linejoin: round; }
-
 #purex-mountain-breeze-fabric-softener-40loads .fadeIn {
   opacity: 0;
   transition: opacity 250ms ease-in; }
@@ -3738,14 +3538,6 @@ body {
   stroke-dashoffset: 80;
   animation-duration: 500ms;
   animation-delay: 0.25s; }
-
-#purex-mountain-breeze-fabric-softener-52loads path {
-  stroke: #fff;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-  fill: none;
-  stroke-linejoin: round; }
 
 #purex-mountain-breeze-fabric-softener-52loads .fadeIn {
   opacity: 0;
@@ -3822,15 +3614,6 @@ body {
   stroke-dashoffset: 80;
   animation-duration: 750ms;
   animation-delay: 0; }
-
-#purex-fresh-mountain-breeze-powder path,
-#purex-fresh-mountain-breeze-powder line {
-  stroke: #fff;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-  fill: none;
-  stroke-linejoin: round; }
 
 #purex-fresh-mountain-breeze-powder .fadeIn {
   opacity: 0;
@@ -3916,14 +3699,6 @@ body {
   100% {
     transform: translateY(70px);
     opacity: 1; } }
-
-#purex-laundry-detergent-after-the-rain path, #purex-laundry-detergent-after-the-rain line {
-  stroke: #fff;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-  fill: none;
-  stroke-linejoin: round; }
 
 #purex-laundry-detergent-after-the-rain .flower {
   opacity: 0;
@@ -4114,17 +3889,6 @@ body {
   to {
     stroke-dashoffset: 266; } }
 
-.lilac-white-lavender path,
-.lilac-white-lavender circle,
-.lilac-white-lavender ellipse,
-.lilac-white-lavender line {
-  stroke: #FFF;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-  fill: none;
-  stroke-linejoin: round; }
-
 .lilac-white-lavender .path {
   stroke: #dcf0f1;
   stroke-width: 4.5 !important; }
@@ -4241,19 +4005,6 @@ body {
   animation-iteration-count: infinite;
   animation-direction: alternate; }
 
-@keyframes spin {
-  0% {
-    transform: rotate(0deg); }
-  100% {
-    transform: rotate(360deg); } }
-
-@keyframes shine {
-  0% {
-    stroke-opacity: 0; }
-  100% {
-    stroke-dashoffset: 0;
-    stroke-opacity: 1; } }
-
 @keyframes blooming {
   0% {
     transform: rotate(0deg);
@@ -4270,24 +4021,8 @@ body {
     transform: translate(0px, 0px) rotate(100deg);
     stroke-opacity: 1; } }
 
-#purex-laundry-detergent-fab-fresh path, #purex-laundry-detergent-fab-fresh line {
-  stroke: #fff;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-  fill: none;
-  stroke-linejoin: round; }
-
-#purex-laundry-detergent-fab-fresh circle, #purex-laundry-detergent-fab-fresh ellipse {
+#purex-laundry-detergent-fab-fresh circle, #purex-laundry-detergent-fab-fresh ellipse, #purex-laundry-detergent-fab-fresh path {
   fill: #dcf0f1; }
-
-#purex-laundry-detergent-fab-fresh .sun circle {
-  stroke: #fff;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-  fill: none;
-  stroke-linejoin: round; }
 
 #purex-laundry-detergent-fab-fresh .fadeIn {
   stroke-opacity: 0; }
@@ -4423,24 +4158,8 @@ body {
     transform: translate(0px, 0px) rotate(45deg);
     stroke-opacity: 1; } }
 
-#crystals-fab-fresh path, #crystals-fab-fresh line, #crystals-fab-fresh ellipse {
-  stroke: #fff;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-  fill: none;
-  stroke-linejoin: round; }
-
 #crystals-fab-fresh .flower circle {
   fill: #dcf0f1; }
-
-#crystals-fab-fresh .sun circle {
-  stroke: #fff;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-  fill: none;
-  stroke-linejoin: round; }
 
 #crystals-fab-fresh .fadeIn {
   stroke-opacity: 0; }

@@ -9,17 +9,14 @@
 }
 
 #purex-laundry-detergent-after-the-rain {
-	path, line{ @include default(#fff, 4); }
-
 	.flower {
 		opacity: 0;
 		transform: scale(.01);
 		transform-origin: bottom center;
 		path {fill:$backgroundColor;}
 	}
-
 	.stem {stroke: $backgroundColor;}
-
+	
 	&:hover {
 		.flower {
 			opacity: 1;
@@ -41,7 +38,6 @@
 		}
 		.stem {@include draw-tmoney(33, -33, 300ms, 0);}
 		.ground {@include draw-tmoney(280, -280, 1.10s, 0);}
-
 		.rain {
 			line {
 				stroke: $lightBlue;
@@ -55,7 +51,6 @@
 			.rain-group-4 .drop {animation-delay: 200ms;}
 			.rain-group-5 .drop {animation-delay: 300ms;}
 		}
-
 		.clouds {
 			.cloud path,
 			.cloud line {
@@ -72,7 +67,6 @@
 			}
 			.cloud-small path {@include draw-tmoney(112, 112, 500ms, 0s);}
 		}
-
 		.sun .color-rays{
 			line,
 			path {

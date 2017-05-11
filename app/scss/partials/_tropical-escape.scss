@@ -16,44 +16,28 @@
 }
 
 #fabric-softener-tropical-escape {
-  path,
-  circle,
-  ellipse,
-  line {
-    @include default(#FFF, 4);
-  }
-
-  .pineapple {transform-origin: 60% 90%}
-
   &:hover {
-
     .big-flower path, ellipse {stroke: $pink}
     .pink path {stroke: $pink}
     .red path {stroke: $red}
-
     .red path,
     .pink path,
     .big-flower path,
     .big-flower ellipse {transition: stroke 800ms}
-
     .big-flower,
     .big-flower-wrapper {
       animation-delay: 500ms !important;
       animation-timing-function: ease-out !important;
     }
-
-    .big-flower {animation: spinFlower 400ms}
+    .big-flower {animation: growFlower 400ms}
     .big-flower-wrapper {animation: growFlower 400ms}
-
     @for $i from 1 through 5 {
       .flower-#{$i}, .flower-wrapper-#{$i} {
         animation-delay: ($i * 100) + ms !important;
       }
     }
-
     .flower {animation: jump 500ms}
-    .flower-wrapper {animation: spinFlower 500ms}
-
+    .flower-wrapper {animation: spin 500ms}
     .pineapple-top,
     .pineapple-outline,
     .pineapple-line {
@@ -64,12 +48,11 @@
       animation-iteration-count: 1;
       animation-fill-mode: forwards;
     }
-
     .pineapple {
+      transform-origin: 60% 90%;
       animation: pineappleWiggle 500ms;
       animation-timing-function: step-start;
     }
-
     .pineapple-top {
       stroke-dasharray: 533;
       stroke-dashoffset: 533;
@@ -78,15 +61,10 @@
     .pineapple-outline {
       stroke-dasharray: 448;
       stroke-dashoffset: -448;
-      animation-delay: 0;
     }
     .pineapple-line {
       stroke-dasharray: 137;
       stroke-dashoffset: -137;
-      animation-delay: 0;
     }
-
-
-
   } // end hover
 } // end

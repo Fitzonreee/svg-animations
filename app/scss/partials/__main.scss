@@ -11,11 +11,6 @@ $teal: #47c0b5;
 $backgroundColor: #dcf0f1;
 $darkBlue: #053264;
 
-@font-face {
-  font-family: Proxima;
-  src: url("../../fonts/ProximaNovaLight.otf") format("opentype");
-}
-
 @mixin default($color, $width) {
   stroke: $color;
   stroke-width: $width;
@@ -44,6 +39,20 @@ $darkBlue: #053264;
   animation-delay: $delay;
 }
 
+// Only used on Felsnaptha - draw-tmoney without the delay
+@mixin drawSmaller($array, $offset, $seconds) {
+  stroke-dasharray: $array;
+  stroke-dashoffset: $offset;
+  animation-duration: $seconds;
+}
+
+// Used for bubbles popping up - ex. Felsnaptha
+@keyframes popUp {
+  0% {transform: scale(0)}
+  75% { transform: scale(1.5)}
+  100% {transform: scale(1)}
+}
+
 @mixin show($color, $keyframes, $duration, $timing, $delay, $count) {
   stroke: $color;
   animation: $keyframes $duration $timing $delay $count;
@@ -62,12 +71,63 @@ $darkBlue: #053264;
 }
 
 @keyframes offset {
+  100% {stroke-dashoffset: 0}
+}
+
+// This will just be offset, NO fade
+@keyframes offset {
+  0% {stroke-opacity: 0}
+  100% {
+    stroke-dashoffset: 0;
+    stroke-opacity: 1;
+  }
+}
+
+@keyframes offset-fade {
+  0% {stroke-opacity: 0}
+  100% {
+    stroke-dashoffset: 0;
+    stroke-opacity: 1;
+  }
+}
+
+// same as offset and offset-fade -- used on hdd-fab-fresh (weird but when using other offset animations)
+@keyframes shine {
+	0% {stroke-opacity: 0}
+	100% {
+		stroke-dashoffset: 0;
+		stroke-opacity: 1;
+	}
+}
+
+// Spin the suns around
+@keyframes spin {
+	0% {transform: rotate(0deg)}
+	100% {transform: rotate(360deg)}
+}
+
+
+// Replace this with offset-fade -- hdd-lavender-blossom
+@keyframes fade-offset {
   0% {
     stroke-opacity: 0;
   }
   100% {
     stroke-dashoffset: 0;
-    stroke-opacity: 100%;
+    stroke-opacity: 1;
+  }
+}
+
+
+
+
+
+.default {
+  path,
+  circle,
+  ellipse,
+  line {
+    @include default(#FFF,4)
   }
 }
 
@@ -75,38 +135,23 @@ $darkBlue: #053264;
 .fill {fill: $backgroundColor !important}
 .center {transform-origin: 50% 50% !important}
 
+// Replace all instances of .fadeIn
+// Have one for stroke-opacity and one for opacity
+// .fade-in {opacity: 0}
+.fade-in-stroke {stroke-opacity: 0}
 
 
-// Just for the index page on this repo
-.container {padding-top: 60px}
-.row {padding: 20px 0}
 
-body {background-color: $backgroundColor}
 
-.fullWidth {
-   width: 100%;
-   margin-left: auto;
-   margin-right: auto;
-   max-width: initial;
-}
 
-h6 { font-size: 10px;}
 
-p, h6 {
-  text-align: center;
-  color: $darkBlue;
-  font-family: 'Proxima', sans-serif;
-  margin-bottom: 8px;
-}
 
-p {
-  font-size: 13px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  padding: 6px 0;
-  background-color: rgba(255, 255, 255, 0.45);
-}
 
-.byline {
-  font-size: 10px;
-}
+
+
+
+
+
+
+
+// end of file

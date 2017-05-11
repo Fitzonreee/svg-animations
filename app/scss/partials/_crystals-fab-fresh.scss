@@ -21,14 +21,11 @@
 }
 
 #crystals-fab-fresh {
-	path, line, ellipse, { @include default(#fff, 4);}
+
+	// global class exists called .fill
 	.flower circle {fill: $backgroundColor;}
-
-	.sun circle {@include default(#fff, 4);}
-
-	.fadeIn { //this could be moved to a parent file to be globalized in some way
-		stroke-opacity: 0;
-	}
+	// global class exists called .fade-in
+	.fadeIn {stroke-opacity: 0;}
 
 	&:hover {
 

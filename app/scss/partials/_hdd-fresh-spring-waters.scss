@@ -43,54 +43,35 @@
 }
 
 
-
 #purex-laundry-detergent-fresh-spring-waters {
-  path,
-  circle,
-  ellipse,
-  line {
-    @include default(#FFF, 4);
-  }
-
-  .fade-in {stroke-opacity: 0}
-
   &:hover {
-
     .wave-short {@include draw($blue, 71, 71, offset-fade, 500ms, 1, 0)}
     .wave-long {@include draw($blue, 209, 209, offset-fade, 500ms, 1, 0)}
-
-
     .orange {
       path, ellipse {
         stroke: $orange;
       }
     }
-
     .yellow {
       path, ellipse {
         stroke: $yellow;
       }
     }
-
     .orange, .yellow {
       path, ellipse {
         transition: stroke 1500ms;
       }
     }
-
     .late-bloomers {
       .flower {
         animation-fill-mode: forwards;
         animation-duration: 1000ms;
       }
     }
-
     .flower-1 {animation: hdd-fsw-flower-1}
     .flower-2 {animation: hdd-fsw-flower-3}
     .flower-3 {animation: hdd-fsw-flower-3}
     .flower-4 {animation: hdd-fsw-flower-4}
     .flower-5 {animation: hdd-fsw-flower-5}
-
-
   } // end hover
 } // end

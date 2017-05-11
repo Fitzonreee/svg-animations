@@ -14,13 +14,14 @@
 }
 
 #purex-crystals-well-being {
-  path,
-  circle,
-  ellipse,
-  line {
-    @include default(#FFF, 4)
-  }
 
+  .bloomers {
+    .flower path,
+    .flower ellipse {
+      stroke-opacity: 0;
+    }
+  }
+  
   .white-flowers .flower path, ellipse {
     fill: $backgroundColor !important;
     stroke-opacity: 1 !important;
@@ -28,13 +29,6 @@
 
   .late-bloomers .flower path, ellipse {
     fill: $backgroundColor !important;
-  }
-
-  .bloomers {
-    .flower path,
-    .flower ellipse {
-      stroke-opacity: 0;
-    }
   }
 
   .late-bloomers {
@@ -46,15 +40,11 @@
   }
 
   &:hover {
-
     .flower .seed {stroke: $orange}
-
     .red path,
     .red .flower-center {stroke: $red}
-
     .pink path,
     .pink .flower-center {stroke: $pink}
-
     .bloomers {
       .flower path,
       .flower ellipse  {
@@ -62,14 +52,12 @@
         transition: stroke 850ms;
       }
     }
-
     .late-bloomers {
       .flower {
         animation: growWellBeing 850ms ease-in-out;
         animation-fill-mode: forwards;
       }
     }
-
     @for $i from 1 through 8 {
       .late-bloomers {
         .flower-#{$i} {
@@ -77,7 +65,6 @@
         }
       }
     }
-
     @for $i from 1 through 9 {
       .bloomers {
         .flower-#{$i} path,
@@ -86,6 +73,5 @@
         }
       }
     }
-
   } // end hover
 } // end #purex

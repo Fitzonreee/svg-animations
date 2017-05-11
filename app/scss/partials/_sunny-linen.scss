@@ -1,3 +1,4 @@
+// This should be replaced by the smaller-global draw
 @mixin drawSunnyLinen($color, $array, $offset, $keyframes, $seconds, $count, $delay) {
   stroke: $color;
   stroke-dasharray: $array;
@@ -8,19 +9,6 @@
   animation-delay: $delay;
   animation-iteration-count: $count;
   animation-fill-mode: forwards;
-}
-
-@keyframes spin {
-  0% {transform: rotate(0deg)}
-  100% {transform: rotate(360deg)}
-}
-
-@keyframes shine {
-  0% {stroke-opacity: 0}
-  100% {
-    stroke-dashoffset: 0;
-    stroke-opacity: 1;
-  }
 }
 
 @keyframes swing {
@@ -41,15 +29,7 @@
 
 
 #purex-laundry-detergent-sunny-linen {
-  path,
-  circle,
-  ellipse,
-  line {
-    @include default(#FFF, 4)
-  }
-
   &:hover {
-
     .sun {
       transform-origin: 50% 50%;
       animation: spin;
@@ -57,75 +37,60 @@
       animation-timing-function: linear;
       animation-duration: 30s;
       animation-direction: normal;
-
       .sun-center {@include drawSunnyLinen($orange, 128, 128, offset, 300ms, 1, 0ms)}
-
       .sun-beam-23,
       .sun-beam-10 {
         @include drawSunnyLinen($orange, 94, -94, shine, 1600ms, 1, 0ms);
       }
-
       .sun-beam-18,
       .sun-beam-5 {
         @include drawSunnyLinen($orange, 83.5, 83.5, shine, 1600ms, 1, 0ms);
       }
-
       .sun-beam-17,
       .sun-beam-4,
       .sun-beam-20,
       .sun-beam-7 {
         @include drawSunnyLinen($orange, 66.15, -66.15, shine, 1600ms, 1, 750ms);
       }
-
       .sun-beam-11,
       .sun-beam-24 {
         @include drawSunnyLinen($orange, 98, 98, shine, 1600ms, 1, 0ms);
       }
-
       .sun-beam-22,
       .sun-beam-9 {
         @include drawSunnyLinen($orange, 36, 36, shine, 1600ms, 1, 0ms);
       }
-
       .sun-beam-26,
       .sun-beam-13 {
         @include drawSunnyLinen($orange, 21.5, -21.5, shine, 1600ms, 1, 750ms);
       }
-
       .sun-beam-12,
       .sun-beam-25 {
         @include drawSunnyLinen($orange, 63, -63, shine, 1600ms, 1, 0ms);
       }
-
       .sun-beam-2,
       .sun-beam-15 {
         @include drawSunnyLinen($orange, 35.3, 35.3, shine, 1000ms, 1, 0ms)
       }
-
       .sun-beam-1,
       .sun-beam-8,
       .sun-beam-14,
       .sun-beam-21 {
         @include drawSunnyLinen($orange, 30, 30.5, shine, 1000ms, 1, 750ms)
       }
-
       .sun-beam-3,
       .sun-beam-6,
       .sun-beam-16,
       .sun-beam-19 {
         @include drawSunnyLinen($orange, 16, -16, shine, 1000ms, 1, 0ms)
       }
-
     }
-
     .clothesline {@include drawSunnyLinen($lightBlue, 581, 581, offset, 500ms, 1, 0ms)}
-
     .hook-1,
     .hook-2 {
       transform-origin: top;
       animation: swing;
     }
-
     .hook-1,
     .hook-2,
     .shirt-wrapper,
@@ -136,28 +101,23 @@
       animation-duration: 1500ms;
       animation-direction: normal;
     }
-
     .dress {@include drawSunnyLinen($pink, 360, 360, offset, 400ms, 1, 500ms)}
     .shirt {@include drawSunnyLinen($purple, 250, 250, offset, 400ms, 1, 0ms)}
     .skirt-top {@include drawSunnyLinen($green, 37, 37, offset, 400ms, 1, 20ms)}
     .skirt-bottom {@include drawSunnyLinen($green, 161, 161, offset, 400ms, 1, 20ms)}
-
     .dress-wrapper,
     .shirt-wrapper,
     .skirt-wrapper {
       transform-origin: top;
       animation-name: sway;
     }
-
     .shirt-wrapper,
     .skirt-wrapper {
       animation-delay: 0ms;
     }
-
     .dress-wrapper,
     .pegs-3 .hook-1, .hook-2 {
       animation-delay: 150ms;
     }
-
   } // end hover
 } // end #purex-laundry-detergent-sunny-line

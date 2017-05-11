@@ -14,13 +14,6 @@
 }
 
 #purex-oxi-stain-remover-powder {
-  path,
-  circle,
-  ellipse,
-  line {
-    @include default(#FFF, 4)
-  }
-
   .late-bloomers {
     .bubble {
       transform: scale(0);
@@ -28,28 +21,23 @@
       transform-origin: 50% 50%;
     }
   }
-
   .bloomers {
     .bubble {
       opacity: 0;
     }
   }
-
   .dark circle,
   .dark ellipse {stroke: $blue}
-
   .light circle,
   .light ellipse {stroke: $lightBlue}
 
   &:hover {
-
     .bloomers {
       .bubble {
         opacity: 1;
         transition: opacity 400ms;
       }
     }
-
     @for $i from 1 through 12 {
       .bloomers {
         .bubble-#{$i} {
@@ -57,14 +45,12 @@
         }
       }
     }
-
     .late-bloomers {
       .bubble {
         animation: oxiBubbleApppear 500ms ease-in-out;
         animation-fill-mode: forwards;
       }
     }
-
     @for $i from 13 through 17 {
       .late-bloomers {
         .bubble-#{$i} {
@@ -72,6 +58,5 @@
         }
       }
     }
-
   } // end hover
 } // end #purex

@@ -1,18 +1,3 @@
-@keyframes fade {
-  0% {stroke-opacity: 0}
-  100% {stroke-opacity: 100}
-}
-
-@keyframes offset-fade {
-  0% {
-    stroke-opacity: 0;
-  }
-  100% {
-    stroke-dashoffset: 0;
-    stroke-opacity: 100%;
-  }
-}
-
 @keyframes flowerRise1 {
   0% {transform: translate(-20px, 100px) rotate(0deg)}
   100% {transform: translate(0px,0px) rotate(135deg)}
@@ -30,13 +15,7 @@
 
 
 #purex-crystals-fresh-spring-waters {
-  path,
-  circle,
-  ellipse,
-  line {
-    @include default(#FFF, 4)
-  }
-
+  // this can be global class different from stroke-opacity
   .flower-1,
   .flower-2,
   .flower-3 {
@@ -44,7 +23,6 @@
   }
 
   &:hover {
-
     .wave {
       stroke: $blue;
       animation-name: offset-fade;
@@ -53,18 +31,15 @@
       animation-iteration-count: 1;
       animation-fill-mode: forwards;
     }
-
     .wave-long {
       stroke-dasharray: 200;
       stroke-dashoffset: 200;
       animation-delay: 0ms;
     }
-
     .wave-short {
       stroke-dasharray: 67;
       stroke-dashoffset: 67;
     }
-
     .flower {
       path, ellipse {
         stroke: $orange;
@@ -72,7 +47,6 @@
         transition: stroke 600ms;
       }
     }
-
     @for $i from 5 through 8 {
       .flower-#{$i} {
         path, ellipse {
@@ -80,7 +54,6 @@
         }
       }
     }
-
     .flower-1,
     .flower-2,
     .flower-3 {
@@ -90,7 +63,6 @@
       animation-timing-function: ease-in-out;
       transform: rotate(135deg);
     }
-
     .flower-1 {
       animation: flowerRise1 800ms;
       animation-delay: 800ms;
@@ -106,6 +78,5 @@
       animation-delay: 200ms;
       transition-delay: 200ms;
     }
-
   } // end hover
 } // end

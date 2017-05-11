@@ -1,29 +1,15 @@
-// Rock the palm group back and forth
 @keyframes rockTheBoat {
 	50% {transform: rotate(-3deg); }
 	100% {transform: rotate(0deg); }
 }
 
 #purex-crystals-tahitian-breeze {
-	path,
-	circle,
-	ellipse,
-	line {
-		@include default(#FFF, 4);
-	}
-
-	// Travis has a similar animation for the
-	.breeze-group-late {opacity: 0}
-
 	&:hover {
-
 		.palm-tree-group {
 			transform-origin: bottom center;
 			animation: rockTheBoat;
 			animation-duration: 2s;
-			animation-delay: 0ms;
 		}
-
 		.palm-tree,
 		.wave-long,
 		.wave-short-left,
@@ -34,58 +20,45 @@
 			animation-timing-function: ease-out;
 			animation-fill-mode: forwards;
 		}
-
 		.wave {stroke: $blue}
-
 		.palm-tree {
 			stroke: $orange;
 			stroke-dasharray: 1364;
 			stroke-dashoffset: 1364;
 			animation-duration: 600ms;
-			animation-delay: 0ms;
 		}
-
 		.wave-long {
 			stroke-dasharray: 265;
 			stroke-dashoffset: 265;
 			animation-duration: 2s;
-			animation-delay: 0ms;
 		}
-
 		.wave-short-left,
 		.wave-short-right {
 			animation-duration: 1s;
-			animation-delay: 0ms;
 			animation-direction: alternate;
 		}
-
 		.wave-short-left {
 			stroke-dasharray: 66;
 			stroke-dashoffset: -66;
 		}
-
 		.wave-short-right {
 			stroke-dasharray: 66;
 			stroke-dashoffset: 66;
 		}
-
-		.breeze-group-late {
+		.fade-in {
 			opacity: 1;
 			transition: opacity 1s !important;
 		}
-
 		.breeze-group {
 			transform: translateX(50px);
 			transition-duration: 2s;
 			transition-delay: 0ms;
 		}
-
 		.breeze {
 			stroke: $lightBlue;
 			stroke-dasharray: 98;
 			stroke-dashoffset: 98;
 			animation-duration: 700ms;
-			animation-delay: 0ms;
 		}
 	} // end hover
 } // end

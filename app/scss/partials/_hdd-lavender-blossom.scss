@@ -103,13 +103,6 @@
 }
 
 #purex-laundry-detergent-fresh-lavender-blossom {
-  path,
-  circle,
-  ellipse,
-  line {
-    @include default(#FFF, 4)
-  }
-
   .bee-1,
   .bee-loop-wrapper  {
     transform-origin: 50% 35% !important;
