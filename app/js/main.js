@@ -26,4 +26,5 @@ $(document).ready(function() {
   $('#ne-lilac-and-lavender').load('svgs/ne-lilac-and-lavender.html');
   $('#hdd-fab-fresh').load('svgs/hdd-fab-fresh.html');
   $('#crystals-fab-fresh').load('svgs/crystals-fab-fresh.html');
+  $('#crystals-aromatherapy-serenity').load('svgs/crystals-aromatherapy-serenity.html');
 });

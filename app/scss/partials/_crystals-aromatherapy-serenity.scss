@@ -1,0 +1,186 @@
+@keyframes frogScale {
+  0% {transform: scale(1)}
+  100% {transform: scale(0.45)}
+}
+
+@keyframes frog-xAxis {
+  0% {transform: translateX(0)}
+  100% {transform: translateX(340px)}
+
+}
+
+@keyframes frog-yAxis {
+  0% {transform: translateY(0px)}
+  90% {transform: translateY(-190px)}
+  100% {transform: translateY(-100px)}
+}
+
+@keyframes frogMorph {
+  0% {transform: rotate(0deg) skew(0deg, 0deg)}
+  30% {transform: rotate(-40deg) skew(-20deg, 0deg)}
+  60% {transform: rotate(10deg) skew(0deg, 0deg)}
+  100% {transform: rotate(0deg) skew(0deg, 0deg)}
+}
+
+@keyframes frogFrontFoot {
+  0% {transform: rotate(0deg)}
+  5% {transform: rotate(135deg)}
+  90% {transform: rotate(135deg)}
+  100% {transform: rotate(0deg)}
+}
+
+@keyframes frogBackFoot {
+  0% {transform: translate3d(0px, 0px, 0px) rotate(0deg)}
+  5% {transform: translate3d(-2px, 5px, 0px) rotate(155deg)}
+  90% {transform: translate3d(-2px, 5px, 0px) rotate(155deg)}
+  100% {transform: translate3d(0px, 0px, 0px) rotate(0deg)}
+}
+
+@keyframes frogBackLegGroup {
+  0% {transform: translate3d(0px, 0px, 0px)}
+  15% {transform: translate3d(-20px, -5px, 0); }
+  80% {transform: translate3d(-20px, -5px, 0);}
+  100% {transform: translate3d(0px, 0px, 0)}
+}
+
+@keyframes lilyImpactStarting {
+  0% {transform: translate3d(0px, 0px, 0px) rotate(0deg)}
+  50% {transform: translate3d(0px, 0px, 0px) rotate(-15deg)}
+  100% {transform: translate3d(-50px, 0px, 0px) rotate(0deg)}
+}
+
+@keyframes lilyImpactLanding {
+  0% {transform: translate3d(0px, 0px, 0px) rotate(0deg)}
+  50% {transform: translate3d(0px, 0px, 0px) rotate(10deg)}
+  100% {transform: translate3d(10px, 0px, 0px) rotate(0deg)}
+}
+
+@keyframes dash {
+  from {stroke-dashoffset: 0}
+  to {stroke-dashoffset: -502}
+}
+
+@keyframes lateLily {
+  0% {
+    stroke-opacity: 0;
+    transform: translate3d(160px, 0px, 0px);
+  }
+  100% {
+    stroke-opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+  }
+}
+
+@keyframes pedalLeft {
+  0% {transform: rotate(0deg)}
+  100% {transform: rotate(-10deg)}
+}
+
+@keyframes pedalRight {
+  0% {transform: rotate(0deg)}
+  100% {transform: rotate(10deg)}
+}
+
+.fill-all * { fill: $backgroundColor !important }
+
+#purex-crystals-serenity {
+
+  .frog-thigh {
+    transform-origin: 100% 50%;
+    transform: rotate(-10deg);
+  }
+
+  .dashed {
+    stroke-dasharray: 20;
+    stroke: $green;
+  }
+
+  .path {
+    stroke: $backgroundColor;
+    stroke-width: 4.5;
+  }
+
+  .late-bloomer {
+    stroke-opacity: 0;
+    transform: translate3d(160px, 0px, 0px);
+  }
+
+  &:hover {
+
+    .late-bloomer {
+      animation: lateLily 2500ms ease-out;
+      animation-fill-mode: forwards;
+    }
+
+    .pedal-left {
+      transform-origin: 100% 100%;
+      animation: pedalLeft 2s ease-in-out;
+      animation-fill-mode: forwards;
+    }
+
+    .pedal-right {
+      transform-origin: 0% 100%;
+      animation: pedalRight 2s ease-in-out;
+      animation-fill-mode: forwards;
+    }
+
+    .lily {stroke: $teal}
+    .pedal {stroke: $blue}
+
+    .lily,
+    .pedal {
+      transition: stroke 500ms;
+    }
+
+    .path {
+      stroke-dasharray: 502;
+      stroke-dashoffset: 502;
+      animation: dash 1100ms;
+      animation-timing-function: ease-in;
+      stroke: $backgroundColor !important;
+    }
+
+    .frog {
+      transform-origin: 50% 50%;
+      animation: frogScale 1000ms;
+      animation-fill-mode: forwards;
+      path, ellipse { stroke: $green }
+      .frog-wrapper-morph {
+        transform-origin: 50% 50% !important;
+        animation: frogMorph 2s;
+        animation-timing-function: linear;
+      }
+      .frog-back-leg-group {
+        transform-origin: 0% 0%;
+        animation: frogBackLegGroup 1000ms;
+        .frog-leg-front {
+          transform-origin: 0% 0%;
+          animation: frogFrontFoot 1000ms;
+        }
+        .frog-foot {
+          transform-origin: 0% 0%;
+          animation: frogBackFoot 800ms; //200ms less than total animation
+          animation-timing-function: ease-in;
+          animation-delay: 100ms;
+        }
+      }
+      .frog-wrapper-x {
+        animation: frog-xAxis 1000ms ease-in; //total animation
+        animation-fill-mode: forwards;
+        .frog-wrapper-y {
+          animation: frog-yAxis 1000ms ease-out; //total animation
+          animation-fill-mode: forwards;
+        }
+      }
+    }
+    .starting-lily {
+      animation: lilyImpactStarting 850ms ease-in-out;
+      animation-fill-mode: forwards;
+    }
+    .landing-lily {
+      animation: lilyImpactLanding 1000ms;
+      animation-fill-mode: forwards;
+      animation-delay: 1000ms; // same as total animation
+    }
+  } // end hover
+} // end #purex
