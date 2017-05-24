@@ -27,4 +27,5 @@ $(document).ready(function() {
   $('#hdd-fab-fresh').load('svgs/hdd-fab-fresh.html');
   $('#crystals-fab-fresh').load('svgs/crystals-fab-fresh.html');
   $('#crystals-aromatherapy-serenity').load('svgs/crystals-aromatherapy-serenity.html');
+  $('#crystals-oh-so-chic').load('svgs/crystals-oh-so-chic.html');
 });

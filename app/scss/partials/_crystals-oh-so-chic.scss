@@ -1,0 +1,82 @@
+@mixin ohSoChic($keyframes, $seconds, $count, $delay) {
+	transform-origin: 50% 50%;
+	animation: $keyframes;
+	animation-duration: $seconds;
+	animation-iteration-count: $count;
+	animation-delay: $delay;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+@keyframes starRotate {
+	0% {transform: scale(1) rotate(0deg)}
+	50% {transform: scale(1.5) rotate(180deg)}
+	100% {transform: scale(1) rotate(360deg)}
+}
+
+@keyframes starWiggle {
+	0% {transform: scale(1) rotate(0deg)}
+	50% {transform: scale(1.5) rotate(45deg)}
+	100% {transform: scale(1) rotate(0deg)}
+}
+
+@keyframes flowerWiggle {
+	0% {transform: scale(1) rotate(0deg)}
+	50% {transform: scale(1.10) rotate(15deg)}
+	100% {transform: scale(1) rotate(0deg)}
+}
+
+#purex-crystals-oh-so-chic {
+
+	path,
+	ellipse {@include default(#FFF, 4);}
+
+	.fill {fill: $backgroundColor;} //This is a global class
+
+	.twinkle {stroke-opacity: 0}
+
+	path,
+	ellipse {
+		@extend .fill;
+	}
+
+	&:hover {
+
+		.flower {
+			ellipse {stroke: $orange;}
+			.pedal-pink {stroke: $pink}
+			.pedal-orange {stroke: $orange}
+			.pedal-yellow {stroke: $yellow}
+		}
+
+		@for $i from 1 through 3 {
+			.flower#{$i} {
+				@include ohSoChic(flowerWiggle, 300ms, 1, random(350) + ms);
+				.pedal {
+					transition: stroke-opacity 1s ease;
+					stroke-opacity: 1;
+				}
+			}
+		}
+
+		.star {stroke: $yellow;}
+
+		//Twinkle Twinkle Loop
+		@for $i from 1 through 12 {
+			.twinkle.star-#{$i} {
+				transition: stroke-opacity 300ms ease random(400) + ms;
+				@include ohSoChic(starRotate, 500ms, 1, random(400)  + ms);
+				stroke-opacity: 1;
+			}
+		}
+		//Wiggle Loop
+		@for $i from 1 through 12 {
+			.wiggle.star-#{$i} {
+				transition: stroke-opacity 500ms ease random(400) + ms;
+				@include ohSoChic(starRotate, 300ms, 1, random(400)  + ms);
+				stroke-opacity: 1;
+			}
+		}
+
+	} // end hover
+} // end
