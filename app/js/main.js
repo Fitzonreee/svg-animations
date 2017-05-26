@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  $('.placeholder').load('svgs/_placeholder.html');
+  $('.oxi-stain-remover').load('svgs/oxi-stain-remover.html');
   $('#liquid-stain-fighter-bright-booster').load('svgs/liquid-stain-fighter-bright-booster.html');
   $('#purex-hdd-fresh-bluebonnet').load('svgs/purex-hdd-fresh-bluebonnet.html');
   $('#baby').load('svgs/baby.html');
@@ -9,7 +11,6 @@ $(document).ready(function() {
   $('#hdd-lavender-blossom').load('svgs/hdd-lavender-blossom.html');
   $('#felsnaptha').load('svgs/felsnaptha.html');
   $('#crystals-well-being').load('svgs/crystals-well-being.html');
-  $('#oxi-stain-remover').load('svgs/oxi-stain-remover.html');
   $('#tropical-splash').load('svgs/tropical-splash.html');
   $('#tropical-escape').load('svgs/tropical-escape.html');
   $('#crystals-tahitian-breeze').load('svgs/crystals-tahitian-breeze.html');
