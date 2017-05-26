@@ -15,29 +15,23 @@
 }
 
 #purex-sta-flo-liquid-starch {
-  path,
-  circle,
-  ellipse,
-  line {
-    @include default(#FFF, 2)
-  }
 
   .star {stroke-opacity: 0}
 
   &:hover {
     .shirt-left,
-    .shirt-right {@include draw($lightBlue, 241, 240, offset, 1s, 1, 0)}
-    .collar {@include draw($lightBlue, 60, 60, offset, 500ms, 1, 250ms)}
-    .button {@include draw($lightBlue, 11, 11, offset, 500ms, 1, 800ms)}
-    .sleeve {@include draw($lightBlue, 140, 140, offset, 500ms, 1, 250ms)}
-    .cuff {@include draw($lightBlue, 20, 20, offset, 500ms, 1, 500ms)}
-    @for $i from 1 through 9 {
+    .shirt-right {@include draw($lightBlue, 610, 610, offset, 1s, 1, 0)}
+    .collar {@include draw($lightBlue, 145, 145, offset, 500ms, 1, 250ms)}
+    .button {@include draw($lightBlue, 30, 30, offset, 500ms, 1, 800ms)}
+    .sleeve {@include draw($lightBlue, 330, 330, offset, 500ms, 1, 250ms)}
+    .cuff {@include draw($lightBlue, 51, 51, offset, 500ms, 1, 500ms)}
+    @for $i from 1 through 8 {
       .star-#{$i} {
         transition: stroke-opacity 300ms ease random(400) + 500 + ms;
         stroke-opacity: 1;
       }
       .star-#{$i}-wrapper {
-        @include starSpin(starRotate, 300ms, 1, random(400) + 500 + ms);
+        @include starSpin(rotate, 300ms, 1, random(400) + 500 + ms);
       }
     }
   } // end hover
