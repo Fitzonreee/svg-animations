@@ -5,7 +5,6 @@ $(document).ready(function() {
   $('#purex-hdd-fresh-bluebonnet').load('svgs/purex-hdd-fresh-bluebonnet.html');
   $('#baby').load('svgs/baby.html');
   $('#liquid-starch').load('svgs/liquid-starch.html');
-  $('#original-fresh').load('svgs/original-fresh.html');
   $('#sunny-linen').load('svgs/sunny-linen.html');
   $('#almond-aloe').load('svgs/almond-aloe.html');
   $('#hdd-lavender-blossom').load('svgs/hdd-lavender-blossom.html');
@@ -29,4 +28,5 @@ $(document).ready(function() {
   $('#crystals-fab-fresh').load('svgs/crystals-fab-fresh.html');
   $('#crystals-aromatherapy-serenity').load('svgs/crystals-aromatherapy-serenity.html');
   $('#crystals-oh-so-chic').load('svgs/crystals-oh-so-chic.html');
+  $('#pc2-original-fresh').load('svgs/pc2-original-fresh.html');
 });
