@@ -1,0 +1,165 @@
+@keyframes offsetFade {
+  0% {
+    stroke-opacity: 0;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    stroke-opacity: 1;
+  }
+}
+
+@keyframes spin {
+  0% {transform: rotate(0deg)}
+  100% {transform: rotate(360deg)}
+}
+
+@keyframes swing {
+  0% {transform: rotate(0deg)}
+  30% {transform: rotate(20deg)}
+  70% {transform: rotate(-15deg)}
+  100% {transform: rotate(0deg)}
+}
+
+@keyframes sway {
+  0% {transform: rotate(0deg) translate(0px, 0px)}
+  15% {transform: rotate(0deg) translate(0px, -3px)}
+  30% {transform: rotate(20deg) translate(-5px, -3px)}
+  70% {transform: rotate(-15deg) translate(2px, -3px)}
+  80% {transform: rotate(0deg) translate(0px, -3px)}
+  100% {transform: rotate(0deg) translate(0px, 0px)}
+}
+
+@keyframes liliePulse {
+  0% { transform: translate3d(0px, 0px, 0px)}
+  50% { transform: translate3d(0px, -20px, 0px)}
+  100% { transform: translate3d(0px, 0px, 0px)}
+}
+
+
+#ne-linen-and-lilies {
+  path,
+  circle,
+  ellipse,
+  line {
+    @include default(#FFF, 4);
+  }
+
+  .late-bloomers {
+    .flower {
+      stroke-opacity: 0
+    }
+  }
+
+  &:hover {
+
+    .flower-1,
+    .flower-2,
+    .flower-3,
+    .flower-4 {
+      transition: stroke-opacity 500ms;
+      stroke-opacity: 1;
+      animation: liliePulse 500ms forwards;
+    }
+
+    @for $i from 1 through 4 {
+      .flower-#{$i} {
+        $delay: random(100);
+        transition-delay: $i * 100 + $delay  + ms;
+        animation-delay: $i * 100 + $delay  + ms
+      }
+    }
+
+    .clothing-line {@include draw($lightBlue, 255, 255, offset, 500ms, 1, 0ms)}
+    .hook-1,
+    .hook-2 {
+      transform-origin: top;
+      animation: swing;
+    }
+    .t-shirt {@include draw($purple, 250, 250, offset, 400ms, 1, 20ms)}
+    .skirt-top{@include draw($green, 37, 37, offset, 400ms, 1, 20ms)}
+    .skirt-bottom{@include draw($green, 161, 161, offset, 400ms, 1, 20ms)}
+    .t-shirts,
+    .skirts {
+      animation: sway;
+      transform-origin: 50% 0%;
+    }
+    .hook-1,
+    .hook-2,
+    .t-shirts,
+    .t-shirt-white,
+    .skirts {
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in-out;
+      animation-duration: 1500ms;
+      animation-direction: normal;
+      animation-delay: 50ms;
+    }
+    .filament-1 {@include draw($yellow, 26, 26, offset, 500ms, 1, random(100) + ms)}
+    .filament-2 {@include draw($yellow, 26, -26, offset, 500ms, 1, random(100) + ms)}
+
+    @for $i from 1 through 3 {
+      .anther-#{$i} {
+        @include draw($yellow, 25, 25, offset, 500ms, 1, 500 + random(100) + ms);
+      }
+    }
+
+    // Gloablize
+    @keyframes shine {
+    	0% {stroke-opacity: 0}
+    	100% {
+    		stroke-dashoffset: 0;
+    		stroke-opacity: 1;
+    	}
+    }
+    .sun {
+      transform-origin: 50% 50%;
+      animation: spin;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      animation-duration: 30s;
+      animation-direction: normal;
+
+      .sun-center,
+      .beam {
+        stroke: $yellow;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-out;
+        animation-fill-mode: forwards;
+      }
+
+      .sun-center {animation-name: offset; @include draw-tmoney(114, 114, 300ms, 0ms);}
+
+      .beam {animation-name: offsetFade;}
+
+      .beam-3,
+      .beam-16 {@include draw-tmoney(12, -12, 1600ms, 0ms);}
+      .beam-6,
+      .beam-19{@include draw-tmoney(14, -14, 1600ms, 0ms);}
+      .beam-13,
+      .beam-26{@include draw-tmoney(20, -20, 1600ms, 800ms);}
+      .beam-1,
+      .beam-14{@include draw-tmoney(23, 23, 1600ms, 750ms);}
+      .beam-8,
+      .beam-21{@include draw-tmoney(26, 26, 1600ms, 750ms);}
+      .beam-2,
+      .beam-9,
+      .beam-15,
+      .beam-22{@include draw-tmoney(32, 32, 1600ms, 0ms);}
+      .beam-7,
+      .beam-12,
+      .beam-20,
+      .beam-25{@include draw-tmoney(57, -57, 1000ms, 750ms);}
+      .beam-4,
+      .beam-17{@include draw-tmoney(60, -60, 1600ms, 0ms);}
+      .beam-5,
+      .beam-18{@include draw-tmoney(74, 74, 1600ms, 0ms);}
+      .beam-11,
+      .beam-24{@include draw-tmoney(86, 86, 1600ms, 0ms);}
+      .beam-10,
+      .beam-23{@include draw-tmoney(86, -86, 1600ms, 0ms);}
+    }
+
+
+
+  } // end hover
+} // end .linen-and-lilies

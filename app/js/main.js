@@ -29,4 +29,5 @@ $(document).ready(function() {
   $('#crystals-aromatherapy-serenity').load('svgs/crystals-aromatherapy-serenity.html');
   $('#crystals-oh-so-chic').load('svgs/crystals-oh-so-chic.html');
   $('#pc2-original-fresh').load('svgs/pc2-original-fresh.html');
+  $('#ne-linen-and-lilies').load('svgs/ne-linen-and-lilies.html');
 });
