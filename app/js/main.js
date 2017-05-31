@@ -30,4 +30,5 @@ $(document).ready(function() {
   $('#crystals-oh-so-chic').load('svgs/crystals-oh-so-chic.html');
   $('#pc2-original-fresh').load('svgs/pc2-original-fresh.html');
   $('#ne-linen-and-lilies').load('svgs/ne-linen-and-lilies.html');
+  $('#hdd-tahitian-breeze').load('svgs/hdd-tahitian-breeze.html');
 });

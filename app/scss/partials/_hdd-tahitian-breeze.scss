@@ -1,0 +1,58 @@
+@keyframes bend {
+  0% {transform: rotate(0deg) translateY(0px)}
+  50% {transform: rotate(3deg) translateY(-2px)}
+  100% {transform: rotate(0deg) translateY(0px)}
+}
+
+
+#purex-laundry-detergent-tahitian-breeze {
+
+  .breeze-group-late {opacity: 0}
+
+  &:hover {
+
+    .palm-tree,
+    .wave-long,
+    .wave-short-left,
+    .wave-short-right,
+    .breeze {
+      animation: offset-fade;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-out;
+      animation-fill-mode: forwards;
+    }
+
+    .palm-tree {@include draw($orange, 1440, 1440, offset-fade, 1000ms, 1, 0ms)}
+
+    .palm-trees-wrapper {
+      transform-origin: bottom center;
+      animation: bend 2000ms ease-in-out;
+    }
+
+    .breeze {
+      stroke: $lightBlue;
+      stroke-dasharray: 105;
+      stroke-dashoffset: -105;
+      animation-duration: 400ms;
+      animation-delay: 0ms;
+    }
+
+    @for $i from 1 through 4 {
+      .breeze-group-#{$i} {
+        transform: translateX(30 + random(20) + px);
+        transition: transform 600 + random(250) + ms;
+        transition-delay: $i * 50 + ms;
+      }
+    }
+
+    .breeze-group-late {
+      opacity: 1;
+      transition: opacity 1s !important;
+    }
+
+    .wave-long {@include draw($blue, 281, -281, offset-fade, 1000ms, 1, 0ms)}
+    .wave-medium {@include draw($blue, 210, -210, offset-fade, 1000ms, 1, 0ms)}
+    .wave-short {@include draw($blue, 71, -71, offset-fade, 1000ms, 1, 0ms)}
+
+  } // end hover
+} // end #purex-hdd-tahitian-breeze
