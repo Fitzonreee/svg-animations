@@ -1,21 +1,23 @@
-#fresh-bluebonnet {
+#purex-laundry-detergent-fresh-bluebonnet {
 
-  path,line {@include default(#FFF, 2)}
-
-  .test, .test > path { display: none }
+  .appear, .appear > path {display: none}
 
   &:hover {
 
-    .stem {@include draw($green, 95, -95, offset, 750ms, 1, 0)}
-    .test, .test > path { display: block }
+    .stem {@include draw($green, 267, -267, offset, 750ms, 1, 0)}
+    .appear, .appear > path {display: block}
 
     @for $i from 1 through 6 {
       .pedals-1-bottom,
+      .pedals-2-bottom,
       .pedals-3-bottom,
       .pedals-4-bottom,
       .pedals-5-bottom,
       .pedals-6-bottom {
-        .pedal-#{$i} {@include draw($blue, 29, 29, offset, 500ms, 1, random(500) + ms)}
+        .pedal-#{$i} {
+          @include draw($blue, 85, 85, offset, 500ms, 1, random(500) + ms);
+          // fill: yellow;
+        }
       }
       .pedals-1-middle-bottom,
       .pedals-2-middle-bottom,
@@ -23,31 +25,29 @@
       .pedals-4-middle-bottom,
       .pedals-5-middle-bottom,
       .pedals-6-top {
-        .pedal-#{$i} {@include draw($blue, 29, 29, offset, 500ms, 1, 200 + random(200) + ms)}
+        .pedal-#{$i} {@include draw($blue, 85, 85, offset-fade, 500ms, 1, 200 + random(200) + ms)}
       }
       .pedals-1-middle-top,
       .pedals-2-middle-top,
       .pedals-4-middle-top,
-      .pedals-5-middle-top {
-        .pedal-#{$i} {@include draw($blue, 29, 29, offset, 500ms, 1, 400 + random(200) + ms)}
+      .pedals-5-middle-top,
+      .pedals-6-middle-top {
+        .pedal-#{$i} {@include draw($blue, 85, 85, offset-fade, 500ms, 1, 400 + random(200) + ms)}
       }
       .pedals-3-top,
       .pedals-2-top,
       .pedals-4-top,
       .pedals-5-top {
-        .pedal-#{$i} {@include draw($blue, 29, 29, offset, 500ms, 1, 600 + random(200) + ms)}
+        .pedal-#{$i} {@include draw($blue, 85, 85, offset-fade, 500ms, 1, 600 + random(200) + ms)}
       }
     }
-
-    @for $i from 1 through 5 {
+    @for $i from 1 through 6 {
       .pedals-1-top {
-        .pedal-#{$i} {@include draw($blue, 29, 29, offset, 500ms, 1, 600 + random(200) + ms)}
+        .pedal-#{$i} {@include draw($blue, 85, 85, offset-fade, 500ms, 1, 600 + random(200) + ms)}
       }
       .pedals-3-middle-top {
-        .pedal-#{$i} {@include draw($blue, 29, 29, offset, 500ms, 1, 400 + random(200) + ms)}
+        .pedal-#{$i} {@include draw($blue, 85, 85, offset-fade, 500ms, 1, 400 + random(200) + ms)}
       }
     }
-
-
   } // end hover
-} // end #fresh-bluebonnet
+} // end #purex-hdd-fresh-bluebonnet

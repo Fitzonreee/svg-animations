@@ -2,7 +2,7 @@ $(document).ready(function() {
   $('.placeholder').load('svgs/_placeholder.html');
   $('.oxi-stain-remover').load('svgs/oxi-stain-remover.html');
   $('#liquid-stain-fighter-bright-booster').load('svgs/liquid-stain-fighter-bright-booster.html');
-  $('#purex-hdd-fresh-bluebonnet').load('svgs/purex-hdd-fresh-bluebonnet.html');
+  $('#fresh-bluebonnet').load('svgs/purex-hdd-fresh-bluebonnet.html');
   $('#baby').load('svgs/baby.html');
   $('#liquid-starch').load('svgs/liquid-starch.html');
   $('#sunny-linen').load('svgs/sunny-linen.html');
