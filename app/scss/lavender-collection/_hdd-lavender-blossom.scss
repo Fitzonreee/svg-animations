@@ -1,0 +1,70 @@
+/**************************************
+HDD Lavender Blossom
+**************************************/
+
+#purex-laundry-detergent-fresh-lavender-blossom {
+
+  // Bee Paths
+  @keyframes bee-one--straight-flight {
+    0% {transform: translate(0,0)}
+    100% {transform: translate(195px, -145px)}
+  }
+
+  @keyframes bee-two--straight-flight {
+    0% {transform: translate(0,0) rotate(0)}
+    100% {transform: translate(-50px, -120px) rotate(-15deg)}
+  }
+
+  @keyframes bee-three--straight-flight {
+    0% {transform: translate(0px, 0px) rotate(0deg)}
+    15% {transform: translate(-10px, -25px) rotate(45deg)}
+    40% {transform: translate(20px, -80px) rotate(-10deg)}
+    100% {transform: translate(-12px, -135px) rotate(0deg)}
+  }
+
+  //Bee flightpaths
+  @keyframes dash-left {
+    from {stroke-dashoffset: 0}
+    to {stroke-dashoffset: -240}
+  }
+
+  @keyframes dash-middle {
+    from {stroke-dashoffset: 0}
+    to {stroke-dashoffset: -38}
+  }
+
+  @keyframes dash-right {
+    from {stroke-dashoffset: 0}
+    to {stroke-dashoffset: -92}
+  }
+
+  &:hover {
+    .flightpath-left {
+      stroke-dasharray: 240;
+      stroke-dashoffset: 240;
+      animation: dash-left 500ms;
+      animation-delay: 100ms;
+    }
+    .flightpath-middle {
+      stroke-dasharray: 38;
+      stroke-dashoffset: 38;
+      animation: dash-middle 500ms;
+      animation-delay: 250ms;
+    }
+    .flightpath-right {
+      stroke-dasharray: 92;
+      stroke-dashoffset: 92;
+      animation: dash-right 600ms;
+      animation-delay: 200ms;
+    }
+    .bee-loop-wrapper {
+      animation: loop 1s ease 0ms 1;
+      animation-fill-mode: forwards;
+    }
+    .bees {
+      .bee-1 {animation: bee-one--straight-flight 1000ms ease}
+      .bee-2 {animation: bee-two--straight-flight 1000ms ease}
+      .bee-3 {animation: bee-three--straight-flight 1000ms ease}
+    }
+  }
+}

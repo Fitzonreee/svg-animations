@@ -1,0 +1,83 @@
+/**************************************
+Crystals Lavender Blossom
+**************************************/
+
+#purex-crystals-lavender-blossom {
+
+  // Bee Paths
+  @keyframes crystals--bee-one--flight {
+    0% {transform: translate3d(0px, 0px, 0px) rotate(-15deg)}
+    100% {transform: translate3d(180px, -130px, 0px) rotate(15deg)}
+  }
+
+  @keyframes crystals--bee-two--flight-xAxis {
+    0% {transform: translateX(0px)}
+    100% {transform: translateX(-170px)}
+  }
+
+  @keyframes crystals--bee-two--flight-yAxis {
+    0% {transform: translateY(0px)}
+    70% {transform: translateY(-70px)}
+    80% {transform: translateY(-50px)}
+    100% {transform: translateY(-60px)}
+  }
+
+  @keyframes crystals--bee-three--flight-xAxis {
+    0% {transform: translateX(0px)}
+    100% {transform: translateX(-140px)}
+  }
+
+  @keyframes crystals--bee-three--flight-yAxis {
+    0% {transform: translateY(0px)}
+    100% {transform: translateY(-150px)}
+  }
+
+  &:hover {
+
+    //test - global that is that greater than all paths
+    // currently using animations from powder-with-crystals
+    .flightpath-test {
+      stroke-dasharray: 324;
+      stroke-dashoffset: 324;
+      animation: with-crystals-dash-left 900ms;
+      animation-delay: 150ms;
+    }
+    .flightpath-left {
+      stroke-dasharray: 324;
+      stroke-dashoffset: 324;
+      animation: with-crystals-dash-left 900ms;
+      animation-delay: 100ms;
+    }
+    .flightpath-middle {
+      stroke-dasharray: 176;
+      stroke-dashoffset: 176;
+      animation: with-crystals-dash-middle 800ms;
+      animation-delay: 200ms;
+    }
+    .flightpath-right {
+      stroke-dasharray: 110;
+      stroke-dashoffset: 110;
+      animation: with-crystals-dash-right 600ms;
+      animation-delay: 400ms;
+    }
+    // Only animations are unique
+    .bee-1 {
+      animation: crystals--bee-one--flight 900ms ease 0ms 1 normal;
+      .bee-wrapper {
+        // animation: crystals--bee-one--flight 1000ms ease 0ms 1 normal;
+      }
+    }
+    .bee-2 {
+      animation: crystals--bee-two--flight-xAxis 800ms ease 50ms 1 normal;
+      .bee-wrapper {
+        animation: crystals--bee-two--flight-yAxis 600ms ease 50ms 1 normal;
+      }
+    }
+    .bee-3 {
+      animation: crystals--bee-three--flight-xAxis 500ms ease-in 50ms 1 normal;
+      .bee-wrapper {
+        animation: crystals--bee-three--flight-yAxis 550ms ease-out 50ms 1 normal;
+      }
+    }
+  } // end hover
+} // end

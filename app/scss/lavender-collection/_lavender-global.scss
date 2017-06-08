@@ -1,0 +1,99 @@
+/**************************************
+Lav Blossom - Global Styles
+**************************************/
+
+//Bee-bob - all bees
+@keyframes bee-bob {
+  0% {transform: translate(0,0)}
+  50% {transform: translate(0,15px)}
+  100% {transform: translate(0,0)}
+}
+
+//Bee loop - HDD, with Crystls
+@keyframes loop {
+  0% {transform: rotate(0deg)}
+  15% {transform: rotate(0deg)}
+  60% {transform: rotate(-360deg)}
+  100% {transform: rotate(-360deg)}
+}
+
+$wingAngleTop: 55;
+$wingAngleBottom: 30;
+
+@keyframes flutterWingsLeft {
+  0% { transform: rotate(- + (15 + $wingAngleTop) + deg)}
+  100% { transform: rotate(- + ($wingAngleBottom - 15) + deg)}
+}
+
+@keyframes flutterWingsRight {
+  0% { transform: rotate((15 + $wingAngleTop) + deg) }
+  100% { transform: rotate(($wingAngleBottom - 15) + deg) }
+}
+
+.wings-left.wing-top {transform: rotate(- + $wingAngleTop + deg)}
+.wings-left.wing-bottom {transform: rotate(- + $wingAngleBottom + deg)}
+
+.wings-right.wing-top {transform: rotate($wingAngleTop + deg)}
+.wings-right.wing-bottom {transform: rotate($wingAngleBottom + deg)}
+
+.lavender-collection {
+
+  // Master-grid global (remove later)
+  // need to add class of default to lavender SVG partials
+  path,
+  circle,
+  ellipse,
+  line {
+    @include default(#FFF, 4)
+  }
+
+  // Bee flightpaths
+  .flightpath {
+    stroke: $backgroundColor;
+    stroke-width: 5;
+  }
+
+  .bee,
+  .bee-wrapper {
+    animation-fill-mode: forwards !important
+  }
+
+  .bee,
+  .bee-loop-wrapper  {
+    transform-origin: 50% 35% !important;
+  }
+
+  &:hover {
+    // Wings
+    .wings-left.wing-top {animation: flutterWingsLeft 50ms linear 0s infinite alternate}
+    .wings-left.wing-bottom {animation: flutterWingsLeft 50ms linear 0s infinite alternate-reverse}
+    .wings-right.wing-top {animation: flutterWingsRight 50ms linear 0s infinite alternate}
+    .wings-right.wing-bottom {animation: flutterWingsRight 50ms linear 0s infinite alternate-reverse}
+    // Bees
+    .bees * {transition: stroke 700ms}
+    .bees *, .dashed {stroke: $orange}
+    .bee-bob-wrapper {animation: bee-bob 1000ms ease-in-out 900ms infinite alternate}
+    //Flightpaths
+    .dashed {stroke-dasharray: 12}
+    .flightpath {
+      stroke: $backgroundColor;
+      animation-fill-mode: backwards !important;
+      animation-timing-function: linear;
+    }
+    // Flower bundles
+    .bow path {
+      transition: stroke 400ms;
+      stroke: $yellow;
+    }
+    .leaf {
+      transition: stroke 600ms;
+      stroke: $green;
+    }
+    .flower line {
+      transition: stroke 1050ms;
+      stroke: $purple;
+    }
+    // stems
+    .stem {@include draw($green, 223, 223, offset, 300ms, 1, 0ms)}
+  }
+}

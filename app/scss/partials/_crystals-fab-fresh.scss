@@ -25,9 +25,12 @@
 	// global class exists called .fill
 	.flower circle {fill: $backgroundColor;}
 	// global class exists called .fade-in
-	.fadeIn {stroke-opacity: 0;}
+	.fadeIn {stroke-opacity: 0}
+	.fill-fade {fill: none}
 
 	&:hover {
+
+		.fill-fade {fill: $backgroundColor}
 
 		.flower {
 			animation-duration: 1000ms !important;

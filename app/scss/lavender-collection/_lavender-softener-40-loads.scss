@@ -1,0 +1,101 @@
+/**************************************
+Fabric Softener Lavender (40 Loads)
+**************************************/
+
+#purex-sweet-lavender-40-loads {
+
+  // Bee Paths
+  @keyframes loads40-bee-one--straight-flight-xAxis {
+    0% {transform: translateX(0)}
+    100% {transform: translateX(115px)}
+  }
+
+  @keyframes loads40-bee-one--straight-flight-yAxis {
+    0% {transform: translateY(0)}
+    100% {transform: translateY(-110px)}
+  }
+
+  @keyframes loads40-bee-two--straight-flight-xAxis {
+    0% {transform: translateX(0)}
+    100% {transform: translateX(-180px)}
+  }
+
+  @keyframes loads40-bee-two--straight-flight-yAxis {
+    0% {transform: translateY(0)}
+    35% {transform: translateY(45px)}
+    100% {transform: translateY(-40px)}
+  }
+
+  @keyframes loads40-bee-three--straight-flight-xAxis {
+    0% {transform: translateX(0)}
+    40% {transform: translateX(-60px)}
+    100% {transform: translateX(-135px)}
+  }
+
+  @keyframes loads40-bee-three--straight-flight-yAxis {
+    0% {transform: translateY(0)}
+    100% {transform: translateY(-155px)}
+  }
+
+  // Bee Flightpaths
+  @keyframes loads40-dash-left {
+    from {stroke-dashoffset: 0}
+    to {stroke-dashoffset: -132}
+  }
+
+  @keyframes loads40-dash-middle {
+    from {stroke-dashoffset: 0}
+    to {stroke-dashoffset: -157}
+  }
+
+  @keyframes loads40-dash-right {
+    from {stroke-dashoffset: 0}
+    to {stroke-dashoffset: -182}
+  }
+
+  &:hover {
+
+    .flightpath-left {
+      stroke-dasharray: 132;
+      stroke-dashoffset: 132;
+      animation: loads40-dash-left 500ms;
+      animation-delay: 150ms;
+    }
+
+    .flightpath-middle {
+      stroke-dasharray: 157;
+      stroke-dashoffset: 157;
+      animation: loads40-dash-middle 500ms;
+      animation-delay: 150ms;
+    }
+
+    .flightpath-right {
+      stroke-dasharray: 182;
+      stroke-dashoffset: 182;
+      animation: loads40-dash-right 500ms;
+      animation-delay: 250ms;
+    }
+
+    .bees {
+      .bee-1 {
+        animation: loads40-bee-one--straight-flight-xAxis 800ms ease;
+        .bee-wrapper {animation: loads40-bee-one--straight-flight-yAxis 550ms ease 1 normal}
+
+        // .wing-top {animation: wingsLeft 50ms linear 0s infinite alternate}
+        // .wing-bottom {animation: wingsLeft 50ms linear 0s infinite alternate-reverse}
+      }
+      .bee-2 {
+        animation: loads40-bee-two--straight-flight-xAxis 800ms ease;
+        .bee-wrapper {animation: loads40-bee-two--straight-flight-yAxis 550ms ease}
+        // .wing-top {animation: wingsSpecial 50ms linear 0s infinite alternate}
+        // .wing-bottom {animation: wingsSpecial 50ms linear 0s infinite alternate-reverse}
+      }
+      .bee-3 {
+        animation: loads40-bee-three--straight-flight-xAxis 600ms ease-in;
+        .bee-wrapper {animation: loads40-bee-three--straight-flight-yAxis 850ms ease}
+        // .wing-top {animation: wingsRight 50ms linear 0s infinite alternate}
+        // .wing-bottom {animation: wingsRight 50ms linear 0s infinite alternate-reverse}
+      }
+    }
+  }
+}

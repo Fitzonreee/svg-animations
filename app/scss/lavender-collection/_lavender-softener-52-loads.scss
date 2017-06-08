@@ -1,0 +1,98 @@
+/**************************************
+Fabric Softener Lavender (52 Loads)
+**************************************/
+
+#purex-sweet-lavender-52-loads {
+  // Bee Paths
+  @keyframes loads52-bee-one--straight-flight-xAxis {
+    0% {transform: translateX(0)}
+    100% {transform: translateX(155px)}
+  }
+
+  @keyframes loads52-bee-one--straight-flight-yAxis {
+    0% {transform: translateY(0)}
+    50% {transform: translateY(-80px);}
+    100% {transform: translateY(-100px)}
+  }
+
+  @keyframes loads52-bee-two--flight {
+    0% {transform: translate(0,0)}
+    50% {transform: translate(-65px, -40px)}
+    100% {transform: translate(-130px, -100px)}
+  }
+
+  @keyframes loads52-bee-two--rotate {
+    0% {transform: rotate(0deg)}
+    20% {transform: rotate(0deg)}
+    50% {transform: rotate(360deg)}
+    100% {transform: rotate(360deg)}
+  }
+
+  @keyframes loads52-bee-three--straight-flight-xAxis {
+    0% {transform: translateX(0)}
+    100% {transform: translateX(-80px)}
+  }
+
+  @keyframes loads52-bee-three--straight-flight-yAxis {
+    0% {transform: translateY(0)}
+    100% {transform: translateY(-95px)}
+  }
+
+  // Bee Flightpaths
+  @keyframes loads52-dash-left {
+    from {stroke-dashoffset: 0}
+    to {stroke-dashoffset: -156}
+  }
+
+  @keyframes loads52-dash-middle {
+    from {stroke-dashoffset: 0}
+    to {stroke-dashoffset: -279}
+  }
+
+  @keyframes loads52-dash-right {
+    from {stroke-dashoffset: 0}
+    to {stroke-dashoffset: -109}
+  }
+
+  &:hover {
+
+    .flightpath-left {
+      stroke-dasharray: 156;
+      stroke-dashoffset: 156;
+      animation: loads52-dash-left 800ms;
+      animation-delay: 100ms;
+    }
+
+    .flightpath-middle {
+      stroke-dasharray: 279;
+      stroke-dashoffset: 279;
+      animation: loads52-dash-middle 900ms;
+      animation-delay: 200ms;
+    }
+
+    .flightpath-right {
+      stroke-dasharray: 109;
+      stroke-dashoffset: 109;
+      animation: loads52-dash-right 600ms;
+      animation-delay: 100ms;
+    }
+
+    .bees {
+      .bee-1 {
+        animation: loads52-bee-one--straight-flight-xAxis 1000ms ease;
+        .bee-wrapper {animation: loads52-bee-one--straight-flight-yAxis 1000ms ease;}
+      }
+      .bee-2 {
+        animation: loads52-bee-two--flight 900ms linear;
+        .bee-wrapper {
+          transform-origin: 50% 35% !important;
+          animation: loads52-bee-two--rotate 1200ms ease;
+        }
+      }
+      .bee-3 {
+        animation: loads52-bee-three--straight-flight-xAxis 1000ms ease;
+        .bee-wrapper {animation: loads52-bee-three--straight-flight-yAxis 600ms ease;}
+      }
+    }
+  }
+}

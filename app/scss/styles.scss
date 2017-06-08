@@ -1,12 +1,14 @@
+// Global
 @import "partials/_main";
 @import "partials/_master-grid-only";
+
+// Individual SVG's
 @import "partials/_purex-hdd-fresh-bluebonnet";
 @import "partials/liquid-stain-fighter-bright-booster";
 @import "partials/baby";
 @import "partials/liquid-starch";
 @import "partials/sunny-linen";
 @import "partials/almond-aloe";
-@import "partials/hdd-lavender-blossom";
 @import "partials/felsnaptha";
 @import "partials/crystals-well-being";
 @import "partials/oxi-stain-remover";
@@ -31,3 +33,12 @@
 @import "partials/pc2-original-fresh";
 @import "partials/ne-linen-and-lilies";
 @import "partials/hdd-tahitian-breeze";
+
+// Lavender-Collection
+@import "lavender-collection/lavender-global";
+@import "lavender-collection/hdd-lavender-blossom";
+@import "lavender-collection/lavender-dry-with-crystals";
+@import "lavender-collection/lavender-softener-52-loads";
+@import "lavender-collection/lavender-softener-40-loads";
+@import "lavender-collection/lavender-dryer-sheets";
+@import "lavender-collection/lavender-blossom-crystals";

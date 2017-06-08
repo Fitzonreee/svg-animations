@@ -119,9 +119,6 @@ $darkBlue: #053264;
 }
 
 
-
-
-
 .default {
   path,
   circle,
@@ -134,23 +131,12 @@ $darkBlue: #053264;
 // Global SVG helper classes
 .fill {fill: $backgroundColor !important}
 .center {transform-origin: 50% 50% !important}
+.transform-bottom {transform-origin: bottom center !important}
 
 // Replace all instances of .fadeIn
-// Have one for stroke-opacity and one for opacity
+// Have one for stroke-opacity and one for opacity of the entire element
 // .fade-in {opacity: 0}
 .fade-in-stroke {stroke-opacity: 0}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -26,13 +26,13 @@
   100% {transform: rotate(360deg)}
 }
 
-@keyframes dash {
+@keyframes birdDash {
   from {stroke-dashoffset: 0}
   to {stroke-dashoffset: 266}
 }
 
 .lilac-white-lavender {
-  .path {
+  .bird-path {
     stroke: $backgroundColor;
     stroke-width: 4.5 !important;
   }
@@ -78,14 +78,14 @@
         }
       }
     }
-    .dashed {
+    .bird-dashed {
       stroke-dasharray: 15;
       stroke: $purple !important;
     }
-    .path {
+    .bird-path {
       stroke-dasharray: 266;
       stroke-dashoffset: 266;
-      animation: dash 500ms ease-in;
+      animation: birdDash 500ms ease-in;
       animation-delay: 250ms;
       animation-fill-mode: backwards;
     }

@@ -1,0 +1,94 @@
+/**************************************
+Dryer Sheets Lavender
+**************************************/
+
+#purex-sweet-lavender-fabric-softener-sheets {
+
+  // Bee Paths
+  @keyframes sheets-bee-one--straight-flight-xAxis {
+    0% {transform: translatex(0)}
+    100% {transform: translatex(300px)}
+  }
+
+  @keyframes sheets-bee-one--straight-flight-yAxis {
+    0% {transform: translateY(0)}
+    40% {transform: translateY(-110px)}
+    60% {transform: translateY(-95px)}
+    100% {transform: translateY(-125px)}
+  }
+
+  @keyframes sheets-bee-two--straight-flight {
+    0% {transform: translate(0,0)}
+    100% {transform: translate(-60px, -100px)}
+  }
+
+  @keyframes sheets-bee-three--straight-flight-xAxis {
+    0% {transform: translatex(0)}
+    100% {transform: translatex(-210px)}
+  }
+
+  @keyframes sheets-bee-three--straight-flight-yAxis {
+    0% {transform: translateY(0)}
+    60% {transform: translateY(-85px);}
+    100% {transform: translateY(-65px)}
+  }
+
+  // Bee Flightpaths
+  @keyframes sheets-dash-left {
+    from {stroke-dashoffset: 0}
+    to {stroke-dashoffset: -340}
+  }
+
+  @keyframes sheets-dash-middle {
+    from {stroke-dashoffset: 0}
+    to {stroke-dashoffset: -87}
+  }
+
+  @keyframes sheets-dash-right {
+    from {stroke-dashoffset: 0}
+    to {stroke-dashoffset: -216}
+  }
+
+
+  &:hover {
+
+    .flightpath-left {
+      stroke-dasharray: 340;
+      stroke-dashoffset: 340;
+      animation: sheets-dash-left 800ms;
+      animation-delay: 100ms;
+    }
+
+    .flightpath-middle {
+      stroke-dasharray: 87;
+      stroke-dashoffset: 87;
+      animation: sheets-dash-middle 800ms;
+      animation-delay: 50ms;
+    }
+
+    .flightpath-right {
+      stroke-dasharray: 216;
+      stroke-dashoffset: 216;
+      animation: sheets-dash-right 700ms;
+      animation-delay: 150ms;
+    }
+
+    .bees {
+      .bee-1 {
+        animation: sheets-bee-one--straight-flight-xAxis 1000ms ease 1 normal;
+        .bee-wrapper {
+          animation: sheets-bee-one--straight-flight-yAxis 800ms ease 1 normal;
+        }
+      }
+      .bee-2 {
+        animation: sheets-bee-two--straight-flight 800ms ease 1 normal;
+      }
+      .bee-3 {
+        animation: sheets-bee-three--straight-flight-xAxis 1000ms ease 1 normal;
+        .bee-wrapper {
+          animation: sheets-bee-three--straight-flight-yAxis 800ms ease 1 normal;
+        }
+      }
+    }
+  }
+}

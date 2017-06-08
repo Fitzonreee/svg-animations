@@ -1,5 +1,7 @@
 $(document).ready(function() {
+  // placeholder
   $('.placeholder').load('svgs/_placeholder.html');
+  // all Individual SVG's
   $('.oxi-stain-remover').load('svgs/oxi-stain-remover.html');
   $('#liquid-stain-fighter-bright-booster').load('svgs/liquid-stain-fighter-bright-booster.html');
   $('#fresh-bluebonnet').load('svgs/purex-hdd-fresh-bluebonnet.html');
@@ -7,7 +9,6 @@ $(document).ready(function() {
   $('#liquid-starch').load('svgs/liquid-starch.html');
   $('#sunny-linen').load('svgs/sunny-linen.html');
   $('#almond-aloe').load('svgs/almond-aloe.html');
-  $('#hdd-lavender-blossom').load('svgs/hdd-lavender-blossom.html');
   $('#felsnaptha').load('svgs/felsnaptha.html');
   $('#crystals-well-being').load('svgs/crystals-well-being.html');
   $('#tropical-splash').load('svgs/tropical-splash.html');
@@ -31,4 +32,11 @@ $(document).ready(function() {
   $('#pc2-original-fresh').load('svgs/pc2-original-fresh.html');
   $('#ne-linen-and-lilies').load('svgs/ne-linen-and-lilies.html');
   $('#hdd-tahitian-breeze').load('svgs/hdd-tahitian-breeze.html');
+  // lavender-collection
+  $('#lavender-softener-52-loads').load('svgs/lavender-collection/lavender-softener-52-loads.html');
+  $('#lavender-softener-40-loads').load('svgs/lavender-collection/lavender-softener-40-loads.html');
+  $('#hdd-lavender-blossom').load('svgs/lavender-collection/hdd-lavender-blossom.html');
+  $('#lavender-dry-with-crystals').load('svgs/lavender-collection/lavender-dry-with-crystals.html');
+  $('#lavender-dryer-sheets').load('svgs/lavender-collection/lavender-dryer-sheets.html');
+  $('#lavender-blossom-crystals').load('svgs/lavender-collection/lavender-blossom-crystals.html');
 });

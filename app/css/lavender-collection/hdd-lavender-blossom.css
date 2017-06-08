@@ -1,0 +1,139 @@
+/**************************************
+HDD Lavender Blossom
+**************************************/
+@-webkit-keyframes bee-one--straight-flight {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0); }
+  100% {
+    -webkit-transform: translate(195px, -145px);
+            transform: translate(195px, -145px); } }
+@keyframes bee-one--straight-flight {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0); }
+  100% {
+    -webkit-transform: translate(195px, -145px);
+            transform: translate(195px, -145px); } }
+
+@-webkit-keyframes bee-two--straight-flight {
+  0% {
+    -webkit-transform: translate(0, 0) rotate(0);
+            transform: translate(0, 0) rotate(0); }
+  100% {
+    -webkit-transform: translate(-50px, -120px) rotate(-15deg);
+            transform: translate(-50px, -120px) rotate(-15deg); } }
+
+@keyframes bee-two--straight-flight {
+  0% {
+    -webkit-transform: translate(0, 0) rotate(0);
+            transform: translate(0, 0) rotate(0); }
+  100% {
+    -webkit-transform: translate(-50px, -120px) rotate(-15deg);
+            transform: translate(-50px, -120px) rotate(-15deg); } }
+
+@-webkit-keyframes bee-three--straight-flight {
+  0% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+            transform: translate(0px, 0px) rotate(0deg); }
+  15% {
+    -webkit-transform: translate(-10px, -25px) rotate(45deg);
+            transform: translate(-10px, -25px) rotate(45deg); }
+  40% {
+    -webkit-transform: translate(20px, -80px) rotate(-10deg);
+            transform: translate(20px, -80px) rotate(-10deg); }
+  100% {
+    -webkit-transform: translate(-12px, -135px) rotate(0deg);
+            transform: translate(-12px, -135px) rotate(0deg); } }
+
+@keyframes bee-three--straight-flight {
+  0% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+            transform: translate(0px, 0px) rotate(0deg); }
+  15% {
+    -webkit-transform: translate(-10px, -25px) rotate(45deg);
+            transform: translate(-10px, -25px) rotate(45deg); }
+  40% {
+    -webkit-transform: translate(20px, -80px) rotate(-10deg);
+            transform: translate(20px, -80px) rotate(-10deg); }
+  100% {
+    -webkit-transform: translate(-12px, -135px) rotate(0deg);
+            transform: translate(-12px, -135px) rotate(0deg); } }
+
+@-webkit-keyframes dash-left {
+  from {
+    stroke-dashoffset: 0; }
+  to {
+    stroke-dashoffset: -240; } }
+
+@keyframes dash-left {
+  from {
+    stroke-dashoffset: 0; }
+  to {
+    stroke-dashoffset: -240; } }
+
+@-webkit-keyframes dash-middle {
+  from {
+    stroke-dashoffset: 0; }
+  to {
+    stroke-dashoffset: -38; } }
+
+@keyframes dash-middle {
+  from {
+    stroke-dashoffset: 0; }
+  to {
+    stroke-dashoffset: -38; } }
+
+@-webkit-keyframes dash-right {
+  from {
+    stroke-dashoffset: 0; }
+  to {
+    stroke-dashoffset: -92; } }
+
+@keyframes dash-right {
+  from {
+    stroke-dashoffset: 0; }
+  to {
+    stroke-dashoffset: -92; } }
+
+#purex-laundry-detergent-fresh-lavender-blossom:hover .flightpath-left {
+  stroke-dasharray: 240;
+  stroke-dashoffset: 240;
+  -webkit-animation: dash-left 500ms;
+          animation: dash-left 500ms;
+  -webkit-animation-delay: 100ms;
+          animation-delay: 100ms; }
+
+#purex-laundry-detergent-fresh-lavender-blossom:hover .flightpath-middle {
+  stroke-dasharray: 38;
+  stroke-dashoffset: 38;
+  -webkit-animation: dash-middle 500ms;
+          animation: dash-middle 500ms;
+  -webkit-animation-delay: 250ms;
+          animation-delay: 250ms; }
+
+#purex-laundry-detergent-fresh-lavender-blossom:hover .flightpath-right {
+  stroke-dasharray: 92;
+  stroke-dashoffset: 92;
+  -webkit-animation: dash-right 600ms;
+          animation: dash-right 600ms;
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms; }
+
+#purex-laundry-detergent-fresh-lavender-blossom:hover .bee-loop-wrapper {
+  -webkit-animation: loop 1s ease 0ms 1;
+          animation: loop 1s ease 0ms 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards; }
+
+#purex-laundry-detergent-fresh-lavender-blossom:hover .bees .bee-1 {
+  -webkit-animation: bee-one--straight-flight 1000ms ease;
+          animation: bee-one--straight-flight 1000ms ease; }
+
+#purex-laundry-detergent-fresh-lavender-blossom:hover .bees .bee-2 {
+  -webkit-animation: bee-two--straight-flight 1000ms ease;
+          animation: bee-two--straight-flight 1000ms ease; }
+
+#purex-laundry-detergent-fresh-lavender-blossom:hover .bees .bee-3 {
+  -webkit-animation: bee-three--straight-flight 1000ms ease;
+          animation: bee-three--straight-flight 1000ms ease; }
