@@ -31,7 +31,7 @@
 #purex-laundry-detergent-sunny-linen {
   &:hover {
     .sun {
-      transform-origin: 50% 50%;
+      transform-origin: 511px 140px;
       animation: spin;
       animation-iteration-count: infinite;
       animation-timing-function: linear;
@@ -86,16 +86,31 @@
       }
     }
     .clothesline {@include drawSunnyLinen($lightBlue, 581, 581, offset, 500ms, 1, 0ms)}
-    .hook-1,
-    .hook-2 {
-      transform-origin: top;
-      animation: swing;
+
+    .pegs-1 {
+      .hook-1 { transform-origin: 103px 296px }
+      .hook-2 { transform-origin: 129px 300px }
     }
+
+    .pegs-2 {
+      .hook-1 { transform-origin: 182px 305px }
+      .hook-2 { transform-origin: 199px 308px }
+    }
+
+    .pegs-3 {
+      .hook-1 { transform-origin: 595px 303px }
+      .hook-2 { transform-origin: 630px 299px }
+    }
+
+    .hook-1,
+    .hook-2 {animation: swing}
+
     .hook-1,
     .hook-2,
     .shirt-wrapper,
     .skirt-wrapper ,
     .dress-wrapper {
+      transform-box: fill;
       animation-iteration-count: 1;
       animation-timing-function: ease-in-out;
       animation-duration: 1500ms;
@@ -105,12 +120,15 @@
     .shirt {@include drawSunnyLinen($purple, 250, 250, offset, 400ms, 1, 0ms)}
     .skirt-top {@include drawSunnyLinen($green, 37, 37, offset, 400ms, 1, 20ms)}
     .skirt-bottom {@include drawSunnyLinen($green, 161, 161, offset, 400ms, 1, 20ms)}
+
     .dress-wrapper,
     .shirt-wrapper,
-    .skirt-wrapper {
-      transform-origin: top;
-      animation-name: sway;
-    }
+    .skirt-wrapper { animation-name: sway }
+
+    .dress-wrapper { transform-origin: 600px 300px }
+    .shirt-wrapper { transform-origin: 100px 300px }
+    .skirt-wrapper { transform-origin: 180px 300px }
+
     .shirt-wrapper,
     .skirt-wrapper {
       animation-delay: 0ms;
