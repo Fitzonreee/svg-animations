@@ -1,4 +1,5 @@
 // This should be replaced by the smaller-global draw
+// The sun line animation may not work in Safari - lines are animating in opposite directions in Safari and Chrome
 @mixin drawSunnyLinen($color, $array, $offset, $keyframes, $seconds, $count, $delay) {
   stroke: $color;
   stroke-dasharray: $array;
@@ -26,6 +27,8 @@
   80% {transform: rotate(0deg) translate(0px, -3px)}
   100% {transform: rotate(0deg) translate(0px, 0px)}
 }
+
+* { shape-rendering: geometricPrecision }
 
 
 #purex-laundry-detergent-sunny-linen {
