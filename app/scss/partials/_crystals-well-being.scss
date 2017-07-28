@@ -21,7 +21,7 @@
       stroke-opacity: 0;
     }
   }
-  
+
   .white-flowers .flower path, ellipse {
     fill: $backgroundColor !important;
     stroke-opacity: 1 !important;
@@ -33,10 +33,17 @@
 
   .late-bloomers {
     .flower {
-      transform-origin: 40% 80% !important;
       transform: scale(0);
       opacity: 0;
     }
+    .flower-1 { transform-origin: 305px 264px }
+    .flower-2 { transform-origin: 311px 191px }
+    .flower-3 { transform-origin: 451px 167px }
+    .flower-4 { transform-origin: 459px 102px }
+    .flower-5 { transform-origin: 510px 64px }
+    .flower-6 { transform-origin: 495px 434px }
+    .flower-7 { transform-origin: 553px 379px }
+    .flower-8 { transform-origin: 590px 326px }
   }
 
   &:hover {

@@ -32,6 +32,21 @@ Crystals Lavender Blossom
     100% {transform: translateY(-150px)}
   }
 
+  .bee-1 {
+    .wing-top,
+    .wing-bottom { transform-origin: 148px 220px !important }
+  }
+
+  .bee-2 {
+    .wing-top,
+    .wing-bottom { transform-origin: 306px 156px !important }
+  }
+
+  .bee-3 {
+    .wing-top,
+    .wing-bottom { transform-origin: 655px 221px !important }
+  }
+
   &:hover {
 
     //test - global that is that greater than all paths
