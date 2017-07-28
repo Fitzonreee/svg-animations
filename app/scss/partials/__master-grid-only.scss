@@ -1,3 +1,25 @@
+// transform-origin switched to fixed pixels
+
+#purex-laundry-detergent-sunny-linen,
+#purex-oxi-stain-remover-powder,
+#purex-laundry-detergent-after-the-rain {
+  outline: 1px solid orange;
+}
+
+#purex-laundry-detergent-after-the-rain {
+  border: 2px dashed green;
+  border-bottom: 5px solid navy
+}
+
+.fixed-transform-origin { outline: 1px solid orange }
+.direction-issue { outline: 2px dashed green }
+.refactored { border-bottom: 5px solid navy}
+
+
+
+
+
+
 // Just for the index page on this repo
 @font-face {
   font-family: Proxima;
@@ -16,16 +38,19 @@ body {background-color: $backgroundColor}
    max-width: initial;
 }
 
-h6 { font-size: 10px;}
+h6 {
+  font-size: 16px;
+  padding: 5px 10px;
+}
 
 p, h6 {
-  text-align: center;
   color: $darkBlue;
   font-family: 'Proxima', sans-serif;
   margin-bottom: 8px;
 }
 
 p {
+  text-align: center;
   font-size: 13px;
   letter-spacing: 1px;
   text-transform: uppercase;
