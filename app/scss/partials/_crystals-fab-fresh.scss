@@ -28,6 +28,34 @@
 	.fadeIn {stroke-opacity: 0}
 	.fill-fade {fill: none}
 
+	.flower-1 { transform-origin: 464px 467px }
+	.flower-2 { transform-origin: 538px 454px }
+	.flower-3 { transform-origin: 620px 337px }
+	.flower-4 { transform-origin: 580px 277px }
+	.flower-5 { transform-origin: 499px 271px }
+	.flower-6 { transform-origin: 428px 255px }
+	.flower-7 { transform-origin: 486px 203px }
+	.flower-8 { transform-origin: 441px 141px }
+	.flower-9 { transform-origin: 288px 453px }
+	.flower-10 { transform-origin: 189px 433px }
+	.flower-11 { transform-origin: 156px 368px }
+	.flower-12 { transform-origin: 288px 333px }
+	.flower-13 { transform-origin: 214px 324px }
+	.flower-14 { transform-origin: 330px 271px }
+	.flower-15 { transform-origin: 256px 262px }
+	.flower-16 { transform-origin: 177px 266px }
+	.flower-17 { transform-origin: 311px 204px }
+	.flower-18 { transform-origin: 240px 191px }
+	.flower-19 { transform-origin: 333px 136px }
+	.flower-20 { transform-origin: 576px 394px }
+	.flower-21 { transform-origin: 498px 393px }
+	.flower-22 { transform-origin: 538px 333px }
+	.flower-23 { transform-origin: 459px 333px }
+	.flower-24 { transform-origin: 327px 395px }
+	.flower-25 { transform-origin: 249px 394px }
+
+
+
 	&:hover {
 
 		.fill-fade {fill: $backgroundColor}
@@ -35,7 +63,6 @@
 		.flower {
 			animation-duration: 1000ms !important;
 			animation-fill-mode: forwards !important;
-			transform-origin: 50% 50% !important;
 		}
 
 		.late-bloomers {
@@ -53,7 +80,7 @@
 		}
 
 		.sun {
-			transform-origin: 50% 50%;
+			transform-origin: 268px 136px;
 			animation: spin;
 			animation-iteration-count: infinite;
 			animation-timing-function: linear;

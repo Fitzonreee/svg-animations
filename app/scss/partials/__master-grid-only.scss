@@ -5,22 +5,67 @@
 #purex-laundry-detergent-after-the-rain,
 #purex-laundry-detergent-fab-fresh,
 #purex-laundry-detergent-fresh-lavender-blossom,
-#purex-laundry-detergent-fresh-spring-waters
+#purex-laundry-detergent-fresh-spring-waters,
+#purex-fels-naptha-laundry-bar,
+#purex-crystals-lavender-blossom,
+#purex-crystals-fresh-spring-waters,
+#crystals-fabulously-fresh,
+#ne-linen-and-lilies
  { outline: 1px solid orange }
 
+ // Line direction animation issue in Safari
+ #purex-laundry-detergent-fresh-lavender-blossom,
+ #purex-crystals-tahitian-breeze,
+ #purex-laundry-detergent-after-the-rain,
+ #purex-laundry-detergent-tahitian-breeze,
+ #purex-hdd-original-fresh,
+ #purex-laundry-detergent-fresh-bluebonnet,
+ #crystals-fabulously-fresh,
+ #purex-lavender-blossom-powder,
+ #purex-sweet-lavender-40-loads,
+ #purex-sweet-lavender-52-loads,
+ #purex-sweet-lavender-fabric-softener-sheets,
+ #ne-linen-and-lilies {
+   border: 2px dashed green;
+ }
+
+
+// Has been refactored t-money
 #purex-laundry-detergent-after-the-rain {
-  border: 2px dashed green;
   border-bottom: 5px solid navy
+}
+
+// Needs work
+#purex-fresh-mountain-breeze-powder {
+  outline: 1px solid purple;
 }
 
 // Good to Go
 #purex-hdd-stain-fighter-bright-booster,
-#purex-crystals-well-being { outline: 4px solid pink }
+#purex-crystals-well-being,
+#purex-crystals-mountain-breeze,
+#purex-laundry-detergent-mountain-breeze,
+#purex-mountain-breeze-fabric-softener-40loads,
+#purex-mountain-breeze-fabric-softener-52loads,
+#purex-mountain-breeze-fabric-softener-sheets { outline: 4px solid pink }
+
+// Need transform-origin from Carrie
+#baby,
+#purex-laundry-detergent-tropical-splash,
+#purex-sta-flo-liquid-starch,
+#purex-crystals-serenity,
+#purex-crystals-oh-so-chic,
+#purex-classic-fabric-softener-almond-milk-aloe,
+#fabric-softener-tropical-escape,
+.lilac-white-lavender { outline: 1px solid red }
 
 .fixed-transform-origin { outline: 1px solid orange }
 .direction-issue { outline: 2px dashed green }
 .refactored { border-bottom: 5px solid navy}
+.needs-work { outline: 1px solid purple }
 .good { outline: 4px solid pink }
+.bad { outline: 1px solid red }
+
 
 
 

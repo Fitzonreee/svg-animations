@@ -1,5 +1,4 @@
 @mixin ohSoChic($keyframes, $seconds, $count, $delay) {
-	transform-origin: 50% 50%;
 	animation: $keyframes;
 	animation-duration: $seconds;
 	animation-iteration-count: $count;
@@ -28,10 +27,13 @@
 
 #purex-crystals-oh-so-chic {
 
+	.flower1 { transform-origin: 492px 333px }
+	.flower2 { transform-origin: 272px 393px }
+	.flower3 { transform-origin: 314px 254px }
+
+
 	path,
 	ellipse {@include default(#FFF, 4);}
-
-	.fill {fill: $backgroundColor;} //This is a global class
 
 	.twinkle {stroke-opacity: 0}
 

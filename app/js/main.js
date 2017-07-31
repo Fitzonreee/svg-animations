@@ -5,7 +5,7 @@ $(document).ready(function() {
   $('.oxi-stain-remover').load('svgs/oxi-stain-remover.html');
   $('#liquid-stain-fighter-bright-booster').load('svgs/liquid-stain-fighter-bright-booster.html');
   $('#fresh-bluebonnet').load('svgs/purex-hdd-fresh-bluebonnet.html');
-  $('#baby').load('svgs/baby.html');
+  $('#baby-container').load('svgs/baby.html');
   $('#liquid-starch').load('svgs/liquid-starch.html');
   $('#sunny-linen').load('svgs/sunny-linen.html');
   $('#almond-aloe').load('svgs/almond-aloe.html');
@@ -30,7 +30,7 @@ $(document).ready(function() {
   $('#crystals-aromatherapy-serenity').load('svgs/crystals-aromatherapy-serenity.html');
   $('#crystals-oh-so-chic').load('svgs/crystals-oh-so-chic.html');
   $('#pc2-original-fresh').load('svgs/pc2-original-fresh.html');
-  $('#ne-linen-and-lilies').load('svgs/ne-linen-and-lilies.html');
+  $('#ne-linen-lilies').load('svgs/ne-linen-and-lilies.html');
   $('#hdd-tahitian-breeze').load('svgs/hdd-tahitian-breeze.html');
   // lavender-collection
   $('#lavender-softener-52-loads').load('svgs/lavender-collection/lavender-softener-52-loads.html');

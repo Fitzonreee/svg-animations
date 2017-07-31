@@ -1,7 +1,6 @@
 #purex-fels-naptha-laundry-bar {
   .late-bloomers {
     .bubble {
-      transform-origin: 50% 50%;
       circle, path {
         stroke-opacity: 0;
         stroke: $lightBlue;
@@ -29,28 +28,34 @@
     }
     .late-bloomers {
       .bubble-12 {
+        transform-origin: 599px 70px;
         animation-delay: 100ms;
         .bubble-paths {transition-delay: 200ms;}
       }
+      .bubble-13 {
+        transform-origin: 492px 61px;
+        animation-delay: 500ms;
+        .bubble-paths {transition-delay: 550ms;}
+      }
       .bubble-14 {
+        transform-origin: 462px 156px;
         animation-delay: 200ms;
         .bubble-paths {transition-delay: 300ms;}
       }
       .bubble-15 {
+        transform-origin: 388px 206px;
         animation-delay: 300ms;
         .bubble-paths {transition-delay: 400ms;}
       }
-      .bubble-17 {
-        animation-delay: 400ms;
-        .bubble-paths {transition-delay: 500ms;}
-      }
-      .bubble-13 {
-        animation-delay: 500ms;
-        .bubble-paths {transition-delay: 550ms;}
-      }
       .bubble-16 {
+        transform-origin: 297px 159px;
         animation-delay: 600ms;
         .bubble-paths {transition-delay: 600ms;}
+      }
+      .bubble-17 {
+        transform-origin: 168px 82px;
+        animation-delay: 400ms;
+        .bubble-paths {transition-delay: 500ms;}
       }
       .bubble {
         animation-name: popUp;
