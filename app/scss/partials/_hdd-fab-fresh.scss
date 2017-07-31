@@ -29,10 +29,23 @@
 
 	&:hover {
 
+		.flower-1 { transform-origin: 146px 323px}
+		.flower-2 { transform-origin: 178px 396px}
+		.flower-3 { transform-origin: 221px 332px}
+
+		.flower-4 { transform-origin: 477px 274px}
+		.flower-5 { transform-origin: 562px 274px}
+		.flower-6 { transform-origin: 520px 338px}
+		.flower-7 { transform-origin: 604px 338px}
+		.flower-8 { transform-origin: 562px 402px}
+		.flower-9 { transform-origin: 645px 403px}
+
+
+
+
 		.flower {
 			animation-duration: 1000ms !important;
 			animation-fill-mode: forwards !important;
-			transform-origin: 50% 50% !important;
 			&.fadeIn {
 				animation: bloomingSpin;
 				&.fadeIn1{animation-delay: 200ms;}
@@ -42,7 +55,7 @@
 		}
 
 		.sun {
-			transform-origin: 50% 50%;
+			transform-origin: 456px 129px;
 			animation: spin;
 			animation-iteration-count: infinite;
 			animation-timing-function: linear;

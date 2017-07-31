@@ -58,11 +58,6 @@ $wingAngleBottom: 30;
     animation-fill-mode: forwards !important
   }
 
-  .bee,
-  .bee-loop-wrapper  {
-    transform-origin: 50% 35% !important;
-  }
-
   &:hover {
     // Wings
     .wings-left.wing-top {animation: flutterWingsLeft 50ms linear 0s infinite alternate}

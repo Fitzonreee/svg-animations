@@ -1,20 +1,26 @@
-// transform-origin switched to fixed pixels
 
+// transform-origin switched to fixed pixels
 #purex-laundry-detergent-sunny-linen,
 #purex-oxi-stain-remover-powder,
 #purex-laundry-detergent-after-the-rain,
-#purex-crystals-well-being {
-  outline: 1px solid orange;
-}
+#purex-laundry-detergent-fab-fresh,
+#purex-laundry-detergent-fresh-lavender-blossom,
+#purex-laundry-detergent-fresh-spring-waters
+ { outline: 1px solid orange }
 
 #purex-laundry-detergent-after-the-rain {
   border: 2px dashed green;
   border-bottom: 5px solid navy
 }
 
+// Good to Go
+#purex-hdd-stain-fighter-bright-booster,
+#purex-crystals-well-being { outline: 4px solid pink }
+
 .fixed-transform-origin { outline: 1px solid orange }
 .direction-issue { outline: 2px dashed green }
 .refactored { border-bottom: 5px solid navy}
+.good { outline: 4px solid pink }
 
 
 
@@ -40,7 +46,7 @@ body {background-color: $backgroundColor}
 }
 
 h6 {
-  font-size: 14px;
+  font-size: 12px;
   padding: 5px 10px;
 }
 

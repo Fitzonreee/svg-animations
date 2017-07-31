@@ -38,6 +38,22 @@ HDD Lavender Blossom
     to {stroke-dashoffset: -92}
   }
 
+  //Wing transform-origin
+  .bee-1 {
+    transform-origin: 109px 201px;
+    .wing { transform-origin: 101px 186px }
+  }
+
+  .bee-2 {
+    transform-origin: 490px 234px;
+    .wing { transform-origin: 498px 219px }
+  }
+
+  .bee-3 {
+    transform-origin: 559px 225px;
+    .wing { transform-origin: 565px 217px }
+  }
+
   &:hover {
     .flightpath-left {
       stroke-dasharray: 240;
@@ -58,6 +74,7 @@ HDD Lavender Blossom
       animation-delay: 200ms;
     }
     .bee-loop-wrapper {
+      transform-origin: 109px 180px;
       animation: loop 1s ease 0ms 1;
       animation-fill-mode: forwards;
     }

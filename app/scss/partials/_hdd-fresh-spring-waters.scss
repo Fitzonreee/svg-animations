@@ -44,6 +44,15 @@
 
 
 #purex-laundry-detergent-fresh-spring-waters {
+
+  .flower-1 { transform-origin: 120px 2390px }
+  .flower-2 { transform-origin: 211px 170px }
+  .flower-3 { transform-origin: 441px 296px }
+  .flower-4 { transform-origin: 473px 176px }
+  .flower-5 { transform-origin: 636px 168px }
+
+
+
   &:hover {
     .wave-short {@include draw($blue, 71, 71, offset-fade, 500ms, 1, 0)}
     .wave-long {@include draw($blue, 209, 209, offset-fade, 500ms, 1, 0)}
