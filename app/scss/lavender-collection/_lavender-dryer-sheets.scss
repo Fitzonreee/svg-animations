@@ -49,6 +49,16 @@ Dryer Sheets Lavender
     to {stroke-dashoffset: -216}
   }
 
+  .bee-1 {
+    .wing { transform-origin: 75px 167px }
+  }
+  .bee-2 {
+    .wing { transform-origin: 324px 217px }
+  }
+  .bee-3 {
+    .wing { transform-origin: 660px 165px }
+  }
+
 
   &:hover {
 

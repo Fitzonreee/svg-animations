@@ -59,15 +59,18 @@ $wingAngleBottom: 30;
   }
 
   &:hover {
+
     // Wings
     .wings-left.wing-top {animation: flutterWingsLeft 50ms linear 0s infinite alternate}
     .wings-left.wing-bottom {animation: flutterWingsLeft 50ms linear 0s infinite alternate-reverse}
     .wings-right.wing-top {animation: flutterWingsRight 50ms linear 0s infinite alternate}
     .wings-right.wing-bottom {animation: flutterWingsRight 50ms linear 0s infinite alternate-reverse}
+
     // Bees
     .bees * {transition: stroke 700ms}
     .bees *, .dashed {stroke: $orange}
     .bee-bob-wrapper {animation: bee-bob 1000ms ease-in-out 900ms infinite alternate}
+
     //Flightpaths
     .dashed {stroke-dasharray: 12}
     .flightpath {
@@ -75,6 +78,7 @@ $wingAngleBottom: 30;
       animation-fill-mode: backwards !important;
       animation-timing-function: linear;
     }
+
     // Flower bundles
     .bow path {
       transition: stroke 400ms;
@@ -88,6 +92,7 @@ $wingAngleBottom: 30;
       transition: stroke 1050ms;
       stroke: $purple;
     }
+
     // stems
     .stem {@include draw($green, 223, 223, offset, 300ms, 1, 0ms)}
   }
