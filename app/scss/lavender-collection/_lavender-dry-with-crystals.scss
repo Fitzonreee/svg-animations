@@ -46,6 +46,17 @@ Powder with Crystals Lavender Blossom
     to {stroke-dashoffset: -110}
   }
 
+  .bee-1 {
+    .wing,
+    .bee-loop-wrapper { transform-origin: 102px 149px }
+  }
+  .bee-2 {
+    .wing { transform-origin: 546px 148px }
+  }
+  .bee-3 {
+    .wing { transform-origin: 632px 199px }
+  }
+
   &:hover {
     .flightpath-left {
       stroke-dasharray: 324;

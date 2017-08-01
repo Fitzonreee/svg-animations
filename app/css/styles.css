@@ -141,7 +141,11 @@
 #purex-crystals-lavender-blossom,
 #purex-crystals-fresh-spring-waters,
 #crystals-fabulously-fresh,
-#ne-linen-and-lilies {
+#ne-linen-and-lilies,
+#purex-lavender-blossom-powder,
+#purex-sweet-lavender-40-loads,
+#purex-sweet-lavender-52-loads,
+#purex-sweet-lavender-fabric-softener-sheets {
   outline: 1px solid orange; }
 
 #purex-laundry-detergent-fresh-lavender-blossom,
@@ -278,8 +282,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 248ms;
-          animation-delay: 248ms;
+  -webkit-animation-delay: 123ms;
+          animation-delay: 123ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -300,8 +304,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 258ms;
-          animation-delay: 258ms;
+  -webkit-animation-delay: 334ms;
+          animation-delay: 334ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -321,8 +325,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 570ms;
-          animation-delay: 570ms;
+  -webkit-animation-delay: 569ms;
+          animation-delay: 569ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -341,8 +345,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 685ms;
-          animation-delay: 685ms;
+  -webkit-animation-delay: 675ms;
+          animation-delay: 675ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -363,8 +367,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 428ms;
-          animation-delay: 428ms;
+  -webkit-animation-delay: 273ms;
+          animation-delay: 273ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -385,8 +389,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 306ms;
-          animation-delay: 306ms;
+  -webkit-animation-delay: 349ms;
+          animation-delay: 349ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -406,8 +410,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 458ms;
-          animation-delay: 458ms;
+  -webkit-animation-delay: 588ms;
+          animation-delay: 588ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -426,8 +430,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 716ms;
-          animation-delay: 716ms;
+  -webkit-animation-delay: 672ms;
+          animation-delay: 672ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -448,8 +452,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 17ms;
-          animation-delay: 17ms;
+  -webkit-animation-delay: 498ms;
+          animation-delay: 498ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -470,8 +474,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 287ms;
-          animation-delay: 287ms;
+  -webkit-animation-delay: 280ms;
+          animation-delay: 280ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -491,8 +495,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 418ms;
-          animation-delay: 418ms;
+  -webkit-animation-delay: 581ms;
+          animation-delay: 581ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -511,8 +515,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 640ms;
-          animation-delay: 640ms;
+  -webkit-animation-delay: 794ms;
+          animation-delay: 794ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -533,8 +537,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 128ms;
-          animation-delay: 128ms;
+  -webkit-animation-delay: 185ms;
+          animation-delay: 185ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -555,8 +559,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 374ms;
-          animation-delay: 374ms;
+  -webkit-animation-delay: 398ms;
+          animation-delay: 398ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -576,8 +580,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 444ms;
-          animation-delay: 444ms;
+  -webkit-animation-delay: 433ms;
+          animation-delay: 433ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -596,8 +600,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 647ms;
-          animation-delay: 647ms;
+  -webkit-animation-delay: 783ms;
+          animation-delay: 783ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -618,8 +622,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 318ms;
-          animation-delay: 318ms;
+  -webkit-animation-delay: 328ms;
+          animation-delay: 328ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -640,8 +644,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 272ms;
-          animation-delay: 272ms;
+  -webkit-animation-delay: 354ms;
+          animation-delay: 354ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -661,8 +665,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 417ms;
-          animation-delay: 417ms;
+  -webkit-animation-delay: 579ms;
+          animation-delay: 579ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -681,8 +685,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 794ms;
-          animation-delay: 794ms;
+  -webkit-animation-delay: 717ms;
+          animation-delay: 717ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -703,8 +707,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 131ms;
-          animation-delay: 131ms;
+  -webkit-animation-delay: 227ms;
+          animation-delay: 227ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -725,8 +729,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 297ms;
-          animation-delay: 297ms;
+  -webkit-animation-delay: 353ms;
+          animation-delay: 353ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -746,8 +750,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 551ms;
-          animation-delay: 551ms;
+  -webkit-animation-delay: 461ms;
+          animation-delay: 461ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -766,8 +770,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 788ms;
-          animation-delay: 788ms;
+  -webkit-animation-delay: 724ms;
+          animation-delay: 724ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -783,8 +787,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 604ms;
-          animation-delay: 604ms;
+  -webkit-animation-delay: 728ms;
+          animation-delay: 728ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -800,8 +804,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 545ms;
-          animation-delay: 545ms;
+  -webkit-animation-delay: 517ms;
+          animation-delay: 517ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -817,8 +821,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 771ms;
-          animation-delay: 771ms;
+  -webkit-animation-delay: 683ms;
+          animation-delay: 683ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -834,8 +838,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 492ms;
-          animation-delay: 492ms;
+  -webkit-animation-delay: 466ms;
+          animation-delay: 466ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -851,8 +855,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 798ms;
-          animation-delay: 798ms;
+  -webkit-animation-delay: 656ms;
+          animation-delay: 656ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -868,8 +872,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 458ms;
-          animation-delay: 458ms;
+  -webkit-animation-delay: 517ms;
+          animation-delay: 517ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -885,8 +889,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 716ms;
-          animation-delay: 716ms;
+  -webkit-animation-delay: 676ms;
+          animation-delay: 676ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -902,8 +906,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 581ms;
-          animation-delay: 581ms;
+  -webkit-animation-delay: 485ms;
+          animation-delay: 485ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -936,8 +940,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 573ms;
-          animation-delay: 573ms;
+  -webkit-animation-delay: 526ms;
+          animation-delay: 526ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -953,8 +957,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 758ms;
-          animation-delay: 758ms;
+  -webkit-animation-delay: 780ms;
+          animation-delay: 780ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -970,8 +974,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 582ms;
-          animation-delay: 582ms;
+  -webkit-animation-delay: 586ms;
+          animation-delay: 586ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -991,481 +995,481 @@ p {
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(1) {
   stroke: #e95869;
-  transition: stroke 315ms;
-  transition-duration: 974ms;
-  transition-delay: 545ms; }
+  transition: stroke 1049ms;
+  transition-duration: 723ms;
+  transition-delay: 352ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(1) {
   stroke: #45a0d9;
-  transition: stroke 964ms;
-  transition-duration: 158ms;
-  transition-delay: 607ms; }
+  transition: stroke 1492ms;
+  transition-duration: 131ms;
+  transition-delay: 794ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(1) {
   stroke: #5dbf85;
-  transition: stroke 1044ms;
-  transition-duration: 911ms;
-  transition-delay: 529ms; }
+  transition: stroke 1215ms;
+  transition-duration: 146ms;
+  transition-delay: 425ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(1) {
   stroke: #f79058;
-  transition: stroke 564ms;
-  transition-duration: 184ms;
-  transition-delay: 742ms; }
+  transition: stroke 606ms;
+  transition-duration: 114ms;
+  transition-delay: 365ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 36ms;
-  transition-duration: 473ms;
-  transition-delay: 188ms;
-  transition: stroke-opacity 848ms;
-  transition-duration: 173ms;
-  transition-delay: 501ms;
+  transition: stroke 908ms;
+  transition-duration: 423ms;
+  transition-delay: 277ms;
+  transition: stroke-opacity 174ms;
+  transition-duration: 997ms;
+  transition-delay: 19ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 1340ms;
-  transition-duration: 887ms;
-  transition-delay: 427ms;
-  transition: stroke-opacity 263ms;
-  transition-duration: 1094ms;
-  transition-delay: 295ms;
+  transition: stroke 219ms;
+  transition-duration: 48ms;
+  transition-delay: 655ms;
+  transition: stroke-opacity 206ms;
+  transition-duration: 141ms;
+  transition-delay: 426ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 741ms;
-  transition-duration: 673ms;
-  transition-delay: 779ms;
-  transition: stroke-opacity 12ms;
-  transition-duration: 41ms;
-  transition-delay: 270ms;
+  transition: stroke 878ms;
+  transition-duration: 52ms;
+  transition-delay: 470ms;
+  transition: stroke-opacity 1201ms;
+  transition-duration: 1141ms;
+  transition-delay: 763ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 414ms;
-  transition-duration: 404ms;
-  transition-delay: 508ms;
-  transition: stroke-opacity 28ms;
-  transition-duration: 386ms;
-  transition-delay: 483ms;
+  transition: stroke 7ms;
+  transition-duration: 871ms;
+  transition-delay: 880ms;
+  transition: stroke-opacity 380ms;
+  transition-duration: 1455ms;
+  transition-delay: 469ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(2) {
   stroke: #e95869;
-  transition: stroke 1350ms;
-  transition-duration: 900ms;
-  transition-delay: 625ms; }
+  transition: stroke 536ms;
+  transition-duration: 406ms;
+  transition-delay: 162ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(2) {
   stroke: #45a0d9;
-  transition: stroke 229ms;
-  transition-duration: 575ms;
-  transition-delay: 499ms; }
+  transition: stroke 1319ms;
+  transition-duration: 500ms;
+  transition-delay: 477ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(2) {
   stroke: #5dbf85;
-  transition: stroke 157ms;
-  transition-duration: 15ms;
-  transition-delay: 729ms; }
+  transition: stroke 77ms;
+  transition-duration: 329ms;
+  transition-delay: 830ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(2) {
   stroke: #f79058;
-  transition: stroke 1326ms;
-  transition-duration: 893ms;
-  transition-delay: 140ms; }
+  transition: stroke 79ms;
+  transition-duration: 108ms;
+  transition-delay: 632ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 1279ms;
-  transition-duration: 732ms;
-  transition-delay: 818ms;
-  transition: stroke-opacity 383ms;
-  transition-duration: 780ms;
-  transition-delay: 148ms;
+  transition: stroke 1095ms;
+  transition-duration: 6ms;
+  transition-delay: 959ms;
+  transition: stroke-opacity 730ms;
+  transition-duration: 253ms;
+  transition-delay: 261ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 400ms;
-  transition-duration: 584ms;
-  transition-delay: 79ms;
-  transition: stroke-opacity 447ms;
-  transition-duration: 734ms;
-  transition-delay: 800ms;
+  transition: stroke 329ms;
+  transition-duration: 817ms;
+  transition-delay: 285ms;
+  transition: stroke-opacity 1118ms;
+  transition-duration: 795ms;
+  transition-delay: 795ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 71ms;
-  transition-duration: 770ms;
-  transition-delay: 764ms;
-  transition: stroke-opacity 904ms;
-  transition-duration: 757ms;
-  transition-delay: 510ms;
+  transition: stroke 1095ms;
+  transition-duration: 884ms;
+  transition-delay: 920ms;
+  transition: stroke-opacity 582ms;
+  transition-duration: 1312ms;
+  transition-delay: 545ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 420ms;
-  transition-duration: 154ms;
-  transition-delay: 729ms;
-  transition: stroke-opacity 431ms;
-  transition-duration: 1417ms;
-  transition-delay: 121ms;
+  transition: stroke 578ms;
+  transition-duration: 817ms;
+  transition-delay: 86ms;
+  transition: stroke-opacity 1217ms;
+  transition-duration: 489ms;
+  transition-delay: 599ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(3) {
   stroke: #e95869;
-  transition: stroke 606ms;
-  transition-duration: 845ms;
-  transition-delay: 335ms; }
+  transition: stroke 118ms;
+  transition-duration: 29ms;
+  transition-delay: 348ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(3) {
   stroke: #45a0d9;
-  transition: stroke 376ms;
-  transition-duration: 821ms;
-  transition-delay: 974ms; }
+  transition: stroke 961ms;
+  transition-duration: 865ms;
+  transition-delay: 747ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(3) {
   stroke: #5dbf85;
-  transition: stroke 555ms;
-  transition-duration: 128ms;
-  transition-delay: 284ms; }
+  transition: stroke 1496ms;
+  transition-duration: 488ms;
+  transition-delay: 418ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(3) {
   stroke: #f79058;
-  transition: stroke 262ms;
-  transition-duration: 322ms;
-  transition-delay: 924ms; }
+  transition: stroke 1156ms;
+  transition-duration: 220ms;
+  transition-delay: 387ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 142ms;
-  transition-duration: 986ms;
-  transition-delay: 158ms;
-  transition: stroke-opacity 881ms;
-  transition-duration: 1086ms;
-  transition-delay: 76ms;
+  transition: stroke 80ms;
+  transition-duration: 280ms;
+  transition-delay: 306ms;
+  transition: stroke-opacity 232ms;
+  transition-duration: 824ms;
+  transition-delay: 798ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 1231ms;
-  transition-duration: 903ms;
-  transition-delay: 105ms;
-  transition: stroke-opacity 607ms;
-  transition-duration: 242ms;
-  transition-delay: 567ms;
+  transition: stroke 413ms;
+  transition-duration: 493ms;
+  transition-delay: 421ms;
+  transition: stroke-opacity 699ms;
+  transition-duration: 1017ms;
+  transition-delay: 553ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 1176ms;
-  transition-duration: 836ms;
-  transition-delay: 226ms;
-  transition: stroke-opacity 485ms;
-  transition-duration: 990ms;
-  transition-delay: 659ms;
+  transition: stroke 1401ms;
+  transition-duration: 505ms;
+  transition-delay: 772ms;
+  transition: stroke-opacity 357ms;
+  transition-duration: 170ms;
+  transition-delay: 72ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 1417ms;
-  transition-duration: 741ms;
-  transition-delay: 1ms;
-  transition: stroke-opacity 1058ms;
-  transition-duration: 160ms;
-  transition-delay: 709ms;
+  transition: stroke 884ms;
+  transition-duration: 414ms;
+  transition-delay: 913ms;
+  transition: stroke-opacity 531ms;
+  transition-duration: 1062ms;
+  transition-delay: 489ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(4) {
   stroke: #e95869;
-  transition: stroke 445ms;
-  transition-duration: 33ms;
-  transition-delay: 256ms; }
+  transition: stroke 348ms;
+  transition-duration: 637ms;
+  transition-delay: 628ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(4) {
   stroke: #45a0d9;
-  transition: stroke 1151ms;
-  transition-duration: 565ms;
-  transition-delay: 841ms; }
+  transition: stroke 1234ms;
+  transition-duration: 28ms;
+  transition-delay: 395ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(4) {
   stroke: #5dbf85;
-  transition: stroke 646ms;
-  transition-duration: 170ms;
-  transition-delay: 871ms; }
+  transition: stroke 321ms;
+  transition-duration: 671ms;
+  transition-delay: 15ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(4) {
   stroke: #f79058;
-  transition: stroke 1410ms;
-  transition-duration: 484ms;
-  transition-delay: 902ms; }
+  transition: stroke 439ms;
+  transition-duration: 583ms;
+  transition-delay: 436ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 134ms;
-  transition-duration: 604ms;
-  transition-delay: 522ms;
-  transition: stroke-opacity 898ms;
-  transition-duration: 1011ms;
-  transition-delay: 87ms;
+  transition: stroke 1362ms;
+  transition-duration: 465ms;
+  transition-delay: 742ms;
+  transition: stroke-opacity 634ms;
+  transition-duration: 1341ms;
+  transition-delay: 788ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 880ms;
-  transition-duration: 768ms;
-  transition-delay: 304ms;
-  transition: stroke-opacity 285ms;
-  transition-duration: 1059ms;
-  transition-delay: 679ms;
+  transition: stroke 30ms;
+  transition-duration: 136ms;
+  transition-delay: 176ms;
+  transition: stroke-opacity 1429ms;
+  transition-duration: 158ms;
+  transition-delay: 119ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 1443ms;
-  transition-duration: 1ms;
-  transition-delay: 637ms;
-  transition: stroke-opacity 1180ms;
-  transition-duration: 438ms;
-  transition-delay: 515ms;
+  transition: stroke 1035ms;
+  transition-duration: 767ms;
+  transition-delay: 557ms;
+  transition: stroke-opacity 1228ms;
+  transition-duration: 1397ms;
+  transition-delay: 334ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 722ms;
-  transition-duration: 928ms;
-  transition-delay: 416ms;
-  transition: stroke-opacity 698ms;
-  transition-duration: 285ms;
-  transition-delay: 182ms;
+  transition: stroke 875ms;
+  transition-duration: 77ms;
+  transition-delay: 171ms;
+  transition: stroke-opacity 922ms;
+  transition-duration: 183ms;
+  transition-delay: 379ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(5) {
   stroke: #e95869;
-  transition: stroke 1441ms;
-  transition-duration: 666ms;
-  transition-delay: 697ms; }
+  transition: stroke 631ms;
+  transition-duration: 994ms;
+  transition-delay: 414ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(5) {
   stroke: #45a0d9;
-  transition: stroke 1000ms;
-  transition-duration: 518ms;
-  transition-delay: 907ms; }
+  transition: stroke 552ms;
+  transition-duration: 572ms;
+  transition-delay: 442ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(5) {
   stroke: #5dbf85;
-  transition: stroke 562ms;
-  transition-duration: 772ms;
-  transition-delay: 91ms; }
+  transition: stroke 555ms;
+  transition-duration: 310ms;
+  transition-delay: 955ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(5) {
   stroke: #f79058;
-  transition: stroke 328ms;
-  transition-duration: 263ms;
-  transition-delay: 451ms; }
+  transition: stroke 1416ms;
+  transition-duration: 518ms;
+  transition-delay: 172ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 156ms;
-  transition-duration: 681ms;
-  transition-delay: 161ms;
-  transition: stroke-opacity 1392ms;
-  transition-duration: 1456ms;
-  transition-delay: 22ms;
+  transition: stroke 1183ms;
+  transition-duration: 573ms;
+  transition-delay: 931ms;
+  transition: stroke-opacity 697ms;
+  transition-duration: 769ms;
+  transition-delay: 561ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 605ms;
-  transition-duration: 450ms;
-  transition-delay: 968ms;
-  transition: stroke-opacity 123ms;
-  transition-duration: 935ms;
-  transition-delay: 335ms;
+  transition: stroke 1078ms;
+  transition-duration: 353ms;
+  transition-delay: 628ms;
+  transition: stroke-opacity 1206ms;
+  transition-duration: 674ms;
+  transition-delay: 193ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 147ms;
-  transition-duration: 44ms;
-  transition-delay: 614ms;
-  transition: stroke-opacity 980ms;
-  transition-duration: 206ms;
-  transition-delay: 341ms;
+  transition: stroke 483ms;
+  transition-duration: 294ms;
+  transition-delay: 68ms;
+  transition: stroke-opacity 1269ms;
+  transition-duration: 571ms;
+  transition-delay: 701ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 1370ms;
-  transition-duration: 277ms;
-  transition-delay: 606ms;
-  transition: stroke-opacity 255ms;
-  transition-duration: 72ms;
-  transition-delay: 560ms;
+  transition: stroke 1026ms;
+  transition-duration: 68ms;
+  transition-delay: 903ms;
+  transition: stroke-opacity 1287ms;
+  transition-duration: 1516ms;
+  transition-delay: 401ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(6) {
   stroke: #e95869;
-  transition: stroke 1406ms;
-  transition-duration: 999ms;
-  transition-delay: 374ms; }
+  transition: stroke 480ms;
+  transition-duration: 927ms;
+  transition-delay: 420ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(6) {
   stroke: #45a0d9;
-  transition: stroke 1108ms;
-  transition-duration: 201ms;
-  transition-delay: 785ms; }
+  transition: stroke 320ms;
+  transition-duration: 796ms;
+  transition-delay: 208ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(6) {
   stroke: #5dbf85;
-  transition: stroke 1390ms;
-  transition-duration: 88ms;
-  transition-delay: 721ms; }
+  transition: stroke 1471ms;
+  transition-duration: 356ms;
+  transition-delay: 56ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(6) {
   stroke: #f79058;
-  transition: stroke 363ms;
-  transition-duration: 255ms;
-  transition-delay: 756ms; }
+  transition: stroke 647ms;
+  transition-duration: 168ms;
+  transition-delay: 661ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 1007ms;
-  transition-duration: 499ms;
-  transition-delay: 513ms;
-  transition: stroke-opacity 1316ms;
-  transition-duration: 1071ms;
-  transition-delay: 525ms;
+  transition: stroke 36ms;
+  transition-duration: 160ms;
+  transition-delay: 719ms;
+  transition: stroke-opacity 700ms;
+  transition-duration: 1039ms;
+  transition-delay: 458ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 1092ms;
-  transition-duration: 822ms;
-  transition-delay: 815ms;
-  transition: stroke-opacity 61ms;
-  transition-duration: 1300ms;
-  transition-delay: 141ms;
+  transition: stroke 386ms;
+  transition-duration: 647ms;
+  transition-delay: 122ms;
+  transition: stroke-opacity 823ms;
+  transition-duration: 1447ms;
+  transition-delay: 689ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 1376ms;
-  transition-duration: 852ms;
-  transition-delay: 204ms;
-  transition: stroke-opacity 906ms;
-  transition-duration: 383ms;
-  transition-delay: 56ms;
+  transition: stroke 1375ms;
+  transition-duration: 746ms;
+  transition-delay: 573ms;
+  transition: stroke-opacity 1271ms;
+  transition-duration: 696ms;
+  transition-delay: 747ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 1056ms;
-  transition-duration: 668ms;
-  transition-delay: 369ms;
-  transition: stroke-opacity 497ms;
-  transition-duration: 392ms;
-  transition-delay: 158ms;
+  transition: stroke 782ms;
+  transition-duration: 935ms;
+  transition-delay: 565ms;
+  transition: stroke-opacity 202ms;
+  transition-duration: 1248ms;
+  transition-delay: 228ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(7) {
   stroke: #e95869;
-  transition: stroke 1128ms;
-  transition-duration: 296ms;
-  transition-delay: 180ms; }
+  transition: stroke 1084ms;
+  transition-duration: 117ms;
+  transition-delay: 476ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(7) {
   stroke: #45a0d9;
-  transition: stroke 1125ms;
-  transition-duration: 93ms;
-  transition-delay: 254ms; }
+  transition: stroke 584ms;
+  transition-duration: 934ms;
+  transition-delay: 114ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(7) {
   stroke: #5dbf85;
-  transition: stroke 682ms;
-  transition-duration: 428ms;
-  transition-delay: 230ms; }
+  transition: stroke 1471ms;
+  transition-duration: 334ms;
+  transition-delay: 956ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(7) {
   stroke: #f79058;
-  transition: stroke 1306ms;
-  transition-duration: 377ms;
-  transition-delay: 919ms; }
+  transition: stroke 1235ms;
+  transition-duration: 802ms;
+  transition-delay: 322ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 670ms;
-  transition-duration: 397ms;
-  transition-delay: 803ms;
-  transition: stroke-opacity 1145ms;
-  transition-duration: 23ms;
-  transition-delay: 737ms;
+  transition: stroke 1020ms;
+  transition-duration: 658ms;
+  transition-delay: 978ms;
+  transition: stroke-opacity 1442ms;
+  transition-duration: 461ms;
+  transition-delay: 84ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 1411ms;
-  transition-duration: 468ms;
-  transition-delay: 803ms;
-  transition: stroke-opacity 358ms;
-  transition-duration: 1293ms;
-  transition-delay: 419ms;
+  transition: stroke 790ms;
+  transition-duration: 221ms;
+  transition-delay: 216ms;
+  transition: stroke-opacity 313ms;
+  transition-duration: 1040ms;
+  transition-delay: 429ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
@@ -1473,455 +1477,455 @@ p {
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
   transition: stroke 927ms;
-  transition-duration: 792ms;
-  transition-delay: 336ms;
-  transition: stroke-opacity 1060ms;
-  transition-duration: 1142ms;
-  transition-delay: 497ms;
+  transition-duration: 511ms;
+  transition-delay: 900ms;
+  transition: stroke-opacity 1139ms;
+  transition-duration: 179ms;
+  transition-delay: 143ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 480ms;
-  transition-duration: 291ms;
-  transition-delay: 456ms;
-  transition: stroke-opacity 1476ms;
-  transition-duration: 994ms;
-  transition-delay: 592ms;
+  transition: stroke 635ms;
+  transition-duration: 277ms;
+  transition-delay: 823ms;
+  transition: stroke-opacity 1453ms;
+  transition-duration: 1086ms;
+  transition-delay: 433ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(8) {
   stroke: #e95869;
-  transition: stroke 1237ms;
-  transition-duration: 712ms;
-  transition-delay: 300ms; }
+  transition: stroke 1000ms;
+  transition-duration: 133ms;
+  transition-delay: 90ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(8) {
   stroke: #45a0d9;
-  transition: stroke 988ms;
-  transition-duration: 477ms;
-  transition-delay: 126ms; }
+  transition: stroke 188ms;
+  transition-duration: 808ms;
+  transition-delay: 461ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(8) {
   stroke: #5dbf85;
-  transition: stroke 223ms;
-  transition-duration: 521ms;
-  transition-delay: 277ms; }
+  transition: stroke 1188ms;
+  transition-duration: 308ms;
+  transition-delay: 161ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(8) {
   stroke: #f79058;
-  transition: stroke 529ms;
-  transition-duration: 341ms;
-  transition-delay: 332ms; }
+  transition: stroke 1021ms;
+  transition-duration: 729ms;
+  transition-delay: 144ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 939ms;
-  transition-duration: 330ms;
-  transition-delay: 386ms;
-  transition: stroke-opacity 773ms;
-  transition-duration: 872ms;
-  transition-delay: 393ms;
+  transition: stroke 1326ms;
+  transition-duration: 276ms;
+  transition-delay: 512ms;
+  transition: stroke-opacity 787ms;
+  transition-duration: 213ms;
+  transition-delay: 410ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 331ms;
-  transition-duration: 652ms;
-  transition-delay: 423ms;
-  transition: stroke-opacity 1093ms;
-  transition-duration: 1517ms;
-  transition-delay: 340ms;
+  transition: stroke 760ms;
+  transition-duration: 697ms;
+  transition-delay: 841ms;
+  transition: stroke-opacity 1466ms;
+  transition-duration: 202ms;
+  transition-delay: 712ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 1056ms;
-  transition-duration: 257ms;
-  transition-delay: 819ms;
-  transition: stroke-opacity 997ms;
-  transition-duration: 353ms;
-  transition-delay: 778ms;
+  transition: stroke 761ms;
+  transition-duration: 143ms;
+  transition-delay: 637ms;
+  transition: stroke-opacity 207ms;
+  transition-duration: 250ms;
+  transition-delay: 136ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 1052ms;
-  transition-duration: 131ms;
-  transition-delay: 607ms;
-  transition: stroke-opacity 1486ms;
-  transition-duration: 681ms;
-  transition-delay: 724ms;
+  transition: stroke 511ms;
+  transition-duration: 757ms;
+  transition-delay: 147ms;
+  transition: stroke-opacity 1271ms;
+  transition-duration: 703ms;
+  transition-delay: 188ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(9) {
   stroke: #e95869;
-  transition: stroke 624ms;
-  transition-duration: 795ms;
-  transition-delay: 946ms; }
+  transition: stroke 150ms;
+  transition-duration: 523ms;
+  transition-delay: 24ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(9) {
   stroke: #45a0d9;
-  transition: stroke 993ms;
-  transition-duration: 639ms;
-  transition-delay: 46ms; }
+  transition: stroke 38ms;
+  transition-duration: 575ms;
+  transition-delay: 704ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(9) {
   stroke: #5dbf85;
-  transition: stroke 846ms;
-  transition-duration: 536ms;
-  transition-delay: 192ms; }
+  transition: stroke 694ms;
+  transition-duration: 954ms;
+  transition-delay: 531ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(9) {
   stroke: #f79058;
-  transition: stroke 972ms;
-  transition-duration: 369ms;
-  transition-delay: 923ms; }
+  transition: stroke 1471ms;
+  transition-duration: 324ms;
+  transition-delay: 210ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 1376ms;
-  transition-duration: 388ms;
-  transition-delay: 457ms;
-  transition: stroke-opacity 1482ms;
-  transition-duration: 302ms;
-  transition-delay: 309ms;
+  transition: stroke 1008ms;
+  transition-duration: 990ms;
+  transition-delay: 391ms;
+  transition: stroke-opacity 40ms;
+  transition-duration: 750ms;
+  transition-delay: 206ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 303ms;
-  transition-duration: 153ms;
-  transition-delay: 141ms;
-  transition: stroke-opacity 218ms;
-  transition-duration: 762ms;
-  transition-delay: 179ms;
+  transition: stroke 748ms;
+  transition-duration: 674ms;
+  transition-delay: 140ms;
+  transition: stroke-opacity 72ms;
+  transition-duration: 167ms;
+  transition-delay: 331ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 1058ms;
-  transition-duration: 679ms;
-  transition-delay: 70ms;
-  transition: stroke-opacity 1037ms;
-  transition-duration: 94ms;
-  transition-delay: 400ms;
+  transition: stroke 60ms;
+  transition-duration: 467ms;
+  transition-delay: 477ms;
+  transition: stroke-opacity 812ms;
+  transition-duration: 441ms;
+  transition-delay: 589ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 645ms;
-  transition-duration: 353ms;
-  transition-delay: 455ms;
-  transition: stroke-opacity 775ms;
-  transition-duration: 1439ms;
-  transition-delay: 640ms;
+  transition: stroke 86ms;
+  transition-duration: 600ms;
+  transition-delay: 855ms;
+  transition: stroke-opacity 1312ms;
+  transition-duration: 102ms;
+  transition-delay: 735ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(10) {
   stroke: #e95869;
-  transition: stroke 93ms;
-  transition-duration: 427ms;
-  transition-delay: 457ms; }
+  transition: stroke 349ms;
+  transition-duration: 922ms;
+  transition-delay: 366ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(10) {
   stroke: #45a0d9;
-  transition: stroke 273ms;
-  transition-duration: 528ms;
-  transition-delay: 338ms; }
+  transition: stroke 727ms;
+  transition-duration: 934ms;
+  transition-delay: 813ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(10) {
   stroke: #5dbf85;
-  transition: stroke 353ms;
-  transition-duration: 746ms;
-  transition-delay: 254ms; }
+  transition: stroke 1381ms;
+  transition-duration: 417ms;
+  transition-delay: 524ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(10) {
   stroke: #f79058;
-  transition: stroke 873ms;
-  transition-duration: 200ms;
-  transition-delay: 238ms; }
+  transition: stroke 395ms;
+  transition-duration: 939ms;
+  transition-delay: 69ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 806ms;
-  transition-duration: 376ms;
-  transition-delay: 265ms;
-  transition: stroke-opacity 1451ms;
-  transition-duration: 634ms;
-  transition-delay: 445ms;
+  transition: stroke 1041ms;
+  transition-duration: 439ms;
+  transition-delay: 992ms;
+  transition: stroke-opacity 170ms;
+  transition-duration: 387ms;
+  transition-delay: 675ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 680ms;
-  transition-duration: 523ms;
-  transition-delay: 207ms;
-  transition: stroke-opacity 825ms;
-  transition-duration: 744ms;
-  transition-delay: 462ms;
+  transition: stroke 742ms;
+  transition-duration: 199ms;
+  transition-delay: 21ms;
+  transition: stroke-opacity 1202ms;
+  transition-duration: 575ms;
+  transition-delay: 61ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 1370ms;
-  transition-duration: 596ms;
-  transition-delay: 36ms;
-  transition: stroke-opacity 36ms;
-  transition-duration: 1013ms;
-  transition-delay: 561ms;
+  transition: stroke 224ms;
+  transition-duration: 314ms;
+  transition-delay: 351ms;
+  transition: stroke-opacity 573ms;
+  transition-duration: 861ms;
+  transition-delay: 290ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 1246ms;
-  transition-duration: 67ms;
-  transition-delay: 877ms;
-  transition: stroke-opacity 271ms;
-  transition-duration: 8ms;
-  transition-delay: 799ms;
+  transition: stroke 1048ms;
+  transition-duration: 413ms;
+  transition-delay: 369ms;
+  transition: stroke-opacity 256ms;
+  transition-duration: 181ms;
+  transition-delay: 191ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(11) {
   stroke: #e95869;
-  transition: stroke 1038ms;
-  transition-duration: 642ms;
-  transition-delay: 489ms; }
+  transition: stroke 528ms;
+  transition-duration: 454ms;
+  transition-delay: 882ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(11) {
   stroke: #45a0d9;
-  transition: stroke 276ms;
-  transition-duration: 830ms;
-  transition-delay: 725ms; }
+  transition: stroke 784ms;
+  transition-duration: 893ms;
+  transition-delay: 746ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(11) {
   stroke: #5dbf85;
-  transition: stroke 561ms;
-  transition-duration: 642ms;
-  transition-delay: 743ms; }
+  transition: stroke 643ms;
+  transition-duration: 932ms;
+  transition-delay: 584ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(11) {
   stroke: #f79058;
-  transition: stroke 247ms;
-  transition-duration: 134ms;
-  transition-delay: 502ms; }
+  transition: stroke 1097ms;
+  transition-duration: 844ms;
+  transition-delay: 54ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 922ms;
-  transition-duration: 8ms;
-  transition-delay: 210ms;
-  transition: stroke-opacity 2ms;
-  transition-duration: 474ms;
-  transition-delay: 795ms;
+  transition: stroke 1403ms;
+  transition-duration: 859ms;
+  transition-delay: 66ms;
+  transition: stroke-opacity 420ms;
+  transition-duration: 80ms;
+  transition-delay: 713ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 882ms;
-  transition-duration: 434ms;
-  transition-delay: 670ms;
-  transition: stroke-opacity 764ms;
-  transition-duration: 1340ms;
-  transition-delay: 22ms;
+  transition: stroke 928ms;
+  transition-duration: 947ms;
+  transition-delay: 660ms;
+  transition: stroke-opacity 1356ms;
+  transition-duration: 309ms;
+  transition-delay: 768ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 562ms;
-  transition-duration: 363ms;
-  transition-delay: 879ms;
-  transition: stroke-opacity 1398ms;
-  transition-duration: 749ms;
-  transition-delay: 582ms;
+  transition: stroke 860ms;
+  transition-duration: 750ms;
+  transition-delay: 861ms;
+  transition: stroke-opacity 488ms;
+  transition-duration: 548ms;
+  transition-delay: 30ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 779ms;
-  transition-duration: 215ms;
-  transition-delay: 590ms;
-  transition: stroke-opacity 1488ms;
-  transition-duration: 452ms;
-  transition-delay: 555ms;
+  transition: stroke 185ms;
+  transition-duration: 579ms;
+  transition-delay: 98ms;
+  transition: stroke-opacity 70ms;
+  transition-duration: 1379ms;
+  transition-delay: 347ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(12) {
   stroke: #e95869;
-  transition: stroke 1077ms;
-  transition-duration: 353ms;
-  transition-delay: 805ms; }
+  transition: stroke 924ms;
+  transition-duration: 272ms;
+  transition-delay: 314ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(12) {
   stroke: #45a0d9;
-  transition: stroke 309ms;
-  transition-duration: 880ms;
-  transition-delay: 858ms; }
+  transition: stroke 1224ms;
+  transition-duration: 135ms;
+  transition-delay: 928ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(12) {
   stroke: #5dbf85;
-  transition: stroke 106ms;
-  transition-duration: 274ms;
-  transition-delay: 91ms; }
+  transition: stroke 241ms;
+  transition-duration: 124ms;
+  transition-delay: 399ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(12) {
   stroke: #f79058;
-  transition: stroke 1491ms;
-  transition-duration: 347ms;
+  transition: stroke 105ms;
+  transition-duration: 175ms;
   transition-delay: 1ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 1325ms;
-  transition-duration: 419ms;
-  transition-delay: 327ms;
-  transition: stroke-opacity 431ms;
-  transition-duration: 112ms;
-  transition-delay: 347ms;
+  transition: stroke 222ms;
+  transition-duration: 730ms;
+  transition-delay: 511ms;
+  transition: stroke-opacity 1417ms;
+  transition-duration: 394ms;
+  transition-delay: 100ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 1419ms;
-  transition-duration: 908ms;
-  transition-delay: 63ms;
-  transition: stroke-opacity 101ms;
-  transition-duration: 82ms;
-  transition-delay: 413ms;
+  transition: stroke 1481ms;
+  transition-duration: 396ms;
+  transition-delay: 418ms;
+  transition: stroke-opacity 623ms;
+  transition-duration: 483ms;
+  transition-delay: 398ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 1326ms;
-  transition-duration: 290ms;
-  transition-delay: 251ms;
-  transition: stroke-opacity 503ms;
-  transition-duration: 4ms;
-  transition-delay: 83ms;
+  transition: stroke 159ms;
+  transition-duration: 735ms;
+  transition-delay: 660ms;
+  transition: stroke-opacity 1074ms;
+  transition-duration: 18ms;
+  transition-delay: 301ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 1127ms;
-  transition-duration: 172ms;
-  transition-delay: 991ms;
-  transition: stroke-opacity 1174ms;
-  transition-duration: 1019ms;
-  transition-delay: 731ms;
+  transition: stroke 382ms;
+  transition-duration: 326ms;
+  transition-delay: 697ms;
+  transition: stroke-opacity 17ms;
+  transition-duration: 1509ms;
+  transition-delay: 413ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .red:nth-child(13) {
   stroke: #e95869;
-  transition: stroke 1346ms;
-  transition-duration: 234ms;
-  transition-delay: 394ms; }
+  transition: stroke 29ms;
+  transition-duration: 970ms;
+  transition-delay: 565ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .blue:nth-child(13) {
   stroke: #45a0d9;
-  transition: stroke 314ms;
-  transition-duration: 825ms;
-  transition-delay: 811ms; }
+  transition: stroke 670ms;
+  transition-duration: 723ms;
+  transition-delay: 648ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .green:nth-child(13) {
   stroke: #5dbf85;
-  transition: stroke 377ms;
-  transition-duration: 850ms;
-  transition-delay: 914ms; }
+  transition: stroke 648ms;
+  transition-duration: 984ms;
+  transition-delay: 170ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .orange:nth-child(13) {
   stroke: #f79058;
-  transition: stroke 150ms;
-  transition-duration: 286ms;
-  transition-delay: 314ms; }
+  transition: stroke 446ms;
+  transition-duration: 215ms;
+  transition-delay: 120ms; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-red,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-red {
   stroke: #e95869;
-  transition: stroke 1351ms;
-  transition-duration: 847ms;
-  transition-delay: 405ms;
-  transition: stroke-opacity 419ms;
-  transition-duration: 967ms;
-  transition-delay: 189ms;
+  transition: stroke 1490ms;
+  transition-duration: 143ms;
+  transition-delay: 988ms;
+  transition: stroke-opacity 183ms;
+  transition-duration: 1290ms;
+  transition-delay: 299ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-blue,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-blue {
   stroke: #45a0d9;
-  transition: stroke 101ms;
-  transition-duration: 248ms;
-  transition-delay: 707ms;
-  transition: stroke-opacity 299ms;
-  transition-duration: 1043ms;
-  transition-delay: 658ms;
+  transition: stroke 1276ms;
+  transition-duration: 709ms;
+  transition-delay: 235ms;
+  transition: stroke-opacity 1432ms;
+  transition-duration: 300ms;
+  transition-delay: 219ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-green,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-green {
   stroke: #5dbf85;
-  transition: stroke 1268ms;
-  transition-duration: 609ms;
-  transition-delay: 84ms;
-  transition: stroke-opacity 123ms;
-  transition-duration: 1404ms;
-  transition-delay: 477ms;
+  transition: stroke 462ms;
+  transition-duration: 718ms;
+  transition-delay: 165ms;
+  transition: stroke-opacity 865ms;
+  transition-duration: 158ms;
+  transition-delay: 757ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
 #purex-hdd-stain-fighter-bright-booster:hover .top-orange,
 #purex-hdd-stain-fighter-bright-booster:hover .bottom-orange {
   stroke: #f79058;
-  transition: stroke 191ms;
-  transition-duration: 166ms;
-  transition-delay: 98ms;
-  transition: stroke-opacity 446ms;
-  transition-duration: 569ms;
-  transition-delay: 624ms;
+  transition: stroke 1335ms;
+  transition-duration: 951ms;
+  transition-delay: 933ms;
+  transition: stroke-opacity 1279ms;
+  transition-duration: 225ms;
+  transition-delay: 403ms;
   transition-timing-function: ease-in;
   stroke-opacity: 1; }
 
@@ -2231,7 +2235,7 @@ p {
           animation-fill-mode: forwards; }
 
 #purex-sta-flo-liquid-starch:hover .star-1 {
-  transition: stroke-opacity 300ms ease 892ms;
+  transition: stroke-opacity 300ms ease 698ms;
   stroke-opacity: 1; }
 
 #purex-sta-flo-liquid-starch:hover .star-1-wrapper {
@@ -2243,15 +2247,15 @@ p {
           animation-duration: 300ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 583ms;
-          animation-delay: 583ms;
+  -webkit-animation-delay: 594ms;
+          animation-delay: 594ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards; }
 
 #purex-sta-flo-liquid-starch:hover .star-2 {
-  transition: stroke-opacity 300ms ease 533ms;
+  transition: stroke-opacity 300ms ease 525ms;
   stroke-opacity: 1; }
 
 #purex-sta-flo-liquid-starch:hover .star-2-wrapper {
@@ -2263,15 +2267,15 @@ p {
           animation-duration: 300ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 753ms;
-          animation-delay: 753ms;
+  -webkit-animation-delay: 601ms;
+          animation-delay: 601ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards; }
 
 #purex-sta-flo-liquid-starch:hover .star-3 {
-  transition: stroke-opacity 300ms ease 678ms;
+  transition: stroke-opacity 300ms ease 761ms;
   stroke-opacity: 1; }
 
 #purex-sta-flo-liquid-starch:hover .star-3-wrapper {
@@ -2283,15 +2287,15 @@ p {
           animation-duration: 300ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 731ms;
-          animation-delay: 731ms;
+  -webkit-animation-delay: 850ms;
+          animation-delay: 850ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards; }
 
 #purex-sta-flo-liquid-starch:hover .star-4 {
-  transition: stroke-opacity 300ms ease 881ms;
+  transition: stroke-opacity 300ms ease 552ms;
   stroke-opacity: 1; }
 
 #purex-sta-flo-liquid-starch:hover .star-4-wrapper {
@@ -2303,15 +2307,15 @@ p {
           animation-duration: 300ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 696ms;
-          animation-delay: 696ms;
+  -webkit-animation-delay: 762ms;
+          animation-delay: 762ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards; }
 
 #purex-sta-flo-liquid-starch:hover .star-5 {
-  transition: stroke-opacity 300ms ease 884ms;
+  transition: stroke-opacity 300ms ease 639ms;
   stroke-opacity: 1; }
 
 #purex-sta-flo-liquid-starch:hover .star-5-wrapper {
@@ -2323,15 +2327,15 @@ p {
           animation-duration: 300ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 667ms;
-          animation-delay: 667ms;
+  -webkit-animation-delay: 787ms;
+          animation-delay: 787ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards; }
 
 #purex-sta-flo-liquid-starch:hover .star-6 {
-  transition: stroke-opacity 300ms ease 859ms;
+  transition: stroke-opacity 300ms ease 540ms;
   stroke-opacity: 1; }
 
 #purex-sta-flo-liquid-starch:hover .star-6-wrapper {
@@ -2343,15 +2347,15 @@ p {
           animation-duration: 300ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 764ms;
-          animation-delay: 764ms;
+  -webkit-animation-delay: 657ms;
+          animation-delay: 657ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards; }
 
 #purex-sta-flo-liquid-starch:hover .star-7 {
-  transition: stroke-opacity 300ms ease 531ms;
+  transition: stroke-opacity 300ms ease 843ms;
   stroke-opacity: 1; }
 
 #purex-sta-flo-liquid-starch:hover .star-7-wrapper {
@@ -2363,15 +2367,15 @@ p {
           animation-duration: 300ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 761ms;
-          animation-delay: 761ms;
+  -webkit-animation-delay: 689ms;
+          animation-delay: 689ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards; }
 
 #purex-sta-flo-liquid-starch:hover .star-8 {
-  transition: stroke-opacity 300ms ease 757ms;
+  transition: stroke-opacity 300ms ease 844ms;
   stroke-opacity: 1; }
 
 #purex-sta-flo-liquid-starch:hover .star-8-wrapper {
@@ -2383,8 +2387,8 @@ p {
           animation-duration: 300ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 503ms;
-          animation-delay: 503ms;
+  -webkit-animation-delay: 682ms;
+          animation-delay: 682ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
@@ -3118,72 +3122,72 @@ p {
           animation-fill-mode: forwards; }
 
 #purex-crystals-well-being:hover .late-bloomers .flower-1 {
-  -webkit-animation-delay: 171ms;
-          animation-delay: 171ms; }
+  -webkit-animation-delay: 160ms;
+          animation-delay: 160ms; }
 
 #purex-crystals-well-being:hover .late-bloomers .flower-2 {
-  -webkit-animation-delay: 202ms;
-          animation-delay: 202ms; }
+  -webkit-animation-delay: 270ms;
+          animation-delay: 270ms; }
 
 #purex-crystals-well-being:hover .late-bloomers .flower-3 {
-  -webkit-animation-delay: 390ms;
-          animation-delay: 390ms; }
+  -webkit-animation-delay: 394ms;
+          animation-delay: 394ms; }
 
 #purex-crystals-well-being:hover .late-bloomers .flower-4 {
-  -webkit-animation-delay: 455ms;
-          animation-delay: 455ms; }
+  -webkit-animation-delay: 463ms;
+          animation-delay: 463ms; }
 
 #purex-crystals-well-being:hover .late-bloomers .flower-5 {
-  -webkit-animation-delay: 544ms;
-          animation-delay: 544ms; }
+  -webkit-animation-delay: 552ms;
+          animation-delay: 552ms; }
 
 #purex-crystals-well-being:hover .late-bloomers .flower-6 {
-  -webkit-animation-delay: 654ms;
-          animation-delay: 654ms; }
+  -webkit-animation-delay: 673ms;
+          animation-delay: 673ms; }
 
 #purex-crystals-well-being:hover .late-bloomers .flower-7 {
-  -webkit-animation-delay: 715ms;
-          animation-delay: 715ms; }
+  -webkit-animation-delay: 736ms;
+          animation-delay: 736ms; }
 
 #purex-crystals-well-being:hover .late-bloomers .flower-8 {
-  -webkit-animation-delay: 829ms;
-          animation-delay: 829ms; }
+  -webkit-animation-delay: 840ms;
+          animation-delay: 840ms; }
 
 #purex-crystals-well-being:hover .bloomers .flower-1 path,
 #purex-crystals-well-being:hover .bloomers .flower-1 ellipse {
-  transition-delay: 112ms; }
+  transition-delay: 139ms; }
 
 #purex-crystals-well-being:hover .bloomers .flower-2 path,
 #purex-crystals-well-being:hover .bloomers .flower-2 ellipse {
-  transition-delay: 254ms; }
+  transition-delay: 203ms; }
 
 #purex-crystals-well-being:hover .bloomers .flower-3 path,
 #purex-crystals-well-being:hover .bloomers .flower-3 ellipse {
-  transition-delay: 310ms; }
+  transition-delay: 394ms; }
 
 #purex-crystals-well-being:hover .bloomers .flower-4 path,
 #purex-crystals-well-being:hover .bloomers .flower-4 ellipse {
-  transition-delay: 418ms; }
+  transition-delay: 481ms; }
 
 #purex-crystals-well-being:hover .bloomers .flower-5 path,
 #purex-crystals-well-being:hover .bloomers .flower-5 ellipse {
-  transition-delay: 501ms; }
+  transition-delay: 587ms; }
 
 #purex-crystals-well-being:hover .bloomers .flower-6 path,
 #purex-crystals-well-being:hover .bloomers .flower-6 ellipse {
-  transition-delay: 655ms; }
+  transition-delay: 691ms; }
 
 #purex-crystals-well-being:hover .bloomers .flower-7 path,
 #purex-crystals-well-being:hover .bloomers .flower-7 ellipse {
-  transition-delay: 765ms; }
+  transition-delay: 724ms; }
 
 #purex-crystals-well-being:hover .bloomers .flower-8 path,
 #purex-crystals-well-being:hover .bloomers .flower-8 ellipse {
-  transition-delay: 899ms; }
+  transition-delay: 863ms; }
 
 #purex-crystals-well-being:hover .bloomers .flower-9 path,
 #purex-crystals-well-being:hover .bloomers .flower-9 ellipse {
-  transition-delay: 923ms; }
+  transition-delay: 1000ms; }
 
 @-webkit-keyframes oxiBubbleApppear {
   0% {
@@ -6251,8 +6255,8 @@ p {
           animation-duration: 300ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 139ms;
-          animation-delay: 139ms;
+  -webkit-animation-delay: 170ms;
+          animation-delay: 170ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
@@ -6268,8 +6272,8 @@ p {
           animation-duration: 300ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 293ms;
-          animation-delay: 293ms;
+  -webkit-animation-delay: 49ms;
+          animation-delay: 49ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
@@ -6285,8 +6289,8 @@ p {
           animation-duration: 300ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 347ms;
-          animation-delay: 347ms;
+  -webkit-animation-delay: 283ms;
+          animation-delay: 283ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
@@ -6299,15 +6303,15 @@ p {
   stroke: #f9f6c9; }
 
 #purex-crystals-oh-so-chic:hover .twinkle.star-1 {
-  transition: stroke-opacity 300ms ease 256ms;
+  transition: stroke-opacity 300ms ease 337ms;
   -webkit-animation: starRotate;
           animation: starRotate;
   -webkit-animation-duration: 500ms;
           animation-duration: 500ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 23ms;
-          animation-delay: 23ms;
+  -webkit-animation-delay: 31ms;
+          animation-delay: 31ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
@@ -6315,15 +6319,15 @@ p {
   stroke-opacity: 1; }
 
 #purex-crystals-oh-so-chic:hover .twinkle.star-2 {
-  transition: stroke-opacity 300ms ease 31ms;
+  transition: stroke-opacity 300ms ease 248ms;
   -webkit-animation: starRotate;
           animation: starRotate;
   -webkit-animation-duration: 500ms;
           animation-duration: 500ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 107ms;
-          animation-delay: 107ms;
+  -webkit-animation-delay: 156ms;
+          animation-delay: 156ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
@@ -6331,15 +6335,15 @@ p {
   stroke-opacity: 1; }
 
 #purex-crystals-oh-so-chic:hover .twinkle.star-3 {
-  transition: stroke-opacity 300ms ease 67ms;
+  transition: stroke-opacity 300ms ease 221ms;
   -webkit-animation: starRotate;
           animation: starRotate;
   -webkit-animation-duration: 500ms;
           animation-duration: 500ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 98ms;
-          animation-delay: 98ms;
+  -webkit-animation-delay: 283ms;
+          animation-delay: 283ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
@@ -6347,15 +6351,15 @@ p {
   stroke-opacity: 1; }
 
 #purex-crystals-oh-so-chic:hover .twinkle.star-4 {
-  transition: stroke-opacity 300ms ease 343ms;
+  transition: stroke-opacity 300ms ease 80ms;
   -webkit-animation: starRotate;
           animation: starRotate;
   -webkit-animation-duration: 500ms;
           animation-duration: 500ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 69ms;
-          animation-delay: 69ms;
+  -webkit-animation-delay: 188ms;
+          animation-delay: 188ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
@@ -6363,15 +6367,15 @@ p {
   stroke-opacity: 1; }
 
 #purex-crystals-oh-so-chic:hover .twinkle.star-5 {
-  transition: stroke-opacity 300ms ease 196ms;
+  transition: stroke-opacity 300ms ease 327ms;
   -webkit-animation: starRotate;
           animation: starRotate;
   -webkit-animation-duration: 500ms;
           animation-duration: 500ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 323ms;
-          animation-delay: 323ms;
+  -webkit-animation-delay: 62ms;
+          animation-delay: 62ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
@@ -6379,15 +6383,15 @@ p {
   stroke-opacity: 1; }
 
 #purex-crystals-oh-so-chic:hover .twinkle.star-6 {
-  transition: stroke-opacity 300ms ease 181ms;
+  transition: stroke-opacity 300ms ease 144ms;
   -webkit-animation: starRotate;
           animation: starRotate;
   -webkit-animation-duration: 500ms;
           animation-duration: 500ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 231ms;
-          animation-delay: 231ms;
+  -webkit-animation-delay: 163ms;
+          animation-delay: 163ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
@@ -6395,15 +6399,15 @@ p {
   stroke-opacity: 1; }
 
 #purex-crystals-oh-so-chic:hover .twinkle.star-7 {
-  transition: stroke-opacity 300ms ease 246ms;
+  transition: stroke-opacity 300ms ease 100ms;
   -webkit-animation: starRotate;
           animation: starRotate;
   -webkit-animation-duration: 500ms;
           animation-duration: 500ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 333ms;
-          animation-delay: 333ms;
+  -webkit-animation-delay: 14ms;
+          animation-delay: 14ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
@@ -6411,23 +6415,7 @@ p {
   stroke-opacity: 1; }
 
 #purex-crystals-oh-so-chic:hover .twinkle.star-8 {
-  transition: stroke-opacity 300ms ease 66ms;
-  -webkit-animation: starRotate;
-          animation: starRotate;
-  -webkit-animation-duration: 500ms;
-          animation-duration: 500ms;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-delay: 153ms;
-          animation-delay: 153ms;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  stroke-opacity: 1; }
-
-#purex-crystals-oh-so-chic:hover .twinkle.star-9 {
-  transition: stroke-opacity 300ms ease 248ms;
+  transition: stroke-opacity 300ms ease 27ms;
   -webkit-animation: starRotate;
           animation: starRotate;
   -webkit-animation-duration: 500ms;
@@ -6442,16 +6430,32 @@ p {
           animation-fill-mode: forwards;
   stroke-opacity: 1; }
 
-#purex-crystals-oh-so-chic:hover .twinkle.star-10 {
-  transition: stroke-opacity 300ms ease 63ms;
+#purex-crystals-oh-so-chic:hover .twinkle.star-9 {
+  transition: stroke-opacity 300ms ease 348ms;
   -webkit-animation: starRotate;
           animation: starRotate;
   -webkit-animation-duration: 500ms;
           animation-duration: 500ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 143ms;
-          animation-delay: 143ms;
+  -webkit-animation-delay: 215ms;
+          animation-delay: 215ms;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  stroke-opacity: 1; }
+
+#purex-crystals-oh-so-chic:hover .twinkle.star-10 {
+  transition: stroke-opacity 300ms ease 332ms;
+  -webkit-animation: starRotate;
+          animation: starRotate;
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-delay: 289ms;
+          animation-delay: 289ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
@@ -6459,23 +6463,7 @@ p {
   stroke-opacity: 1; }
 
 #purex-crystals-oh-so-chic:hover .twinkle.star-11 {
-  transition: stroke-opacity 300ms ease 206ms;
-  -webkit-animation: starRotate;
-          animation: starRotate;
-  -webkit-animation-duration: 500ms;
-          animation-duration: 500ms;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-delay: 273ms;
-          animation-delay: 273ms;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  stroke-opacity: 1; }
-
-#purex-crystals-oh-so-chic:hover .twinkle.star-12 {
-  transition: stroke-opacity 300ms ease 308ms;
+  transition: stroke-opacity 300ms ease 327ms;
   -webkit-animation: starRotate;
           animation: starRotate;
   -webkit-animation-duration: 500ms;
@@ -6490,16 +6478,32 @@ p {
           animation-fill-mode: forwards;
   stroke-opacity: 1; }
 
+#purex-crystals-oh-so-chic:hover .twinkle.star-12 {
+  transition: stroke-opacity 300ms ease 388ms;
+  -webkit-animation: starRotate;
+          animation: starRotate;
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-delay: 158ms;
+          animation-delay: 158ms;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  stroke-opacity: 1; }
+
 #purex-crystals-oh-so-chic:hover .wiggle.star-1 {
-  transition: stroke-opacity 500ms ease 147ms;
+  transition: stroke-opacity 500ms ease 113ms;
   -webkit-animation: starRotate;
           animation: starRotate;
   -webkit-animation-duration: 300ms;
           animation-duration: 300ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 196ms;
-          animation-delay: 196ms;
+  -webkit-animation-delay: 48ms;
+          animation-delay: 48ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
@@ -6507,15 +6511,15 @@ p {
   stroke-opacity: 1; }
 
 #purex-crystals-oh-so-chic:hover .wiggle.star-2 {
-  transition: stroke-opacity 500ms ease 52ms;
+  transition: stroke-opacity 500ms ease 382ms;
   -webkit-animation: starRotate;
           animation: starRotate;
   -webkit-animation-duration: 300ms;
           animation-duration: 300ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 397ms;
-          animation-delay: 397ms;
+  -webkit-animation-delay: 223ms;
+          animation-delay: 223ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
@@ -6523,15 +6527,15 @@ p {
   stroke-opacity: 1; }
 
 #purex-crystals-oh-so-chic:hover .wiggle.star-3 {
-  transition: stroke-opacity 500ms ease 67ms;
+  transition: stroke-opacity 500ms ease 86ms;
   -webkit-animation: starRotate;
           animation: starRotate;
   -webkit-animation-duration: 300ms;
           animation-duration: 300ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 306ms;
-          animation-delay: 306ms;
+  -webkit-animation-delay: 76ms;
+          animation-delay: 76ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
@@ -6539,15 +6543,15 @@ p {
   stroke-opacity: 1; }
 
 #purex-crystals-oh-so-chic:hover .wiggle.star-4 {
-  transition: stroke-opacity 500ms ease 231ms;
+  transition: stroke-opacity 500ms ease 306ms;
   -webkit-animation: starRotate;
           animation: starRotate;
   -webkit-animation-duration: 300ms;
           animation-duration: 300ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 276ms;
-          animation-delay: 276ms;
+  -webkit-animation-delay: 341ms;
+          animation-delay: 341ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
@@ -6555,15 +6559,15 @@ p {
   stroke-opacity: 1; }
 
 #purex-crystals-oh-so-chic:hover .wiggle.star-5 {
-  transition: stroke-opacity 500ms ease 21ms;
+  transition: stroke-opacity 500ms ease 229ms;
   -webkit-animation: starRotate;
           animation: starRotate;
   -webkit-animation-duration: 300ms;
           animation-duration: 300ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 275ms;
-          animation-delay: 275ms;
+  -webkit-animation-delay: 285ms;
+          animation-delay: 285ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
@@ -6571,15 +6575,15 @@ p {
   stroke-opacity: 1; }
 
 #purex-crystals-oh-so-chic:hover .wiggle.star-6 {
-  transition: stroke-opacity 500ms ease 289ms;
+  transition: stroke-opacity 500ms ease 43ms;
   -webkit-animation: starRotate;
           animation: starRotate;
   -webkit-animation-duration: 300ms;
           animation-duration: 300ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 4ms;
-          animation-delay: 4ms;
+  -webkit-animation-delay: 166ms;
+          animation-delay: 166ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
@@ -6587,15 +6591,15 @@ p {
   stroke-opacity: 1; }
 
 #purex-crystals-oh-so-chic:hover .wiggle.star-7 {
-  transition: stroke-opacity 500ms ease 25ms;
+  transition: stroke-opacity 500ms ease 169ms;
   -webkit-animation: starRotate;
           animation: starRotate;
   -webkit-animation-duration: 300ms;
           animation-duration: 300ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 335ms;
-          animation-delay: 335ms;
+  -webkit-animation-delay: 83ms;
+          animation-delay: 83ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
@@ -6603,15 +6607,15 @@ p {
   stroke-opacity: 1; }
 
 #purex-crystals-oh-so-chic:hover .wiggle.star-8 {
-  transition: stroke-opacity 500ms ease 240ms;
+  transition: stroke-opacity 500ms ease 41ms;
   -webkit-animation: starRotate;
           animation: starRotate;
   -webkit-animation-duration: 300ms;
           animation-duration: 300ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 98ms;
-          animation-delay: 98ms;
+  -webkit-animation-delay: 220ms;
+          animation-delay: 220ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
@@ -6619,15 +6623,15 @@ p {
   stroke-opacity: 1; }
 
 #purex-crystals-oh-so-chic:hover .wiggle.star-9 {
-  transition: stroke-opacity 500ms ease 323ms;
+  transition: stroke-opacity 500ms ease 153ms;
   -webkit-animation: starRotate;
           animation: starRotate;
   -webkit-animation-duration: 300ms;
           animation-duration: 300ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 134ms;
-          animation-delay: 134ms;
+  -webkit-animation-delay: 25ms;
+          animation-delay: 25ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
@@ -6635,15 +6639,15 @@ p {
   stroke-opacity: 1; }
 
 #purex-crystals-oh-so-chic:hover .wiggle.star-10 {
-  transition: stroke-opacity 500ms ease 302ms;
+  transition: stroke-opacity 500ms ease 357ms;
   -webkit-animation: starRotate;
           animation: starRotate;
   -webkit-animation-duration: 300ms;
           animation-duration: 300ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 43ms;
-          animation-delay: 43ms;
+  -webkit-animation-delay: 89ms;
+          animation-delay: 89ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
@@ -6651,15 +6655,15 @@ p {
   stroke-opacity: 1; }
 
 #purex-crystals-oh-so-chic:hover .wiggle.star-11 {
-  transition: stroke-opacity 500ms ease 114ms;
+  transition: stroke-opacity 500ms ease 376ms;
   -webkit-animation: starRotate;
           animation: starRotate;
   -webkit-animation-duration: 300ms;
           animation-duration: 300ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 73ms;
-          animation-delay: 73ms;
+  -webkit-animation-delay: 379ms;
+          animation-delay: 379ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
@@ -6667,15 +6671,15 @@ p {
   stroke-opacity: 1; }
 
 #purex-crystals-oh-so-chic:hover .wiggle.star-12 {
-  transition: stroke-opacity 500ms ease 66ms;
+  transition: stroke-opacity 500ms ease 27ms;
   -webkit-animation: starRotate;
           animation: starRotate;
   -webkit-animation-duration: 300ms;
           animation-duration: 300ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-delay: 57ms;
-          animation-delay: 57ms;
+  -webkit-animation-delay: 191ms;
+          animation-delay: 191ms;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: forwards;
@@ -6899,24 +6903,24 @@ p {
           animation: liliePulse 500ms forwards; }
 
 #ne-linen-and-lilies:hover .flower-1 {
-  transition-delay: 116ms;
-  -webkit-animation-delay: 116ms;
-          animation-delay: 116ms; }
+  transition-delay: 139ms;
+  -webkit-animation-delay: 139ms;
+          animation-delay: 139ms; }
 
 #ne-linen-and-lilies:hover .flower-2 {
-  transition-delay: 238ms;
-  -webkit-animation-delay: 238ms;
-          animation-delay: 238ms; }
+  transition-delay: 242ms;
+  -webkit-animation-delay: 242ms;
+          animation-delay: 242ms; }
 
 #ne-linen-and-lilies:hover .flower-3 {
-  transition-delay: 335ms;
-  -webkit-animation-delay: 335ms;
-          animation-delay: 335ms; }
+  transition-delay: 370ms;
+  -webkit-animation-delay: 370ms;
+          animation-delay: 370ms; }
 
 #ne-linen-and-lilies:hover .flower-4 {
-  transition-delay: 487ms;
-  -webkit-animation-delay: 487ms;
-          animation-delay: 487ms; }
+  transition-delay: 414ms;
+  -webkit-animation-delay: 414ms;
+          animation-delay: 414ms; }
 
 #ne-linen-and-lilies:hover .clothing-line {
   stroke: #95d5f5;
@@ -7046,8 +7050,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 76ms;
-          animation-delay: 76ms;
+  -webkit-animation-delay: 50ms;
+          animation-delay: 50ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -7063,8 +7067,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 55ms;
-          animation-delay: 55ms;
+  -webkit-animation-delay: 43ms;
+          animation-delay: 43ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -7080,8 +7084,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 597ms;
-          animation-delay: 597ms;
+  -webkit-animation-delay: 530ms;
+          animation-delay: 530ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -7097,8 +7101,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 543ms;
-          animation-delay: 543ms;
+  -webkit-animation-delay: 564ms;
+          animation-delay: 564ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -7114,8 +7118,8 @@ p {
           animation-duration: 500ms;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 528ms;
-          animation-delay: 528ms;
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -7327,35 +7331,35 @@ p {
           animation-delay: 0ms; }
 
 #purex-laundry-detergent-tahitian-breeze:hover .breeze-group-1 {
-  -webkit-transform: translateX(49px);
-          transform: translateX(49px);
-  transition: -webkit-transform 635ms;
-  transition: transform 635ms;
-  transition: transform 635ms, -webkit-transform 635ms;
+  -webkit-transform: translateX(33px);
+          transform: translateX(33px);
+  transition: -webkit-transform 694ms;
+  transition: transform 694ms;
+  transition: transform 694ms, -webkit-transform 694ms;
   transition-delay: 50ms; }
 
 #purex-laundry-detergent-tahitian-breeze:hover .breeze-group-2 {
-  -webkit-transform: translateX(33px);
-          transform: translateX(33px);
-  transition: -webkit-transform 818ms;
-  transition: transform 818ms;
-  transition: transform 818ms, -webkit-transform 818ms;
+  -webkit-transform: translateX(49px);
+          transform: translateX(49px);
+  transition: -webkit-transform 671ms;
+  transition: transform 671ms;
+  transition: transform 671ms, -webkit-transform 671ms;
   transition-delay: 100ms; }
 
 #purex-laundry-detergent-tahitian-breeze:hover .breeze-group-3 {
-  -webkit-transform: translateX(50px);
-          transform: translateX(50px);
-  transition: -webkit-transform 693ms;
-  transition: transform 693ms;
-  transition: transform 693ms, -webkit-transform 693ms;
+  -webkit-transform: translateX(41px);
+          transform: translateX(41px);
+  transition: -webkit-transform 850ms;
+  transition: transform 850ms;
+  transition: transform 850ms, -webkit-transform 850ms;
   transition-delay: 150ms; }
 
 #purex-laundry-detergent-tahitian-breeze:hover .breeze-group-4 {
-  -webkit-transform: translateX(44px);
-          transform: translateX(44px);
-  transition: -webkit-transform 606ms;
-  transition: transform 606ms;
-  transition: transform 606ms, -webkit-transform 606ms;
+  -webkit-transform: translateX(46px);
+          transform: translateX(46px);
+  transition: -webkit-transform 731ms;
+  transition: transform 731ms;
+  transition: transform 731ms, -webkit-transform 731ms;
   transition-delay: 200ms; }
 
 #purex-laundry-detergent-tahitian-breeze:hover .breeze-group-late {
@@ -7885,6 +7889,19 @@ Powder with Crystals Lavender Blossom
   to {
     stroke-dashoffset: -110; } }
 
+#purex-lavender-blossom-powder .bee-1 .wing,
+#purex-lavender-blossom-powder .bee-1 .bee-loop-wrapper {
+  -webkit-transform-origin: 102px 149px;
+          transform-origin: 102px 149px; }
+
+#purex-lavender-blossom-powder .bee-2 .wing {
+  -webkit-transform-origin: 546px 148px;
+          transform-origin: 546px 148px; }
+
+#purex-lavender-blossom-powder .bee-3 .wing {
+  -webkit-transform-origin: 632px 199px;
+          transform-origin: 632px 199px; }
+
 #purex-lavender-blossom-powder:hover .flightpath-left {
   stroke-dasharray: 324;
   stroke-dashoffset: 324;
@@ -8088,6 +8105,22 @@ Fabric Softener Lavender (52 Loads)
   to {
     stroke-dashoffset: -109; } }
 
+#purex-sweet-lavender-52-loads .bee-1 .wing {
+  -webkit-transform-origin: 147px 149px;
+          transform-origin: 147px 149px; }
+
+#purex-sweet-lavender-52-loads .bee-2 .wing {
+  -webkit-transform-origin: 574px 146px;
+          transform-origin: 574px 146px; }
+
+#purex-sweet-lavender-52-loads .bee-2 .bee-wrapper {
+  -webkit-transform-origin: 565px 151px !important;
+          transform-origin: 565px 151px !important; }
+
+#purex-sweet-lavender-52-loads .bee-3 .wing {
+  -webkit-transform-origin: 668px 201px;
+          transform-origin: 668px 201px; }
+
 #purex-sweet-lavender-52-loads:hover .flightpath-left {
   stroke-dasharray: 156;
   stroke-dashoffset: 156;
@@ -8123,8 +8156,6 @@ Fabric Softener Lavender (52 Loads)
   -webkit-animation: loads52-bee-two--flight 900ms linear;
           animation: loads52-bee-two--flight 900ms linear; }
   #purex-sweet-lavender-52-loads:hover .bees .bee-2 .bee-wrapper {
-    -webkit-transform-origin: 50% 35% !important;
-            transform-origin: 50% 35% !important;
     -webkit-animation: loads52-bee-two--rotate 1200ms ease;
             animation: loads52-bee-two--rotate 1200ms ease; }
 
@@ -8280,6 +8311,18 @@ Fabric Softener Lavender (40 Loads)
     stroke-dashoffset: 0; }
   to {
     stroke-dashoffset: -182; } }
+
+#purex-sweet-lavender-40-loads .bee-1 .wing {
+  -webkit-transform-origin: 199px 147px;
+          transform-origin: 199px 147px; }
+
+#purex-sweet-lavender-40-loads .bee-2 .wing {
+  -webkit-transform-origin: 623px 171px;
+          transform-origin: 623px 171px; }
+
+#purex-sweet-lavender-40-loads .bee-3 .wing {
+  -webkit-transform-origin: 608px 242px;
+          transform-origin: 608px 242px; }
 
 #purex-sweet-lavender-40-loads:hover .flightpath-left {
   stroke-dasharray: 132;
@@ -8461,6 +8504,18 @@ Dryer Sheets Lavender
     stroke-dashoffset: 0; }
   to {
     stroke-dashoffset: -216; } }
+
+#purex-sweet-lavender-fabric-softener-sheets .bee-1 .wing {
+  -webkit-transform-origin: 75px 167px;
+          transform-origin: 75px 167px; }
+
+#purex-sweet-lavender-fabric-softener-sheets .bee-2 .wing {
+  -webkit-transform-origin: 324px 217px;
+          transform-origin: 324px 217px; }
+
+#purex-sweet-lavender-fabric-softener-sheets .bee-3 .wing {
+  -webkit-transform-origin: 660px 165px;
+          transform-origin: 660px 165px; }
 
 #purex-sweet-lavender-fabric-softener-sheets:hover .flightpath-left {
   stroke-dasharray: 340;

@@ -54,6 +54,17 @@ Fabric Softener Lavender (52 Loads)
     to {stroke-dashoffset: -109}
   }
 
+  .bee-1 {
+    .wing { transform-origin: 147px 149px }
+  }
+  .bee-2 {
+    .wing { transform-origin: 574px 146px }
+    .bee-wrapper { transform-origin: 565px 151px !important }
+  }
+  .bee-3 {
+    .wing { transform-origin: 668px 201px }
+  }
+
   &:hover {
 
     .flightpath-left {
@@ -80,18 +91,15 @@ Fabric Softener Lavender (52 Loads)
     .bees {
       .bee-1 {
         animation: loads52-bee-one--straight-flight-xAxis 1000ms ease;
-        .bee-wrapper {animation: loads52-bee-one--straight-flight-yAxis 1000ms ease;}
+        .bee-wrapper { animation: loads52-bee-one--straight-flight-yAxis 1000ms ease }
       }
       .bee-2 {
         animation: loads52-bee-two--flight 900ms linear;
-        .bee-wrapper {
-          transform-origin: 50% 35% !important;
-          animation: loads52-bee-two--rotate 1200ms ease;
-        }
+        .bee-wrapper { animation: loads52-bee-two--rotate 1200ms ease }
       }
       .bee-3 {
         animation: loads52-bee-three--straight-flight-xAxis 1000ms ease;
-        .bee-wrapper {animation: loads52-bee-three--straight-flight-yAxis 600ms ease;}
+        .bee-wrapper { animation: loads52-bee-three--straight-flight-yAxis 600ms ease }
       }
     }
   }
