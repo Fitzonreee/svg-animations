@@ -68,6 +68,14 @@
       animation: spin 800ms;
       animation-timing-function: ease-out;
     }
+    .bloomers,
+    .under-white {
+      // .flower-1 { transform-origin: 100px 100px}
+      // .flower-2 { transform-origin: 100px 100px}
+      // .flower-3 { transform-origin: 100px 100px}
+      .flower-4 { transform-origin: 237px 421px }
+      .flower-5 { transform-origin: 171px 431px }
+    }
     .late-bloomers {
       .flower {
         opacity: 1;

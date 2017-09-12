@@ -39,4 +39,6 @@ $(document).ready(function() {
   $('#lavender-dry-with-crystals').load('svgs/lavender-collection/lavender-dry-with-crystals.html');
   $('#lavender-dryer-sheets').load('svgs/lavender-collection/lavender-dryer-sheets.html');
   $('#lavender-blossom-crystals').load('svgs/lavender-collection/lavender-blossom-crystals.html');
+  // Testing for transform-origin
+  $('#purex-laundry-detergent-tropical-splash-dots').load('svgs/purex-laundry-detergent-tropical-splash-circles.html')
 });
