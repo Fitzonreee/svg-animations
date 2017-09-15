@@ -15,7 +15,7 @@
   100% {transform: translate(0px, 0px) rotate(360deg)}
 }
 
-#purex-laundry-detergent-tropical-splash {
+// #purex-laundry-detergent-tropical-splash {
 
   // could be globalized
   .late-bloomers {
@@ -23,7 +23,7 @@
       opacity: 0;
     }
   }
-  &:hover {
+  #purex-laundry-detergent-tropical-splash:hover {
     .red {
       path {
         stroke: $red !important
@@ -70,9 +70,9 @@
     }
     .bloomers,
     .under-white {
-      // .flower-1 { transform-origin: 100px 100px}
-      // .flower-2 { transform-origin: 100px 100px}
-      // .flower-3 { transform-origin: 100px 100px}
+      .flower-1 { transform-origin: 642px 411px }
+      .flower-2 { transform-origin: 592px 368px }
+      .flower-3 { transform-origin: 580px 432px }
       .flower-4 { transform-origin: 237px 421px }
       .flower-5 { transform-origin: 171px 431px }
     }
@@ -95,4 +95,5 @@
       animation: flowerRiseLong 800ms;
     }
   } // end hover
-} // end #purex
+// }
+// end #purex
